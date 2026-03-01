@@ -216,6 +216,46 @@ body {
     color: var(--secondary-text);
 }
 
+.urgency-text {
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+.hero-proof {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 48px;
+    padding: 32px;
+    background: var(--accent-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proof-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.proof-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--accent-gold);
+}
+
+.proof-label {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: var(--secondary-text);
+    text-align: center;
+}
+
 /* Tagline Section */
 .tagline-section {
     padding: 120px 40px;
@@ -332,6 +372,38 @@ body {
     color: var(--secondary-text);
     font-size: 16px;
     line-height: 1.8;
+}
+
+/* Scarcity Section */
+.scarcity-section {
+    padding: 100px 40px;
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.05) 0%, transparent 100%);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.scarcity-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.scarcity-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.scarcity-text {
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--secondary-text);
+}
+
+.scarcity-text strong {
+    color: var(--primary-text);
+    font-weight: 600;
 }
 
 /* Stages Section */
@@ -627,17 +699,53 @@ body {
     margin: 0 auto;
 }
 
+.cta-badge {
+    display: inline-block;
+    padding: 8px 20px;
+    background: var(--accent-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    color: var(--accent-gold);
+}
+
 .cta-title {
     font-family: 'Playfair Display', serif;
     font-size: 64px;
     font-weight: 400;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 .cta-description {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.8;
     color: var(--secondary-text);
     margin-bottom: 48px;
+}
+
+.cta-description strong {
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+.cta-urgency {
+    margin-top: 24px;
+    padding: 16px 32px;
+    background: rgba(212, 175, 55, 0.1);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.cta-urgency p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--accent-gold);
+    letter-spacing: 0.5px;
 }
 
 .cta-button {
