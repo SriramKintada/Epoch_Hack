@@ -3,382 +3,287 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FATHOM · A3 Capital</title>
+    <title>FATHOM // EPOCH PROGRAMME</title>
+    <!-- Premium tech fonts: Space Grotesk for bold headers, JetBrains Mono for data/tech text, Inter for legibility -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Navigation -->
+    <!-- CRT / Scanline effect overlay -->
+    <div class="crt-overlay"></div>
+    <div class="grid-bg"></div>
+
     <nav class="nav" id="nav">
         <div class="nav-container">
-            <div class="nav-logo">FATHOM <span class="nav-logo-by">by A3 Capital</span></div>
+            <div class="nav-logo">
+                <span class="logo-mark">///</span> FATHOM <span class="nav-logo-sub">EPOCH</span>
+            </div>
             <div class="nav-links">
-                <a href="#program">Program</a>
-                <a href="#different">How It Works</a>
-                <a href="#pune">Why Pune</a>
-                <a href="#partners">Partners</a>
-                <a href="#apply" class="nav-cta">Apply to Cohort 1</a>
+                <a href="#about">[01] INTENT</a>
+                <a href="#program">[02] TRACKS</a>
+                <a href="#partners">[03] PARTNERS</a>
+                <a href="#apply" class="nav-cta">INITIATE // APPLY</a>
             </div>
             <button class="nav-hamburger" id="hamburger" aria-label="Menu">
                 <span></span><span></span><span></span>
             </button>
         </div>
         <div class="nav-mobile" id="navMobile">
-            <a href="#program">Program</a>
-            <a href="#different">How It Works</a>
-            <a href="#pune">Why Pune</a>
-            <a href="#partners">Partners</a>
-            <a href="#apply">Apply to Cohort 1</a>
+            <a href="#about">[01] INTENT</a>
+            <a href="#program">[02] TRACKS</a>
+            <a href="#partners">[03] PARTNERS</a>
+            <a href="#apply" class="mobile-cta">INITIATE // APPLY</a>
         </div>
     </nav>
 
-    <!-- Hero -->
-    <section class="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-grid"></div>
-        <div class="hero-content fade-in">
-            <div class="hero-badge">COHORT 1 · MARCH 2026 · PUNE</div>
-            <h1 class="hero-title">FATHOM</h1>
-            <p class="hero-subtitle">India's Most Execution-Intensive Builder Program</p>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">SYS.STATUS: ACCEPTING COHORT 1 // PUNE_INDIA</div>
+            <h1 class="hero-title">Where young mavericks build the future.</h1>
             <p class="hero-desc">
-                Four weekends. A dedicated workspace. Twenty to thirty high-agency builders.<br>
-                One measurable outcome: <span class="gold">revenue</span>.
+                Most people are content to follow the rules and climb the ladder.<br>
+                FATHOM is for those who won't accept the world as it is. It's for the restless, the hackers, and the problem-solvers who see what could be instead of settling for what already exists.
             </p>
-            <div class="hero-stats">
-                <div class="stat">
-                    <div class="stat-number">4</div>
-                    <div class="stat-label">Weekends</div>
+            
+            <div class="terminal-box">
+                <div class="term-header">
+                    <span class="term-dot"></span><span class="term-dot"></span><span class="term-dot"></span>
+                    <span class="term-title">fathom.exe</span>
                 </div>
-                <div class="stat-divider"></div>
-                <div class="stat">
-                    <div class="stat-number">20–30</div>
-                    <div class="stat-label">Builders</div>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat">
-                    <div class="stat-number">4</div>
-                    <div class="stat-label">Outcome Paths</div>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat">
-                    <div class="stat-number">Free</div>
-                    <div class="stat-label">To Participate</div>
+                <div class="term-body">
+                    <p><span class="prompt">>></span> Location: Flairmind Office Club, Aundh, Pune</p>
+                    <p><span class="prompt">>></span> Duration: 4 Weekends of extreme engineering</p>
+                    <p><span class="prompt">>></span> Target: Revenue generation. No slide decks.</p>
+                    <p class="blink"><span class="prompt">>></span> Cost: 0.00 (Fully Sponsored)</p>
                 </div>
             </div>
-            <a href="#apply" class="btn-primary">Apply to Cohort 1</a>
-            <p class="hero-meta">Flairmind Office Club, Aundh, Pune &nbsp;·&nbsp; March 20–25, 2026</p>
-        </div>
-    </section>
 
-    <!-- What Is FATHOM -->
+            <div class="hero-actions">
+                <a href="#apply" class="btn-primary">
+                    <span class="btn-edge-left"></span>
+                    JOIN THE GANG
+                    <span class="btn-edge-right"></span>
+                </a>
+                <a href="#program" class="btn-secondary">READ MANIFESTO</a>
+            </div>
+        </div>
+    </header>
+
     <section class="section" id="about">
-        <div class="container">
-            <div class="two-col fade-in">
-                <div class="col-left">
-                    <div class="section-label">The Problem</div>
-                    <h2 class="section-title">Most programs end with a presentation.<br>We end with revenue.</h2>
-                </div>
-                <div class="col-right">
-                    <p class="body-text">India does not have a talent problem. It does not have an ideas problem. What it has is an execution problem — too many brilliant engineers and researchers stuck in planning mode, waiting for the perfect conditions that never arrive.</p>
-                    <p class="body-text">Conventional accelerators offer months of workshops, culminating in a demo day where founders pitch to mismatched investors. Most leave with nothing but a polished slide deck.</p>
-                    <p class="body-text">FATHOM is built on a different principle: intense, focused execution over four weekends, with every milestone tied directly to market validation and revenue.</p>
-                </div>
+        <div class="container container-narrow">
+            <div class="section-label">// THE PROBLEM</div>
+            <h2 class="section-title">Most programs end with a presentation.<br>We end with <span class="highlight">revenue.</span></h2>
+            
+            <div class="content-block">
+                <p>India doesn't have an ideas problem. It has an extreme <em>execution</em> problem. Too many brilliant engineers are stuck in perpetual planning mode, waiting for perfect capital conditions.</p>
+                <p>Conventional accelerators offer months of irrelevant workshops and culminate in a demo day where founders pitch to detached investors. Most leave with nothing but a polished slide deck and zero users.</p>
+                <p>FATHOM is a radically different institution. Intense, focused execution over four weekends, where every single line of code and every milestone is tied directly to market validation and revenue generation.</p>
+                <p class="emphasized-text">A new institution for extreme technical ambition.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Program -->
-    <section class="section section-dark" id="program">
-        <div class="container">
-            <div class="section-header fade-in">
-                <div class="section-label">The Program</div>
-                <h2 class="section-title">Two Tracks. One Outcome.</h2>
-                <p class="section-desc">Both tracks run simultaneously in the same space, with the same cohort and institutional network.</p>
-            </div>
-            <div class="tracks fade-in">
-                <div class="track-card">
-                    <div class="track-badge stage-zero">Stage Zero</div>
-                    <h3 class="track-title">For Ideators</h3>
-                    <p class="track-desc">You have a problem worth solving. You do not have a product yet.</p>
-                    <div class="track-flow">
-                        <span>Ideate</span>
-                        <span class="arrow">→</span>
-                        <span>Validate</span>
-                        <span class="arrow">→</span>
-                        <span>Build</span>
-                    </div>
-                    <div class="weeks">
-                        <div class="week">
-                            <div class="week-num">Week 1</div>
-                            <div class="week-desc">Customer discovery and problem validation</div>
-                        </div>
-                        <div class="week">
-                            <div class="week-num">Week 2</div>
-                            <div class="week-desc">MVP development using AI-first tools</div>
-                        </div>
-                        <div class="week">
-                            <div class="week-num">Week 3</div>
-                            <div class="week-desc">First ten real users and iterative feedback</div>
-                        </div>
-                        <div class="week">
-                            <div class="week-num">Week 4</div>
-                            <div class="week-desc">First revenue attempt</div>
-                        </div>
-                    </div>
-                    <p class="track-for">For researchers, engineers, and domain experts with conviction and a problem worth solving.</p>
-                </div>
-                <div class="track-card">
-                    <div class="track-badge stage-one">Stage One</div>
-                    <h3 class="track-title">For Early Founders</h3>
-                    <p class="track-desc">You have a product. You do not have a business yet.</p>
-                    <div class="track-flow">
-                        <span>Build</span>
-                        <span class="arrow">→</span>
-                        <span>Market</span>
-                        <span class="arrow">→</span>
-                        <span>Monetize</span>
-                        <span class="arrow">→</span>
-                        <span>Sell</span>
-                    </div>
-                    <div class="weeks">
-                        <div class="week">
-                            <div class="week-num">Week 1</div>
-                            <div class="week-desc">Product, positioning, and pipeline audit</div>
-                        </div>
-                        <div class="week">
-                            <div class="week-num">Week 2</div>
-                            <div class="week-desc">Distribution — content, outreach, and partnerships</div>
-                        </div>
-                        <div class="week">
-                            <div class="week-num">Week 3</div>
-                            <div class="week-desc">Pricing, sales process, and first enterprise close</div>
-                        </div>
-                        <div class="week">
-                            <div class="week-num">Week 4</div>
-                            <div class="week-desc">Building a repeatable revenue engine</div>
-                        </div>
-                    </div>
-                    <p class="track-for">For early founders with product-market fit confusion or stuck below ₹1L MRR.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- What You Get -->
-    <section class="section" id="benefits">
-        <div class="container">
-            <div class="section-header fade-in">
-                <div class="section-label">What You Receive</div>
-                <h2 class="section-title">Everything you need to build.<br>Nothing you do not.</h2>
-            </div>
+            
             <div class="benefits-grid fade-in">
                 <div class="benefit-card">
-                    <div class="benefit-icon">🏢</div>
-                    <h4 class="benefit-title">Dedicated Workspace</h4>
-                    <p class="benefit-desc">Private working areas, collaboration rooms, and high-speed connectivity at Flairmind Office Club, Aundh, Pune.</p>
+                    <div class="b-head"><span class="b-icon">01</span> DEDICATED HQ</div>
+                    <p>Private bunkers, disruption zones, and raw high-speed connectivity in Aundh, Pune.</p>
+                </div>
+                <div class="benefit-card outline-glow">
+                    <div class="b-head"><span class="b-icon">02</span> AI COMPUTE</div>
+                    <p>Unlimited API endpoints for OpenAI, Anthropic, & Google—powered by AI Grants India.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">⚡</div>
-                    <h4 class="benefit-title">AI Compute Credits</h4>
-                    <p class="benefit-desc">Access to OpenAI, Anthropic, and Google credits — provided by AIGrants Indian Foundation. Build without worrying about API costs.</p>
+                    <div class="b-head"><span class="b-icon">03</span> LOGISTICS</div>
+                    <p>Transport fully bridged. Whether campus or city periphery, your transit is handled.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">🚗</div>
-                    <h4 class="benefit-title">Transport Covered</h4>
-                    <p class="benefit-desc">Full transport reimbursement for all four weekends. Coming from campus or across the city — we cover it.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">🏦</div>
-                    <h4 class="benefit-title">Banking Network</h4>
-                    <p class="benefit-desc">Direct access to HSBC Innovation Banking advisors and startup banking relationships from day one.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">🤝</div>
-                    <h4 class="benefit-title">High-Agency Cohort</h4>
-                    <p class="benefit-desc">Twenty to thirty carefully selected builders. The people in the room with you will be the most valuable thing you take from this program.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">📋</div>
-                    <h4 class="benefit-title">Structured Accountability</h4>
-                    <p class="benefit-desc">Weekly milestones visible to the entire cohort. Clear expectations. Consistent delivery is a condition of continued participation.</p>
+                    <div class="b-head"><span class="b-icon">04</span> HIGH-AGENCY PEERS</div>
+                    <p>20–30 thoroughly vetted builders. The network in the room is your highest leverage.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- How We're Different -->
-    <section class="section section-dark" id="different">
+    <section class="section section-dark border-y" id="program">
         <div class="container">
-            <div class="section-header fade-in">
-                <div class="section-label">How It Works</div>
-                <h2 class="section-title">Not a demo day.<br>A market event.</h2>
-            </div>
-            <div class="different-intro fade-in">
-                <p class="body-text-lg">Most accelerators end with founders pitching to a room of investors who are not matched to their domain. The result is misaligned conversations and, for most founders, no meaningful outcome. A single exit path: investment, or nothing.</p>
-            </div>
-            <div class="outcomes fade-in">
-                <div class="outcomes-intro">
-                    <h3 class="outcomes-title">FATHOM's final event brings together two groups:</h3>
-                    <div class="groups">
-                        <div class="group-card">
-                            <div class="group-label">Investors</div>
-                            <p>Pre-selected to match the specific domains of the startups in the cohort. No misaligned conversations.</p>
-                        </div>
-                        <div class="group-card">
-                            <div class="group-label">Acquirers</div>
-                            <p>Companies and domain players who may want to hire, acquire, or partner with the teams being built.</p>
-                        </div>
+            <div class="section-label">// THE PIPELINE</div>
+            <h2 class="section-title">Two Tracks. One Metric.</h2>
+            
+            <div class="tracks">
+                <!-- Track 0 -->
+                <div class="track-card fade-in">
+                    <div class="track-header">
+                        <div class="t-badge t-zero">STAGE 0</div>
+                        <h3>IDEATORS</h3>
                     </div>
-                </div>
-                <div class="outcomes-paths">
-                    <h3 class="outcomes-title">Four outcome pathways. Not one.</h3>
-                    <div class="paths">
-                        <div class="path-card">
-                            <div class="path-num">01</div>
-                            <div class="path-title">Investment</div>
-                            <div class="path-desc">Capital raised to scale the startup</div>
-                        </div>
-                        <div class="path-card">
-                            <div class="path-num">02</div>
-                            <div class="path-title">Hiring</div>
-                            <div class="path-desc">A team member placed with a leading company</div>
-                        </div>
-                        <div class="path-card">
-                            <div class="path-num">03</div>
-                            <div class="path-title">Acqui-hire</div>
-                            <div class="path-desc">The company acquired primarily for the team</div>
-                        </div>
-                        <div class="path-card">
-                            <div class="path-num">04</div>
-                            <div class="path-title">Acquisition</div>
-                            <div class="path-desc">The startup acquired outright</div>
-                        </div>
+                    <p class="track-desc">You have a profound technical problem worth solving, but zero lines of deployed code.</p>
+                    
+                    <div class="process-flow">
+                        <span>IDEATE</span> <span class="arrow">→</span> <span>VALIDATE</span> <span class="arrow">→</span> <span>SHIP</span>
                     </div>
+
+                    <ul class="week-list">
+                        <li><strong>WK 01:</strong> Customer Discovery & Hostile Validation</li>
+                        <li><strong>WK 02:</strong> Rapid Prototyping (AI-First Stack)</li>
+                        <li><strong>WK 03:</strong> First 10 True Users & Iteration</li>
+                        <li><strong>WK 04:</strong> Revenue Initialization</li>
+                    </ul>
                 </div>
-            </div>
-            <div class="dynamic-box fade-in">
-                <div class="dynamic-label">The Competitive Dynamic</div>
-                <p class="dynamic-text">When investors and acquirers are both present, something significant happens. If an acquirer signals interest in purchasing a startup, investors recognise the underlying value — and may choose to compete by offering capital instead, encouraging the founders to scale before any acquisition. This creates a market-driven environment where founders hold leverage, and the likelihood of better terms — through either investment or acquisition — increases substantially.</p>
+
+                <!-- Track 1 -->
+                <div class="track-card fade-in">
+                    <div class="track-header">
+                        <div class="t-badge t-one">STAGE 1</div>
+                        <h3>EARLY FOUNDERS</h3>
+                    </div>
+                    <p class="track-desc">You have a product, maybe a repo mapping, but the business engine is offline.</p>
+                    
+                    <div class="process-flow">
+                        <span>BUILD</span> <span class="arrow">→</span> <span>MARKET</span> <span class="arrow">→</span> <span>CLOSE</span>
+                    </div>
+
+                    <ul class="week-list">
+                        <li><strong>WK 01:</strong> Brutal Product & Pipeline Audit</li>
+                        <li><strong>WK 02:</strong> Distribution: Scripts, Scraping & Cold Outbound</li>
+                        <li><strong>WK 03:</strong> Pricing Mechanics & Enterprise Pilot Close</li>
+                        <li><strong>WK 04:</strong> Repeatable Revenue Engineering</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Why Pune -->
-    <section class="section" id="pune">
-        <div class="container">
-            <div class="section-header fade-in">
-                <div class="section-label">Why Pune</div>
-                <h2 class="section-title">A rare convergence.<br>No other city quite replicates it.</h2>
-                <p class="section-desc">India has the engineering talent and the problems worth solving. Pune is where the infrastructure to act on both of them converges.</p>
-            </div>
-            <div class="pune-grid fade-in">
-                <div class="pune-card">
-                    <div class="pune-icon">🔬</div>
-                    <h4 class="pune-title">Research</h4>
-                    <p class="pune-desc">Home to IISER, IIIT, NCL, NIT, Symbiosis, and COEP — one of the densest concentrations of scientific and technical institutions in India.</p>
+    <!-- The Outcomes & Market Event -->
+    <section class="section" id="outcomes">
+         <div class="container container-narrow">
+            <div class="section-label">// ENDGAME</div>
+            <h2 class="section-title">Not a demo day. A <span class="highlight">market event</span>.</h2>
+            <p class="body-text">We bypass the generic VC dog-and-pony show. FATHOM's final session brings two specific entities into the room: Investors strictly mapped to your domain, and direct Industry Acquirers looking for core tech and talent.</p>
+
+            <div class="market-grid fade-in">
+                <div class="m-card">
+                    <h4>// 01. SECURE SEED</h4>
+                    <p>Capital deployed for scale based on generated momentum, not just theory.</p>
                 </div>
-                <div class="pune-card">
-                    <div class="pune-icon">💻</div>
-                    <h4 class="pune-title">Engineering & Technology</h4>
-                    <p class="pune-desc">One of India's most established IT hubs, with a mature industry and a deep reservoir of technical talent.</p>
+                <div class="m-card">
+                    <h4>// 02. TALENT ACQUISITION</h4>
+                    <p>Targeted hiring drops directly to elite, well-capitalised tech nodes.</p>
                 </div>
-                <div class="pune-card">
-                    <div class="pune-icon">🧬</div>
-                    <h4 class="pune-title">Pharma & Life Sciences</h4>
-                    <p class="pune-desc">A globally significant centre for pharmaceutical manufacturing and biotech R&D, with major global players headquartered here.</p>
+                <div class="m-card">
+                    <h4>// 03. ACQUI-HIRE</h4>
+                    <p>Incumbent absorbs the entire engineering unit to leapfrog competition.</p>
                 </div>
-                <div class="pune-card">
-                    <div class="pune-icon">⚖️</div>
-                    <h4 class="pune-title">Business, Law & Finance</h4>
-                    <p class="pune-desc">A growing ecosystem of legal, consulting, and professional services firms supporting India's corporate and startup sectors.</p>
-                </div>
-                <div class="pune-card">
-                    <div class="pune-icon">🎓</div>
-                    <h4 class="pune-title">Education</h4>
-                    <p class="pune-desc">Among the most diverse higher education environments in India, producing graduates across engineering, sciences, arts, and commerce.</p>
-                </div>
-                <div class="pune-card highlight-card">
-                    <div class="pune-icon">🏙️</div>
-                    <h4 class="pune-title">Proximity to Mumbai</h4>
-                    <p class="pune-desc">Located adjacent to India's financial capital — giving Pune-based founders natural access to the country's largest concentration of institutional capital, banking relationships, and investors.</p>
+                <div class="m-card">
+                    <h4>// 04. M&A OUTRIGHT</h4>
+                    <p>Total venture acquisition of product, IP, and distribution.</p>
                 </div>
             </div>
-            <p class="pune-closing fade-in">Pune has the talent, the infrastructure, the industry, and the capital connections. FATHOM is the execution layer it has been missing.</p>
-        </div>
+         </div>
     </section>
 
-    <!-- Partners -->
-    <section class="section section-dark" id="partners">
+    <section class="section section-dark border-y" id="partners">
         <div class="container">
-            <div class="section-header fade-in">
-                <div class="section-label">Partners</div>
-                <h2 class="section-title">Built with serious institutions.</h2>
-            </div>
+            <div class="section-label">// INFRASTRUCTURE NODE</div>
+            <h2 class="section-title">Built with serious institutions.</h2>
+            
             <div class="partners-grid fade-in">
+                
+                <!-- A3 Capital -->
                 <div class="partner-card">
-                    <div class="partner-name">A3 Capital</div>
-                    <div class="partner-role">Program Operator & Strategic Lead</div>
-                    <p class="partner-desc">Designing and running FATHOM as a repeatable, execution-first pipeline for India's deeptech and AI builder community.</p>
+                    <div class="partner-logo a3-logo">
+                        <svg viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M40 10L60 50H20L40 10Z" stroke="white" stroke-width="3" fill="transparent"/>
+                            <path d="M40 25L50 45H30L40 25Z" stroke="white" stroke-width="1.5" fill="transparent"/>
+                            <circle cx="40" cy="35" r="2" fill="white"/>
+                            <text x="80" y="42" fill="white" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="28" letter-spacing="2">A3 CAPITAL</text>
+                        </svg>
+                    </div>
+                    <div class="partner-role">PROGRAM OPERATOR & STRATEGY</div>
+                    <p>Designing FATHOM as a high-throughput, execution-ruthless pipeline for India's deepest technical talent.</p>
                 </div>
+
+                <!-- HSBC -->
+                <div class="partner-card highlight-glow">
+                    <div class="partner-logo hsbc-logo">
+                        <svg viewBox="0 0 300 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Geometric Hexagon/Triangles for HSBC logo proxy -->
+                            <polygon points="10,30 30,10 50,30" fill="#DB0011"/>
+                            <polygon points="10,30 30,50 50,30" fill="#DB0011"/>
+                            <polygon points="30,10 50,30 30,50 10,30" fill="none" stroke="white" stroke-width="1"/>
+                            
+                            <polygon points="10,30 10,10 30,10" fill="white"/>
+                            <polygon points="50,30 50,10 30,10" fill="white"/>
+                            <polygon points="10,30 10,50 30,50" fill="white"/>
+                            <polygon points="50,30 50,50 30,50" fill="white"/>
+                            
+                            <!-- Bounding box representing the white background elements over red base -->
+                            <rect x="5" y="5" width="50" height="50" fill="none" stroke="transparent"/>
+                            <polygon points="20,30 30,20 40,30 30,40" fill="white"/>
+                            <polygon points="10,30 30,10 50,30 30,50" fill="#DB0011"/>
+                            <polygon points="18,30 30,18 42,30 30,42" fill="white"/>
+                            
+                            <text x="70" y="42" fill="white" font-family="'Inter', sans-serif" font-weight="700" font-size="24">HSBC</text>
+                            <text x="145" y="42" fill="#aaaaaa" font-family="'Inter', sans-serif" font-weight="300" font-size="24">Innovation Banking</text>
+                        </svg>
+                    </div>
+                    <div class="partner-role">BANKING & LIQUIDITY PARTNER</div>
+                    <p>Supplying global banking rails, early liquidity mechanisms, and deep financial advisory straight from Cohort 1.</p>
+                </div>
+
+                <!-- AI Grants India -->
                 <div class="partner-card">
-                    <div class="partner-name">AIGrants Indian Foundation</div>
-                    <div class="partner-role">Co-Organiser & AI Credits Provider</div>
-                    <p class="partner-desc">Co-organising the program and providing AI compute credits across OpenAI, Anthropic, and Google for all cohort participants.</p>
+                    <div class="partner-logo aig-logo">
+                        <svg viewBox="0 0 250 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="15" width="8" height="30" fill="#FF9933"/> <!-- Saffron -->
+                            <rect x="22" y="15" width="8" height="30" fill="#FFFFFF"/> <!-- White -->
+                            <circle cx="26" cy="30" r="2.5" fill="#000080"/> <!-- Ashoka Chakra simple proxy -->
+                            <rect x="34" y="15" width="8" height="30" fill="#138808"/> <!-- Green -->
+                            <text x="55" y="40" fill="white" font-family="'JetBrains Mono', monospace" font-weight="800" font-size="22" letter-spacing="-0.5">AI GRANTS INDIA</text>
+                        </svg>
+                    </div>
+                    <div class="partner-role">CO-ORGANISER & INFRA PROVIDER</div>
+                    <p>Deploying heavy compute resources. Unleashing Anthropic, Google, and OpenAI bandwidth for zero-friction AI development.</p>
                 </div>
-                <div class="partner-card">
-                    <div class="partner-name">HSBC Innovation Banking</div>
-                    <div class="partner-role">Banking Partner</div>
-                    <p class="partner-desc">Sponsoring founder gatherings and providing direct access to HSBC's startup banking advisors and financial network from Cohort 1.</p>
-                </div>
+                
             </div>
         </div>
     </section>
 
-    <!-- Apply -->
     <section class="section apply-section" id="apply">
-        <div class="container">
-            <div class="apply-content fade-in">
-                <div class="section-label">Apply</div>
-                <h2 class="apply-title">Cohort 1 is open.</h2>
-                <p class="apply-desc">Selection is based on demonstrated ability to build — not on pitch quality alone. Twenty to thirty spots. Applications close before March 20, 2026.</p>
-                <div class="apply-details">
-                    <div class="apply-detail">
-                        <div class="detail-label">Dates</div>
-                        <div class="detail-value">March 20–25, 2026</div>
-                    </div>
-                    <div class="apply-detail">
-                        <div class="detail-label">Location</div>
-                        <div class="detail-value">Flairmind Office Club, Aundh, Pune</div>
-                    </div>
-                    <div class="apply-detail">
-                        <div class="detail-label">Cost</div>
-                        <div class="detail-value">Free — venue & gatherings supported by HSBC Innovation Banking</div>
-                    </div>
-                    <div class="apply-detail">
-                        <div class="detail-label">Spots</div>
-                        <div class="detail-value">20–30 builders</div>
-                    </div>
+        <div class="apply-container">
+            <h2 class="massive-text">INITIATE<br>SEQUENCE.</h2>
+            <div class="apply-box">
+                <div class="sys-message">
+                    <p>Selection is ruthlessly based on demonstrated capacity to ship.</p>
+                    <p>No arbitrary criteria. No pedigree checks. <br>Show us the code, the models, or the ambition.</p>
                 </div>
-                <a href="https://a3capital2026.netlify.app" target="_blank" class="btn-primary btn-large">Apply at a3capital2026.netlify.app</a>
+                
+                <ul class="specs">
+                    <li><span class="lbl">DATES:</span> March 20–25, 2026</li>
+                    <li><span class="lbl">LOC:</span> Flairmind Office Club, Aundh, Pune</li>
+                    <li><span class="lbl">CAPACITY:</span> Limited to 20-30 aggressive builders.</li>
+                    <li><span class="lbl">FEE:</span> Fully underwritten. Free.</li>
+                </ul>
+
+                <a href="https://a3capital2026.netlify.app" target="_blank" class="btn-primary huge-btn">
+                    <span class="btn-edge-left"></span>
+                    SUBMIT APPLICATION_
+                    <span class="btn-edge-right"></span>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">FATHOM</div>
-                    <div class="footer-by">by A3 Capital</div>
-                </div>
-                <div class="footer-info">
-                    <p>AIGrants Indian Foundation &nbsp;|&nbsp; Flairmind Office Club, Aundh, Pune, Maharashtra</p>
-                    <p>HSBC Innovation Banking Partner &nbsp;|&nbsp; a3capital2026.netlify.app</p>
-                </div>
+    <footer class="footer border-y">
+        <div class="container container-footer">
+            <div class="f-brand">
+                <span class="logo-mark">///</span> FATHOM <span class="nav-logo-sub">EPOCH PROGRAMME</span>
+            </div>
+            <div class="f-links">
+                <p>HSBC Innovation Banking Partner</p>
+                <p>Powered by A3 Capital & AI Grants India</p>
+                <p>Pune, Maharashtra /// SYSTEM OFFLOAD // 2026</p>
             </div>
         </div>
     </footer>

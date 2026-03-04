@@ -17,11 +17,10 @@ navMobile.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => { navMobile.style.display = 'none'; });
 });
 
-// ─── FADE-IN ON SCROLL ─────────────────────────────────────────────────────
+// ─── FADE-IN ON SCROLL (BRUTALIST FAST TIMING) ─────────────────────────────
 const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry, i) => {
+    entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            // Stagger sibling cards slightly
             const delay = entry.target.dataset.delay || 0;
             setTimeout(() => {
                 entry.target.classList.add('visible');
@@ -29,9 +28,8 @@ const observer = new IntersectionObserver((entries) => {
             observer.unobserve(entry.target);
         }
     });
-}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+}, { threshold: 0.1, rootMargin: '0px 0px -20px 0px' });
 
-// Stagger grid children
 function staggerChildren(selector, delayStep) {
     document.querySelectorAll(selector).forEach((el, i) => {
         el.classList.add('fade-in');
@@ -39,13 +37,11 @@ function staggerChildren(selector, delayStep) {
     });
 }
 
-staggerChildren('.benefit-card', 80);
-staggerChildren('.track-card', 120);
-staggerChildren('.pune-card', 70);
-staggerChildren('.partner-card', 100);
-staggerChildren('.path-card', 60);
-staggerChildren('.group-card', 80);
-staggerChildren('.apply-detail', 60);
+// Minimal stagger delays for snappier hacker aesthetic
+staggerChildren('.benefit-card', 50);
+staggerChildren('.track-card', 100);
+staggerChildren('.m-card', 50);
+staggerChildren('.partner-card', 80);
 
 document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
