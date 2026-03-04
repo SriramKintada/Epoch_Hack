@@ -1,102 +1,63 @@
-// Smooth scroll for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-            target.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
-    });
-});
-
-// FAQ Accordion
-const faqItems = document.querySelectorAll('.faq-item');
-faqItems.forEach(item => {
-    const question = item.querySelector('.faq-question');
-    const answer = item.querySelector('.faq-answer');
-    
-    // Initially hide all answers
-    answer.style.maxHeight = '0';
-    answer.style.overflow = 'hidden';
-    answer.style.transition = 'max-height 0.3s ease';
-    
-    question.addEventListener('click', () => {
-        const isOpen = answer.style.maxHeight !== '0px';
-        
-        // Close all other items
-        faqItems.forEach(otherItem => {
-            const otherAnswer = otherItem.querySelector('.faq-answer');
-            otherAnswer.style.maxHeight = '0';
-        });
-        
-        // Toggle current item
-        if (!isOpen) {
-            answer.style.maxHeight = answer.scrollHeight + 'px';
-        }
-    });
-});
-
-// Navbar background on scroll
-const nav = document.querySelector('.nav');
+// ─── NAV SCROLL EFFECT ─────────────────────────────────────────────────────
+const nav = document.getElementById('nav');
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 100) {
-        nav.style.background = 'rgba(10, 10, 10, 0.95)';
-    } else {
-        nav.style.background = 'rgba(10, 10, 10, 0.9)';
-    }
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+}, { passive: true });
+
+// ─── MOBILE HAMBURGER ──────────────────────────────────────────────────────
+const hamburger = document.getElementById('hamburger');
+const navMobile = document.getElementById('navMobile');
+
+hamburger.addEventListener('click', () => {
+    const open = navMobile.style.display === 'flex';
+    navMobile.style.display = open ? 'none' : 'flex';
 });
 
-// Intersection Observer for fade-in animations
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-};
+navMobile.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => { navMobile.style.display = 'none'; });
+});
 
+// ─── FADE-IN ON SCROLL ─────────────────────────────────────────────────────
 const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
+    entries.forEach((entry, i) => {
         if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
+            // Stagger sibling cards slightly
+            const delay = entry.target.dataset.delay || 0;
+            setTimeout(() => {
+                entry.target.classList.add('visible');
+            }, delay);
+            observer.unobserve(entry.target);
         }
     });
-}, observerOptions);
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
 
-// Observe elements
-document.querySelectorAll('.timeline-item, .stage-card, .profile-card, .value, .infra-item').forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-    observer.observe(el);
-});
-
-// Hero stats counter animation
-const stats = document.querySelectorAll('.stat-number');
-const animateStats = () => {
-    stats.forEach(stat => {
-        const target = stat.textContent;
-        if (target === '∞') return; // Skip infinity symbol
-        
-        const duration = 2000;
-        const steps = 60;
-        const increment = parseInt(target) / steps;
-        let current = 0;
-        
-        const timer = setInterval(() => {
-            current += increment;
-            if (current >= parseInt(target)) {
-                stat.textContent = target;
-                clearInterval(timer);
-            } else {
-                stat.textContent = Math.floor(current);
-            }
-        }, duration / steps);
+// Stagger grid children
+function staggerChildren(selector, delayStep) {
+    document.querySelectorAll(selector).forEach((el, i) => {
+        el.classList.add('fade-in');
+        el.dataset.delay = i * delayStep;
     });
-};
+}
 
-// Trigger stats animation on page load
-window.addEventListener('load', () => {
-    setTimeout(animateStats, 500);
+staggerChildren('.benefit-card', 80);
+staggerChildren('.track-card', 120);
+staggerChildren('.pune-card', 70);
+staggerChildren('.partner-card', 100);
+staggerChildren('.path-card', 60);
+staggerChildren('.group-card', 80);
+staggerChildren('.apply-detail', 60);
+
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// ─── SMOOTH SCROLL FOR NAV LINKS ───────────────────────────────────────────
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', e => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) {
+            e.preventDefault();
+            const offset = 80;
+            const top = target.getBoundingClientRect().top + window.scrollY - offset;
+            window.scrollTo({ top, behavior: 'smooth' });
+        }
+    });
 });
