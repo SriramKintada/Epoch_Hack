@@ -23,7 +23,7 @@ export default function Hero() {
                         <p><span className="prompt">&gt;&gt;</span> Location: Flairmind Office Club, Aundh, Pune</p>
                         <p><span className="prompt">&gt;&gt;</span> Duration: 4 Weekends of extreme engineering</p>
                         <p><span className="prompt">&gt;&gt;</span> Target: Revenue generation. No slide decks.</p>
-                        <p className="blink"><span className="prompt">&gt;&gt;</span> Cost: 0.00 (Fully Sponsored)</p>
+                        <p className="blink"><span className="prompt">&gt;&gt;</span> Cost: 0.00</p>
                     </div>
                 </div>
 
