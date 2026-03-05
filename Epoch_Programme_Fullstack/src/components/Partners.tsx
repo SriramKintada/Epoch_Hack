@@ -11,7 +11,7 @@ export default function Partners() {
                     {/* A3 Capital */}
                     <div className="partner-card">
                         <div className="partner-logo a3-logo">
-                            <img src="/logos/Logo_A3_Capitals.png" alt="A3 Capital Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+                            <img src="https://oslhhlifshwcjrogbtbh.supabase.co/storage/v1/object/public/logos/Logo_A3_Capitals.png" alt="A3 Capital Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
                         </div>
                         <div className="partner-role">PROGRAM OPERATOR & STRATEGY</div>
                         <p>Designing EPOCH as a high-throughput, execution-ruthless pipeline for India's deepest technical talent.</p>
@@ -20,16 +20,16 @@ export default function Partners() {
                     {/* HSBC */}
                     <div className="partner-card highlight-glow" style={{ transitionDelay: '0.1s' }}>
                         <div className="partner-logo hsbc-logo">
-                            <img src="/logos/HSBC-Innovation-logo.png" alt="HSBC Innovation Banking Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+                            <img src="https://oslhhlifshwcjrogbtbh.supabase.co/storage/v1/object/public/logos/HSBC_Fixed.png" alt="HSBC Innovation Banking Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
                         </div>
-                        <div className="partner-role">BANKING & LIQUIDITY PARTNER</div>
-                        <p>Supplying global banking rails, early liquidity mechanisms, and deep financial advisory straight from Cohort 1.</p>
+                        <div className="partner-role">BANKING PARTNER & ADVISOR</div>
+                        <p>Sponsoring initial ecosystem meetings and directly advising founders, laying the groundwork for deeper incubation efforts.</p>
                     </div>
 
                     {/* AI Grants India */}
                     <div className="partner-card" style={{ transitionDelay: '0.2s' }}>
                         <div className="partner-logo aig-logo">
-                            <img src="/logos/India_AI_Grants_Logo.png" alt="AI Grants India Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+                            <img src="https://oslhhlifshwcjrogbtbh.supabase.co/storage/v1/object/public/logos/India_AI_Grants_Logo_Cropped.png" alt="AI Grants India Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
                         </div>
                         <div className="partner-role">CO-ORGANISER & INFRA PROVIDER</div>
                         <p>Deploying heavy compute resources. Unleashing Anthropic, Google, and OpenAI bandwidth for zero-friction AI development.</p>

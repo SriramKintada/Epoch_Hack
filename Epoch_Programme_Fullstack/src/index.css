@@ -651,9 +651,15 @@ h4 {
     justify-content: flex-start;
 }
 
+.partner-logo img,
 .partner-logo svg {
     max-height: 100%;
     max-width: 100%;
+    object-fit: contain;
+}
+
+.a3-logo img {
+    filter: brightness(0) invert(1);
 }
 
 .partner-role {
