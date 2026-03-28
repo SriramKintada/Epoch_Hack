@@ -42,17 +42,46 @@ export default function ApplyForm() {
         setLoading(true);
         setError(null);
 
+        // Try inserting with all new columns first
         const { error: insertError } = await supabase
             .from('applications')
             .insert([formData]);
 
         if (insertError) {
-            setError(insertError.message);
-            setLoading(false);
-        } else {
-            setSuccess(true);
-            setLoading(false);
+            // Fallback: if new columns don't exist yet, map to old schema
+            const fallbackData = {
+                name: formData.name,
+                email: formData.email,
+                github_url: formData.best_link,
+                twitter_url: formData.twitter_url,
+                project_description: [
+                    `[Phone] ${formData.phone}`,
+                    `[City] ${formData.city}`,
+                    `[Type] ${formData.apply_type}`,
+                    `[Track] ${formData.track}`,
+                    `[Commitment] ${formData.can_commit}`,
+                    formData.team_size ? `[Team] ${formData.team_size} people | Role: ${formData.team_role} | Members: ${formData.team_members}` : '',
+                    `\n--- BUILDING ---\n${formData.building}`,
+                    `\n--- MOST IMPRESSIVE ---\n${formData.impressive}`,
+                    `\n--- WHY EPOCH ---\n${formData.why_epoch}`,
+                    formData.video_url ? `\n--- VIDEO ---\n${formData.video_url}` : '',
+                ].filter(Boolean).join('\n'),
+                track: formData.track
+            };
+
+            const { error: fallbackError } = await supabase
+                .from('applications')
+                .insert([fallbackData]);
+
+            if (fallbackError) {
+                setError(fallbackError.message);
+                setLoading(false);
+                return;
+            }
         }
+
+        setSuccess(true);
+        setLoading(false);
     };
 
     if (success) {
