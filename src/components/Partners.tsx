@@ -35,6 +35,15 @@ export default function Partners() {
                         <div className="partner-role">CO-ORGANISER & INFRA PROVIDER</div>
                         <p>Deploying heavy compute resources. Unleashing Anthropic, Google, and OpenAI bandwidth for zero-friction AI development.</p>
                     </div>
+
+                    {/* ZeTheta */}
+                    <div className="partner-card" style={{ transitionDelay: '0.3s' }}>
+                        <div className="partner-logo zetheta-logo">
+                            <img src="/logos/zetheta-logo.png" alt="ZeTheta Logo" />
+                        </div>
+                        <div className="partner-role">ECOSYSTEM & TALENT PARTNER</div>
+                        <p>Bridging EPOCH to 5,000+ educational institutions nationwide. ZeTheta validates who can build. EPOCH validates what they build.</p>
+                    </div>
                 </div>
             </div>
         </section>

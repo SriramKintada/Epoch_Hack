@@ -632,7 +632,7 @@ h4 {
 /* ─── PARTNERS ────────────────────────────────────────────────────────────── */
 .partners-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
@@ -660,6 +660,11 @@ h4 {
 
 .a3-logo img {
     filter: brightness(0) invert(1);
+}
+
+.zetheta-logo img {
+    filter: brightness(0) invert(1);
+    max-height: 60px;
 }
 
 .aig-logo {
@@ -872,7 +877,7 @@ h4 {
     }
 
     .partners-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .nav-links {
