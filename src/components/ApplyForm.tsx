@@ -42,10 +42,17 @@ export default function ApplyForm() {
         setLoading(true);
         setError(null);
 
-        // Try inserting with all new columns first
+        // Build payload with project_description for backwards compat (NOT NULL constraint)
+        const payload = {
+            ...formData,
+            project_description: formData.building || 'N/A',
+            github_url: formData.best_link || ''
+        };
+
+        // Try inserting with all new columns
         const { error: insertError } = await supabase
             .from('applications')
-            .insert([formData]);
+            .insert([payload]);
 
         if (insertError) {
             // Fallback: if new columns don't exist yet, map to old schema
