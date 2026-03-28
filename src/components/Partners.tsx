@@ -42,7 +42,7 @@ export default function Partners() {
                             <img src="/logos/zetheta-logo.png" alt="ZeTheta Logo" />
                         </div>
                         <div className="partner-role">ECOSYSTEM & TALENT PARTNER</div>
-                        <p>Bridging EPOCH to 5,000+ educational institutions nationwide. ZeTheta validates who can build. EPOCH validates what they build.</p>
+                        <p>Connecting EPOCH participants with pre-vetted technical talent across 144 AI and financial market roles. Project-based skill validation powered by agentic AI.</p>
                     </div>
                 </div>
             </div>
