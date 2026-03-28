@@ -663,8 +663,8 @@ h4 {
 }
 
 .zetheta-logo img {
-    filter: brightness(0) invert(1);
-    max-height: 60px;
+    max-height: 70px;
+    filter: none;
 }
 
 .aig-logo {
