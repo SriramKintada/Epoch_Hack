@@ -629,6 +629,123 @@ h4 {
     font-size: 0.9rem;
 }
 
+/* ─── HOW IT WORKS ────────────────────────────────────────────────────────── */
+.how-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.how-card {
+    border: 1px solid var(--border);
+    background: var(--bg);
+    padding: 2rem;
+}
+
+.how-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.how-card h4 {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+    color: var(--text-main);
+}
+
+.how-card p {
+    color: var(--text-muted);
+    font-size: 0.92rem;
+    line-height: 1.7;
+}
+
+/* ─── WHAT YOU GET / THE EXCHANGE ─────────────────────────────────────────── */
+.exchange-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.exchange-card {
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+    padding: 2rem;
+    position: relative;
+}
+
+.exchange-card:hover {
+    border-color: rgba(255,255,255,0.2);
+}
+
+.ex-num {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: var(--text-dim);
+    margin-bottom: 0.75rem;
+}
+
+.exchange-card h4 {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+    color: var(--text-main);
+}
+
+.exchange-card p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.exchange-bottom {
+    margin-top: 3rem;
+    padding: 2rem;
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+/* ─── APPLY TOGGLE ────────────────────────────────────────────────────────── */
+.apply-toggle {
+    display: flex;
+    gap: 0;
+    margin-bottom: 1rem;
+    border: 1px solid var(--border);
+}
+
+.toggle-btn {
+    flex: 1;
+    padding: 1rem;
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.toggle-btn:first-child {
+    border-right: 1px solid var(--border);
+}
+
+.toggle-active {
+    background: var(--text-main);
+    color: var(--bg);
+}
+
 /* ─── PARTNERS ────────────────────────────────────────────────────────────── */
 .partners-grid {
     display: grid;
@@ -872,8 +989,13 @@ h4 {
 
     .benefits-grid,
     .tracks,
-    .market-grid {
+    .market-grid,
+    .how-grid {
         grid-template-columns: 1fr;
+    }
+
+    .exchange-grid {
+        grid-template-columns: 1fr 1fr;
     }
 
     .partners-grid {

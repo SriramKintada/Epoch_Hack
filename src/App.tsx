@@ -2,6 +2,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Hero from './components/Hero';
 import Manifesto from './components/Manifesto';
+import HowItWorks from './components/HowItWorks';
+import WhatYouGet from './components/WhatYouGet';
 import Tracks from './components/Tracks';
 import Partners from './components/Partners';
 import ApplyForm from './components/ApplyForm';
@@ -11,6 +13,8 @@ function LandingPage() {
     <>
       <Hero />
       <Manifesto />
+      <HowItWorks />
+      <WhatYouGet />
       <Tracks />
       <Partners />
 
@@ -56,6 +60,8 @@ function App() {
           </Link>
           <div className="nav-links">
             <a href="/#manifesto">MANIFESTO</a>
+            <a href="/#how">HOW IT WORKS</a>
+            <a href="/#exchange">WHAT YOU GET</a>
             <a href="/#tracks">TRACKS</a>
             <a href="/#partners">PARTNERS</a>
             <Link to="/apply" className="btn-secondary nav-cta">INITIATE [ ]</Link>
