@@ -4,10 +4,6 @@ Premium landing page for the Epoch accelerator program (A3 Capital / AIGrants In
 
 ## 🎨 Design Philosophy
 
-**Inspired by:**
-- **Forge** (forge.adihuman.ai) - Dark minimalist aesthetic, serif typography, clean layout
-- **LocalHostHQ** (localhosthq.com) - Creative energy, community focus, story-driven
-
 **Key Design Elements:**
 - Dark (#0a0a0a) background with subtle gradients
 - Playfair Display (serif) for headings - premium, institutional feel
