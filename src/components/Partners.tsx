@@ -35,6 +35,15 @@ export default function Partners() {
                         <div className="partner-role">CO-ORGANISER & INFRA PROVIDER</div>
                         <p>Deploying heavy compute resources. Unleashing Anthropic, Google, and OpenAI bandwidth for zero-friction AI development.</p>
                     </div>
+
+                    {/* AIC SEED Pune */}
+                    <div className="partner-card" style={{ transitionDelay: '0.3s' }}>
+                        <div className="partner-logo aic-logo">
+                            <img src="/logos/AIC-SEED-logo.png" alt="AIC SEED Pune Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+                        </div>
+                        <div className="partner-role">INCUBATION PARTNER</div>
+                        <p>Post-cohort deep tech incubation via IISER Pune's Atal Incubation Centre. Grant applications, extended R&D support, and direct access to India's deep science startup hub.</p>
+                    </div>
                 </div>
             </div>
         </section>
