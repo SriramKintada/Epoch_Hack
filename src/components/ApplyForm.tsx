@@ -169,7 +169,7 @@ export default function ApplyForm() {
                         <div className="form-row">
                             <div className="form-group">
                                 <label>FULL NAME *</label>
-                                <input type="text" name="name" required placeholder="Sriram Kintada" value={formData.name} onChange={handleChange} />
+                                <input type="text" name="name" required placeholder="Full Name" value={formData.name} onChange={handleChange} />
                             </div>
                             <div className="form-group">
                                 <label>EMAIL *</label>
