@@ -15,6 +15,26 @@ function LandingPage() {
       <Manifesto />
       <HowItWorks />
       <WhatYouGet />
+
+      {/* Origin Quote */}
+      <section className="section epoch-origin">
+        <div className="container container-narrow" style={{ textAlign: 'center', padding: '6rem 2rem' }}>
+          <p className="fade-in" style={{
+            fontFamily: 'Georgia, serif',
+            fontSize: 'clamp(1.4rem, 3vw, 2.2rem)',
+            lineHeight: 1.6,
+            color: '#fff',
+            letterSpacing: '0.01em',
+            maxWidth: '700px',
+            margin: '0 auto',
+            fontWeight: 400,
+            fontStyle: 'italic'
+          }}>
+            "Every generation gets one epoch that rewrites the rules. This is ours. The underscore means it's not finished."
+          </p>
+        </div>
+      </section>
+
       <Tracks />
       <Partners />
 

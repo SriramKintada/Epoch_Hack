@@ -44,6 +44,15 @@ export default function Partners() {
                         <div className="partner-role">ECOSYSTEM & TALENT PARTNER</div>
                         <p>Connecting EPOCH participants with pre-vetted technical talent across 144 AI and financial market roles. Project-based skill validation powered by agentic AI.</p>
                     </div>
+
+                    {/* AIC SEED Pune */}
+                    <div className="partner-card" style={{ transitionDelay: '0.4s' }}>
+                        <div className="partner-logo aic-logo">
+                            <img src="/logos/AIC-SEED-logo.png" alt="AIC SEED Pune Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+                        </div>
+                        <div className="partner-role">INCUBATION PARTNER</div>
+                        <p>Post-cohort deep tech incubation via IISER Pune's Atal Incubation Centre. Grant applications, extended R&D support, and direct access to India's deep science startup hub.</p>
+                    </div>
                 </div>
             </div>
         </section>

@@ -66,6 +66,10 @@ export default function Tracks() {
                         <h4>// 04. M&A OUTRIGHT</h4>
                         <p>Total venture acquisition of product, IP, and distribution.</p>
                     </div>
+                    <div className="m-card">
+                        <h4>// 05. DEEP TECH INCUBATION</h4>
+                        <p>Post-cohort incubation via AIC SEED for deep tech ventures needing longer R&D cycles before market.</p>
+                    </div>
                 </div>
             </div>
         </section>
