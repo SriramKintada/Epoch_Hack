@@ -5,7 +5,7 @@ export default function Tracks() {
         <section className="section section-dark border-y" id="tracks">
             <div className="container">
                 <div className="section-label">// THE PIPELINE</div>
-                <h2 className="section-title">Two Tracks. One Metric.</h2>
+                <h2 className="section-title">Two Tracks. One Goal.</h2>
 
                 <div className="tracks">
                     {/* Track 0 */}
@@ -14,7 +14,7 @@ export default function Tracks() {
                             <div className="t-badge t-zero">STAGE 0</div>
                             <h3>IDEATORS</h3>
                         </div>
-                        <p className="track-desc">You have a profound technical problem worth solving, but zero lines of deployed code.</p>
+                        <p className="track-desc">You have a sharp idea worth building, but no product yet.</p>
 
                         <div className="process-flow">
                             <span>IDEATE</span> <span className="arrow">→</span> <span>VALIDATE</span> <span className="arrow">→</span> <span>SHIP</span>
@@ -24,7 +24,7 @@ export default function Tracks() {
                             <li><strong>WK 01:</strong> Customer Discovery & Hostile Validation</li>
                             <li><strong>WK 02:</strong> Rapid Prototyping (AI-First Stack)</li>
                             <li><strong>WK 03:</strong> First 10 True Users & Iteration</li>
-                            <li><strong>WK 04:</strong> Revenue Initialization</li>
+                            <li><strong>WK 04:</strong> Launch & First Traction</li>
                         </ul>
                     </div>
 
@@ -34,7 +34,7 @@ export default function Tracks() {
                             <div className="t-badge t-one">STAGE 1</div>
                             <h3>EARLY FOUNDERS</h3>
                         </div>
-                        <p className="track-desc">You have a product, maybe a repo mapping, but the business engine is offline.</p>
+                        <p className="track-desc">You have a product — maybe users, maybe early revenue — and you're ready to scale it aggressively.</p>
 
                         <div className="process-flow">
                             <span>BUILD</span> <span className="arrow">→</span> <span>MARKET</span> <span className="arrow">→</span> <span>CLOSE</span>
@@ -44,7 +44,7 @@ export default function Tracks() {
                             <li><strong>WK 01:</strong> Brutal Product & Pipeline Audit</li>
                             <li><strong>WK 02:</strong> Distribution: Scripts, Scraping & Cold Outbound</li>
                             <li><strong>WK 03:</strong> Pricing Mechanics & Enterprise Pilot Close</li>
-                            <li><strong>WK 04:</strong> Repeatable Revenue Engineering</li>
+                            <li><strong>WK 04:</strong> Repeatable Growth Engine</li>
                         </ul>
                     </div>
                 </div>

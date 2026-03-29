@@ -6,17 +6,13 @@ export default function Manifesto() {
             <div className="container container-narrow">
                 <div className="section-label">// THE PROBLEM</div>
                 <h2 className="section-title fade-in">Most programs end with a presentation.<br />We end with <span
-                    className="highlight">revenue.</span></h2>
+                    className="highlight">traction.</span></h2>
 
                 <div className="content-block fade-in" style={{ transitionDelay: '0.1s' }}>
                     <p>India doesn't have an ideas problem. It has an extreme <em>execution</em> problem. Too many brilliant
                         engineers are stuck in perpetual planning mode, waiting for perfect capital conditions.</p>
-                    <p>Conventional accelerators offer months of irrelevant workshops and culminate in a demo day where
-                        founders pitch to detached investors. Most leave with nothing but a polished slide deck and zero
-                        users.</p>
                     <p>EPOCH is a radically different institution. Intense, focused execution over four weekends, where
-                        every single line of code and every milestone is tied directly to market validation and revenue
-                        generation.</p>
+                        every line of code is tied directly to market validation and real traction.</p>
                     <p className="emphasized-text">A new institution for extreme technical ambition.</p>
                 </div>
 

@@ -248,7 +248,7 @@ export default function ApplyForm() {
                             <label>TRACK *</label>
                             <select name="track" value={formData.track} onChange={handleChange}>
                                 <option value="STAGE 0">STAGE 0 — I have an idea but no product yet</option>
-                                <option value="STAGE 1">STAGE 1 — I have a product but no revenue yet</option>
+                                <option value="STAGE 1">STAGE 1 — I have a product and want to scale it</option>
                             </select>
                         </div>
 
