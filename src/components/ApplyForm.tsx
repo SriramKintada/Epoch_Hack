@@ -219,8 +219,8 @@ export default function ApplyForm() {
                                 <div className="form-section-label">// YOUR TEAM</div>
                                 <div className="form-row">
                                     <div className="form-group">
-                                        <label>TEAM SIZE</label>
-                                        <select name="team_size" value={formData.team_size} onChange={handleChange}>
+                                        <label>TEAM SIZE *</label>
+                                        <select name="team_size" required value={formData.team_size} onChange={handleChange}>
                                             <option value="">Select</option>
                                             <option value="2">2 people</option>
                                             <option value="3">3 people</option>
@@ -229,13 +229,13 @@ export default function ApplyForm() {
                                         </select>
                                     </div>
                                     <div className="form-group">
-                                        <label>YOUR ROLE</label>
-                                        <input type="text" name="team_role" placeholder="Technical Lead, Product, Design, Business..." value={formData.team_role} onChange={handleChange} />
+                                        <label>YOUR ROLE *</label>
+                                        <input type="text" name="team_role" required placeholder="Technical Lead, Product, Design, Business..." value={formData.team_role} onChange={handleChange} />
                                     </div>
                                 </div>
                                 <div className="form-group">
-                                    <label>TEAM MEMBERS (Names + Emails)</label>
-                                    <textarea name="team_members" placeholder={"Priya Sharma — priya@gmail.com — Backend\nRahul Verma — rahul@gmail.com — Product"} value={formData.team_members} onChange={handleChange}></textarea>
+                                    <label>TEAM MEMBERS (Names + Emails) *</label>
+                                    <textarea name="team_members" required placeholder={"Priya Sharma — priya@gmail.com — Backend\nRahul Verma — rahul@gmail.com — Product"} value={formData.team_members} onChange={handleChange}></textarea>
                                     <span className="form-hint">Each team member should also submit their own individual application.</span>
                                 </div>
                             </>

@@ -5,6 +5,7 @@ import Manifesto from './components/Manifesto';
 import WhatYouGet from './components/WhatYouGet';
 import Tracks from './components/Tracks';
 import Partners from './components/Partners';
+import FAQ from './components/FAQ';
 import ApplyForm from './components/ApplyForm';
 
 function LandingPage() {
@@ -35,6 +36,7 @@ function LandingPage() {
 
       <Tracks />
       <Partners />
+      <FAQ />
 
       {/* Initiation Section */}
       <section className="section apply-section" id="initiate">
