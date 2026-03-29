@@ -42,6 +42,8 @@ export default function ApplyForm() {
         setLoading(true);
         setError(null);
 
+        try {
+
         // Build payload with project_description for backwards compat (NOT NULL constraint)
         const payload = {
             ...formData,
@@ -89,6 +91,11 @@ export default function ApplyForm() {
 
         setSuccess(true);
         setLoading(false);
+        } catch (err: unknown) {
+            const msg = err instanceof Error ? err.message : 'Something went wrong. Please try again.';
+            setError(msg);
+            setLoading(false);
+        }
     };
 
     if (success) {
@@ -197,13 +204,13 @@ export default function ApplyForm() {
 
                         <div className="form-group">
                             <label>ONE LINK THAT BEST REPRESENTS YOU *</label>
-                            <input type="url" name="best_link" required placeholder="GitHub, LinkedIn, portfolio, live product, Behance — your strongest proof" value={formData.best_link} onChange={handleChange} />
+                            <input type="text" name="best_link" required placeholder="GitHub, LinkedIn, portfolio, live product, Behance — your strongest proof" value={formData.best_link} onChange={handleChange} />
                             <span className="form-hint">Pick the one link that best shows what you can do. Not your resume — your work.</span>
                         </div>
 
                         <div className="form-group">
                             <label>TWITTER / X</label>
-                            <input type="url" name="twitter_url" placeholder="https://x.com/..." value={formData.twitter_url} onChange={handleChange} />
+                            <input type="text" name="twitter_url" placeholder="https://x.com/..." value={formData.twitter_url} onChange={handleChange} />
                         </div>
 
                         {/* ── TEAM FIELDS ── */}
@@ -283,7 +290,7 @@ export default function ApplyForm() {
 
                         <div className="form-group">
                             <label>60-SECOND VIDEO INTRO</label>
-                            <input type="url" name="video_url" placeholder="Loom, YouTube, or Google Drive link" value={formData.video_url} onChange={handleChange} />
+                            <input type="text" name="video_url" placeholder="Loom, YouTube, or Google Drive link" value={formData.video_url} onChange={handleChange} />
                             <span className="form-hint">Optional but powerful. 60 seconds, unedited. Tell us who you are and what you're building. Applicants who submit a video are reviewed first.</span>
                         </div>
 
