@@ -44,49 +44,38 @@ export default function ApplyForm() {
 
         try {
 
-        // Build payload with project_description for backwards compat (NOT NULL constraint)
+        // Clean payload — no duplicate columns
         const payload = {
-            ...formData,
+            name: formData.name,
+            email: formData.email,
+            phone: formData.phone,
+            city: formData.city,
+            best_link: formData.best_link,
+            twitter_url: formData.twitter_url || null,
+            apply_type: formData.apply_type,
+            track: formData.track,
+            building: formData.building,
+            impressive: formData.impressive,
+            why_epoch: formData.why_epoch,
+            can_commit: formData.can_commit,
+            video_url: formData.video_url || null,
+            team_size: formData.team_size || null,
+            team_members: formData.team_members || null,
+            team_role: formData.team_role || null,
+            // Legacy columns for backwards compat
             project_description: formData.building || 'N/A',
-            github_url: formData.best_link || ''
+            github_url: formData.best_link || '',
+            status: 'pending'
         };
 
-        // Try inserting with all new columns
         const { error: insertError } = await supabase
             .from('applications')
             .insert([payload]);
 
         if (insertError) {
-            // Fallback: if new columns don't exist yet, map to old schema
-            const fallbackData = {
-                name: formData.name,
-                email: formData.email,
-                github_url: formData.best_link,
-                twitter_url: formData.twitter_url,
-                project_description: [
-                    `[Phone] ${formData.phone}`,
-                    `[City] ${formData.city}`,
-                    `[Type] ${formData.apply_type}`,
-                    `[Track] ${formData.track}`,
-                    `[Commitment] ${formData.can_commit}`,
-                    formData.team_size ? `[Team] ${formData.team_size} people | Role: ${formData.team_role} | Members: ${formData.team_members}` : '',
-                    `\n--- BUILDING ---\n${formData.building}`,
-                    `\n--- MOST IMPRESSIVE ---\n${formData.impressive}`,
-                    `\n--- WHY EPOCH ---\n${formData.why_epoch}`,
-                    formData.video_url ? `\n--- VIDEO ---\n${formData.video_url}` : '',
-                ].filter(Boolean).join('\n'),
-                track: formData.track
-            };
-
-            const { error: fallbackError } = await supabase
-                .from('applications')
-                .insert([fallbackData]);
-
-            if (fallbackError) {
-                setError(fallbackError.message);
-                setLoading(false);
-                return;
-            }
+            setError(insertError.message);
+            setLoading(false);
+            return;
         }
 
         setSuccess(true);
