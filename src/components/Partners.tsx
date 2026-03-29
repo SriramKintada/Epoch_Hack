@@ -51,7 +51,7 @@ export default function Partners() {
                             <img src="/logos/AIC-SEED-logo.png" alt="AIC SEED Pune Logo" style={{ maxHeight: '100%', maxWidth: '100%' }} />
                         </div>
                         <div className="partner-role">INCUBATION PARTNER</div>
-                        <p>Post-cohort deep tech incubation via IISER Pune's Atal Incubation Centre. Grant applications, extended R&D support, and direct access to India's deep science startup hub.</p>
+                        <p>Hands-on guidance and mentorship during the cohort from IISER Pune's Atal Incubation Centre. Post-cohort deep tech incubation, grant applications, and direct access to India's deep science startup hub.</p>
                     </div>
                 </div>
             </div>
