@@ -82,7 +82,7 @@ export default function AdminDashboard() {
         const csvRows = [headers.join(',')];
         for (const app of filteredApps) {
             const row = headers.map(h => {
-                const val = (app as Record<string, unknown>)[h];
+                const val = (app as unknown as Record<string, unknown>)[h];
                 const str = val == null ? '' : String(val).replace(/"/g, '""');
                 return `"${str}"`;
             });
