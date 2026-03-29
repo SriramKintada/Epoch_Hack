@@ -1046,6 +1046,23 @@ h4 {
     font-size: 1.5rem;
 }
 
+.f-socials {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.social-link {
+    color: var(--text-dim);
+    transition: color var(--transition);
+    display: flex;
+    align-items: center;
+}
+
+.social-link:hover {
+    color: var(--text-main);
+}
+
 .f-links p {
     font-family: var(--font-mono);
     font-size: 0.75rem;
