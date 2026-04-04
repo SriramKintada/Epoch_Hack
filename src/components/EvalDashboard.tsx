@@ -51,18 +51,15 @@ interface Top15Entry {
 // ── Data ───────────────────────────────────────────────────────────
 const INTERVIEW_SLOTS = [
   '',
-  // Sunday Apr 5 (4 hrs, 45 min each = 5 slots)
-  'Sun 10:00 AM', 'Sun 10:45 AM', 'Sun 11:30 AM', 'Sun 12:15 PM', 'Sun 1:00 PM',
+  // Sunday Apr 5 (10 AM - 5:15 PM, 45 min each = 9 slots)
+  'Sun 10:00 AM', 'Sun 10:45 AM', 'Sun 11:30 AM', 'Sun 12:15 PM',
+  'Sun 1:00 PM', 'Sun 1:45 PM', 'Sun 2:30 PM', 'Sun 3:15 PM', 'Sun 4:00 PM',
   // Monday Apr 7 (1.5 hr = 2 slots)
   'Mon 5:00 PM', 'Mon 5:45 PM',
   // Tuesday Apr 8 (1.5 hr = 2 slots)
   'Tue 5:00 PM', 'Tue 5:45 PM',
   // Wednesday Apr 9 (1.5 hr = 2 slots)
-  'Wed 4:00 PM', 'Wed 4:45 PM',
-  // Thursday Apr 10 (1.5 hr = 2 slots)
-  'Thu 5:00 PM', 'Thu 5:45 PM',
-  // Friday Apr 11 (1.5 hr = 2 slots)
-  'Fri 5:00 PM', 'Fri 5:45 PM',
+  'Wed 5:00 PM', 'Wed 5:45 PM',
 ];
 
 const PRIORITY_APPLICANTS: PriorityApplicant[] = [
@@ -96,60 +93,60 @@ const PRIORITY_APPLICANTS: PriorityApplicant[] = [
     slotPreference: 'Sunday',
     defaultScores: { product: 3, sales: 3, technical: 3, interviewSlot: 'Sun 1:00 PM' }
   },
-  // --- Weekday slots (1.5 hr blocks, 2 per day @ 45 min each) ---
   {
-    rank: 6, name: 'Niraj Puran Rao', team: 'Solo (3 builds)', phone: '9545050618',
-    building: 'GDPR AI marketing for Europe, adaptive trading system, BNI for AI agents. Pro fighter, IIT Roorkee GenAI.',
-    slotPreference: 'Monday 6 PM',
-    defaultScores: { product: 3, sales: 3, technical: 4, interviewSlot: 'Mon 5:00 PM' }
-  },
-  {
-    rank: 7, name: 'Viswapriya V', team: 'Nutrextr', phone: '8788357282',
+    rank: 6, name: 'Viswapriya V', team: 'Nutrextr', phone: '8788357282',
     building: 'Iron-rich jellies from natural sources for anemia. Founder/CEO.',
     slotPreference: 'Sun 11 AM / Mon-Tue 6 PM',
-    defaultScores: { product: 3, sales: 3, technical: 2, interviewSlot: 'Mon 5:45 PM' }
+    defaultScores: { product: 3, sales: 3, technical: 2, interviewSlot: 'Sun 1:45 PM' }
   },
   {
-    rank: 8, name: 'Mayur Patil', team: 'Ayurvedic SaaS', phone: '7397887032',
-    building: 'Ayurvedic Clinic Management SaaS. Digitize 500K+ practitioners. Live product, real client. Shipped Dairy Billing App.',
-    slotPreference: 'Tuesday onwards',
-    defaultScores: { product: 4, sales: 3, technical: 3, interviewSlot: 'Tue 5:00 PM' }
+    rank: 7, name: 'Neel Pote', team: 'Solo', phone: '9356571969',
+    building: 'Decentralized Y Combinator concept.',
+    slotPreference: 'Sunday (anytime)',
+    defaultScores: { product: 2, sales: 1, technical: 2, interviewSlot: 'Sun 2:30 PM' }
+  },
+  {
+    rank: 8, name: 'Krish Gupta', team: 'Unknown', phone: '7219570360',
+    building: 'Unknown. Walked in, not in database.',
+    slotPreference: 'Sunday',
+    defaultScores: { product: null, sales: null, technical: null, interviewSlot: 'Sun 3:15 PM' }
   },
   {
     rank: 9, name: 'Almas Sayyed', team: 'PuneDAO', phone: '8263839962',
     building: 'PuneDAO: 2000+ community, 100+ events in 4 years. Blockchain/AI/Cybersecurity.',
     slotPreference: 'Sunday evening or weekday',
-    defaultScores: { product: 2, sales: 3, technical: 3, interviewSlot: 'Tue 5:45 PM' }
+    defaultScores: { product: 2, sales: 3, technical: 3, interviewSlot: 'Sun 4:00 PM' }
   },
+  // --- Mon/Tue/Wed — 2 per day, 1.5 hrs each ---
   {
-    rank: 10, name: 'Parikshit Gavhane', team: 'Solo', phone: '7745055120',
-    building: 'Statistics learning platform from first principles.',
-    slotPreference: 'Wednesday 4 PM',
-    defaultScores: { product: 2, sales: 2, technical: 3, interviewSlot: 'Wed 4:00 PM' }
+    rank: 10, name: 'Niraj Puran Rao', team: 'Solo (3 builds)', phone: '9545050618',
+    building: 'GDPR AI marketing for Europe, adaptive trading system, BNI for AI agents. Pro fighter, IIT Roorkee GenAI.',
+    slotPreference: 'Monday 6 PM',
+    defaultScores: { product: 3, sales: 3, technical: 4, interviewSlot: 'Mon 5:00 PM' }
   },
   {
     rank: 11, name: 'Prashant Patil', team: 'BAAS Technologies', phone: '9665237210',
     building: 'Reusable launch vehicle for suborbital/orbital market. CTO. Team of 5+.',
     slotPreference: 'TBD',
-    defaultScores: { product: 4, sales: 3, technical: 5, interviewSlot: 'Wed 4:45 PM' }
+    defaultScores: { product: 4, sales: 3, technical: 5, interviewSlot: 'Mon 5:45 PM' }
   },
   {
-    rank: 12, name: 'Aditya Jare', team: 'Solo', phone: '9579635665',
+    rank: 12, name: 'Mayur Patil', team: 'Ayurvedic SaaS', phone: '7397887032',
+    building: 'Ayurvedic Clinic Management SaaS. Digitize 500K+ practitioners. Live product, real client. Shipped Dairy Billing App.',
+    slotPreference: 'Tuesday onwards',
+    defaultScores: { product: 4, sales: 3, technical: 3, interviewSlot: 'Tue 5:00 PM' }
+  },
+  {
+    rank: 13, name: 'Aditya Jare', team: 'Solo', phone: '9579635665',
     building: 'Chat app with real-time translation (90+ languages), E2E encryption, WebRTC calls.',
     slotPreference: 'Tuesday',
-    defaultScores: { product: 2, sales: 2, technical: 3, interviewSlot: 'Thu 5:00 PM' }
+    defaultScores: { product: 2, sales: 2, technical: 3, interviewSlot: 'Tue 5:45 PM' }
   },
   {
-    rank: 13, name: 'Neel Pote', team: 'Solo', phone: '9356571969',
-    building: 'Decentralized Y Combinator concept.',
-    slotPreference: 'Sunday (anytime)',
-    defaultScores: { product: 2, sales: 1, technical: 2, interviewSlot: 'Thu 5:45 PM' }
-  },
-  {
-    rank: 14, name: 'Krish Gupta', team: 'Unknown', phone: '7219570360',
-    building: 'Unknown. Walked in, not in database.',
-    slotPreference: 'Sunday',
-    defaultScores: { product: null, sales: null, technical: null, interviewSlot: 'Fri 5:00 PM' }
+    rank: 14, name: 'Parikshit Gavhane', team: 'Solo', phone: '7745055120',
+    building: 'Statistics learning platform from first principles.',
+    slotPreference: 'Wednesday 4 PM',
+    defaultScores: { product: 2, sales: 2, technical: 3, interviewSlot: 'Wed 5:00 PM' }
   },
 ];
 
