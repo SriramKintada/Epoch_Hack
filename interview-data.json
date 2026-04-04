@@ -1,0 +1,106 @@
+{
+  "attendees_with_interview_slots": [
+    {
+      "name": "Krish Gupta", "phone": "7219570360", "email": "krishgupta6502@gmail.com",
+      "city": "Pune", "available": "Sunday (Apr 5)", "building": "Unknown - not in database, walked in",
+      "status": "showed_up", "slot_preference": "Sunday"
+    },
+    {
+      "name": "Dhruv Gadiya + Divy Patil", "phone": "8908901008 / 8141921999", "email": "dhruvxop19@gmail.com",
+      "city": "Pune", "available": "Sunday (Apr 5) offline, any time", "building": "PayGate - x402 payment infrastructure for API endpoints. Won highest bounty at ETH Mumbai. Oasiz app 500+ users.",
+      "status": "showed_up", "team_size": "2", "slot_preference": "Sunday"
+    },
+    {
+      "name": "Parikshit Gavhane", "phone": "7745055120", "email": "parikshitgavhane7@gmail.com",
+      "city": "Pune", "available": "Wednesday 4 PM", "building": "Statistics learning platform from first principles",
+      "status": "showed_up", "slot_preference": "Wednesday 4 PM"
+    },
+    {
+      "name": "Neel Pote", "phone": "9356571969", "email": "neelpote96@gmail.com",
+      "city": "Pune", "available": "Sunday, anytime", "building": "Decentralized Y Combinator",
+      "status": "showed_up", "slot_preference": "Sunday"
+    },
+    {
+      "name": "Mayur Patil", "phone": "7397887032", "email": "mayurpatil5204@outlook.com",
+      "city": "Pune", "available": "Tuesday onwards", "building": "Ayurvedic Clinic Management SaaS - digitize 500K+ practitioners. Live product, real client (Dairy Billing App shipped).",
+      "status": "showed_up", "slot_preference": "Tuesday"
+    },
+    {
+      "name": "Rahul Dange", "phone": "9860488395", "email": "rahul.dange@gmail.com",
+      "city": "Pune", "available": "Sunday", "building": "Mediz - pharmacy-customer matching. Background: UPI SDKs, Tata Neu, Sarvatra, AEPS apps for banks.",
+      "status": "showed_up", "slot_preference": "Sunday"
+    },
+    {
+      "name": "Harshit Chouhan (Colrows team)", "phone": "9406646575", "email": "harshit@colrows.com",
+      "city": "Pune", "available": "Sunday (tomorrow)", "building": "AI-native semantic layer for data warehouses. Team: Yogendra (ex-Pfizer/GSK/HUL SaaS founder), Nilesh. MS hackathon winner.",
+      "status": "showed_up", "team_size": "3", "slot_preference": "Sunday"
+    },
+    {
+      "name": "Viswapriya V", "phone": "8788357282", "email": "v.viswapriya@nutrextr.in",
+      "city": "Pune", "available": "Sun 11 AM, Mon/Tue 6 PM", "building": "Nutrextr - iron-rich jellies from natural sources for anemia. Founder/CEO.",
+      "status": "showed_up", "team_size": "2", "slot_preference": "Sunday 11 AM"
+    },
+    {
+      "name": "Basil Paulose", "phone": "98332 39950", "email": "basil@reoxide.com",
+      "city": "Mumbai", "available": "Sunday/Monday/Tuesday", "building": "Reoxide AI - India's 1st AI Carbon Trading Marketplace. Edinburgh, Draper Startup House, UCR partnership, 10M credits.",
+      "status": "showed_up_mumbai", "slot_preference": "Sunday/Monday/Tuesday"
+    },
+    {
+      "name": "Niraj Puran Rao", "phone": "9545050618", "email": "nirajpuranrao1@gmail.com",
+      "city": "Pune", "available": "Monday 6 PM", "building": "3 parallel: GDPR AI marketing for Europe, adaptive trading system, BNI for AI agents. Pro fighter, IIT Roorkee GenAI.",
+      "status": "showed_up", "slot_preference": "Monday 6 PM"
+    },
+    {
+      "name": "Almas Sayyed", "phone": "8263839962", "email": "almas.sayyed@gmail.com",
+      "city": "Pimpri-Chinchwad", "available": "Sunday evening or any weekday", "building": "PuneDAO - 2000+ community, 100+ events in 4 years. Blockchain/AI/Cybersecurity.",
+      "status": "showed_up", "slot_preference": "Sunday evening or weekday"
+    },
+    {
+      "name": "Aditya Jare", "phone": "9579635665", "email": "adityajare2004@gmail.com",
+      "city": "Pune", "available": "Tuesday 7/4/2026", "building": "Chat app with real-time translation (90+ languages), E2E encryption, WebRTC calls.",
+      "status": "showed_up", "slot_preference": "Tuesday"
+    },
+    {
+      "name": "Muhammed Umar Shaikh + Anas Shaikh", "phone": "9604646511", "email": "muhammedumarshaikh7@gmail.com",
+      "city": "Pune", "available": "Sunday", "building": "Motoriq - Vehicle Management System for used car dealerships. 18% GST Margin Engine, AI-powered, RTO invoicing.",
+      "status": "showed_up", "team_size": "2", "slot_preference": "Sunday"
+    },
+    {
+      "name": "Prashant Patil", "phone": "9665237210", "email": "prashant@baas.co.in",
+      "city": "Pune", "available": "TBD - came to event", "building": "BAAS Technologies - reusable launch vehicle for suborbital/orbital market. CTO.",
+      "status": "showed_up", "team_size": "5+", "slot_preference": "TBD"
+    }
+  ],
+  "confirmed_but_no_interview_email": [
+    {"name": "Jainam Oswal + team", "phone": "+919370682619", "email": "jainamoswal1811@gmail.com", "city": "Pune", "building": "AI-native PPT maker with custom programming language (Mermaid-inspired). 15L MVP client."},
+    {"name": "Ankush Deshmukh", "phone": "9890985151", "email": "adeshmukh.profile@gmail.com", "city": "Pune", "building": "ZRONE - AI fitness ecosystem with wearables. 14yr Cloud Architect + 10yr fitness trainer."},
+    {"name": "Ritesh Bhakare + team", "phone": "+918262921113", "email": "riteshbhakare20@gmail.com", "city": "Pune", "building": "AgriBotics - AI agri-tech, 500+ farmers on WhatsApp, NitiQuest finals, Best Agri-Tech award."},
+    {"name": "Neel (Rawal)", "phone": "9309203642", "email": "neelrawal07@gmail.com", "city": "Pune", "building": "Mentora AI - hands-on AI learning platform with real-world simulations."},
+    {"name": "Bharat", "phone": "+91 8307882712", "email": "bharat@markubees.com", "city": "Pune", "building": "Markubees - startup-expert 1-1 virtual meeting platform. Live with payments + video calling."}
+  ],
+  "declined_or_cant_attend": [
+    {"name": "Bhushan Bawane", "city": "Pune (out of city)", "reason": "Not in city till last week of month"},
+    {"name": "Tushar Kanavalli", "city": "Pune", "reason": "Couldn't make it (official commitment)", "building": "AI Stickerbox - voice-activated device turning spoken ideas into physical stickers"},
+    {"name": "Pritesh Kamdi", "city": "Pune", "reason": "Out of station, wants remote", "building": "B2B DaaS engine, HungryHub (2L revenue), reverse-engineered Google Protobuf"},
+    {"name": "Raja Jamwal", "city": "Pune", "reason": "Available next weekend only", "building": "Agentic school"},
+    {"name": "Ajinkya Takawale (Mixio)", "city": "Pune", "reason": "Short notice, wants reschedule", "building": "Mixio - agentic AI video platform. Founding eng at Vapi (YC), 200+ GitHub stars, IIT KGP"},
+    {"name": "Varun Gupta", "city": "Gurgaon", "reason": "Can't travel on short notice, wants remote", "building": "AI dubbing software. HelpingAI 1.5M+ downloads, world's first intermediate reasoning model. Antler AIR 7."}
+  ],
+  "non_pune_not_contacted": [
+    {"name": "Aman Porwal", "phone": "+918308141311", "email": "aman07porwal@gmail.com", "city": "Mumbai", "building": "Vi3W.in - AI 3D Editor for Web. Launching this month."},
+    {"name": "Kailash Sharma + Nandini Singh + Arihan Iyer", "phone": "+91 93264-05547 / 9152375564 / 7715073611", "email": "kailashps.1011@gmail.com", "city": "Mumbai", "building": "Kino - AI Cinematic Story Engine, scripts to films. Dark pattern detector. $4.4B market."},
+    {"name": "Vivek Singh", "phone": "+919399601343", "email": "vsinghr21191@gmail.com", "city": "Bangalore", "building": "Noesis Systems - attack surface intelligence. Sold 500+ cybersecurity hardware devices solo as student."},
+    {"name": "Maaz", "phone": "8826333958", "email": "07317711923_ds@vips.edu.in", "city": "New Delhi", "building": "Life OS. FlickAI won Rs 2.27L at hackathon. Wants remote."},
+    {"name": "Adhiraj Verma", "phone": "+918318151945", "email": "p22adhiraj@iima.ac.in", "city": "Kanpur", "building": "Voice AI marketing stack for colleges. Built craftvc.io (AI VC analyst). IIM-A."},
+    {"name": "Zaid Mukaddam", "phone": "+91 81693 85008", "email": "zaid@scira.ai", "city": "Mumbai", "building": "Scira.ai - agentic AI research platform. 100+ models, search + source modes."},
+    {"name": "Gaurav Mukherjee", "phone": "+919955816505", "email": "PHY.RES.GAURAV.M@GMAIL.COM", "city": "Mumbai", "building": "3D Replicator - programmable volumetric display with gel medium and microbubble voxels."},
+    {"name": "Shashi Kant", "phone": "+91 99550-59230", "email": "shashikant42@proton.me", "city": "Jamshedpur", "building": "Distributed personal computing. Built ISO8583 parser at Juspay (payment switch)."},
+    {"name": "Pritam Pawar", "phone": "+919577558080", "email": "pritampawar625@gmail.com", "city": "Ahmednagar", "building": "Alkemii Labs - AI video editor (Lovable for video). TournaHub 1000+ users. 50 beta users. alkemiilabs.com"},
+    {"name": "Prasad Hajare", "phone": "+917755991051", "email": "prasad@avianya.com", "city": "Nagpur", "building": "Avianya AI - unified marketing for SMBs. 180+ APIs, 50K+ messages, 3 paying clients. Solo founder."},
+    {"name": "Mitesh Gaware", "phone": "+918087477803", "email": "gawaremitesh@gmail.com", "city": "Kochi", "building": "Medical device to treat brain disorders."}
+  ],
+  "new_pune_applicants_today": [
+    {"name": "Lingram Sukhdev Gurude", "phone": "+919307947922", "email": "gurudelingram2003@gmail.com", "city": "Pune", "building": "AI matching platform for travel/work/relationships"},
+    {"name": "Ketan Khairnar", "phone": "+919820756956", "email": "ketan.khairnar@gmail.com", "city": "Pune", "building": "Tacit.sh - context manager for coding sessions. Midroll video ad stitching experience (decade back)."}
+  ]
+}
