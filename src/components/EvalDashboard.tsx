@@ -132,34 +132,16 @@ const PRIORITY_APPLICANTS: PriorityApplicant[] = [
     defaultScores: { product: 4, sales: 3, technical: 3, interviewSlot: 'Sun 3:00' }
   },
   {
-    rank: 12, name: 'Niraj Puran Rao', team: '3 parallel builds', phone: '9545050618',
-    building: 'GDPR AI marketing, trading system, AI agent BNI. IIT Roorkee GenAI. Pro fighter (ONE Championship). Scattered but disciplined.',
-    slotPreference: 'Monday 6 PM',
-    defaultScores: { product: 2, sales: 2, technical: 4, interviewSlot: 'Sun 3:30' }
-  },
-  {
-    rank: 13, name: 'Prashant Patil', team: 'BAAS Technologies', phone: '9665237210',
+    rank: 12, name: 'Prashant Patil', team: 'BAAS Technologies', phone: '9665237210',
     building: 'Reusable launch vehicle for suborbital/orbital. CTO. Deep tech, massive TAM if real. Hard to evaluate without hardware.',
     slotPreference: 'TBD',
-    defaultScores: { product: 4, sales: 2, technical: 5, interviewSlot: 'Sun 4:00' }
+    defaultScores: { product: 4, sales: 2, technical: 5, interviewSlot: 'Sun 3:30' }
   },
   {
-    rank: 14, name: 'Bharat + Sahil', team: 'Markubees', phone: '+91 8307882712',
-    building: 'Expert marketplace for startups. Live with payments + video calling. Marketplace is hard but product is built.',
-    slotPreference: 'Sunday (needs slot email)',
-    defaultScores: { product: 3, sales: 2, technical: 3, interviewSlot: 'Sun 4:30' }
-  },
-  {
-    rank: 15, name: 'Viswapriya V', team: 'Nutrextr', phone: '8788357282',
-    building: 'Iron-rich jellies for anemia. Health/CPG. Founder/CEO. Less tech-focused but real product.',
-    slotPreference: 'Sun 11 AM / Mon-Tue 6 PM',
-    defaultScores: { product: 3, sales: 2, technical: 2, interviewSlot: 'Sun 5:00' }
-  },
-  {
-    rank: 16, name: 'Krish Gupta', team: 'Unknown', phone: '7219570360',
+    rank: 13, name: 'Krish Gupta', team: 'Unknown', phone: '7219570360',
     building: 'Walked in, not in database. Showed initiative.',
     slotPreference: 'Sunday',
-    defaultScores: { product: null, sales: null, technical: null, interviewSlot: 'Sun 5:30' }
+    defaultScores: { product: null, sales: null, technical: null, interviewSlot: 'Sun 4:00' }
   },
   // --- MONDAY: Mumbai + remote (online) ---
   {
@@ -176,16 +158,16 @@ const PRIORITY_APPLICANTS: PriorityApplicant[] = [
   },
   {
     rank: 19, name: 'Adhiraj Verma', team: 'Voice AI + CraftVC', phone: '+918318151945',
-    building: 'IIM-A student (<1% acceptance). Built craftvc.io (AI VC analyst). Voice AI marketing for college admissions.',
+    building: 'IIM-A (<1% acceptance). craftvc.io (AI VC analyst). Voice AI for college admissions.',
     slotPreference: 'Remote (Kanpur)',
     defaultScores: { product: 3, sales: 3, technical: 4, interviewSlot: 'Mon 6:00' }
   },
   // --- TUESDAY: Mumbai + remote (online) ---
   {
-    rank: 20, name: 'Zaid Mukaddam', team: 'Scira.ai', phone: '+91 81693 85008',
-    building: 'Agentic AI research platform. 100+ models, own domain. Need to verify actual users/traction.',
+    rank: 20, name: 'Zaid Mukaddam', team: 'Scira.ai [AUTO-SELECT]', phone: '+91 81693 85008',
+    building: '19 yrs old. Said no to angel investment. Celebrity indie builder. Vercel founder support. Agentic AI research platform. 100+ models. AUTO-SELECTED.',
     slotPreference: 'Remote (Mumbai)',
-    defaultScores: { product: 3, sales: 2, technical: 4, interviewSlot: 'Tue 5:00' }
+    defaultScores: { product: 5, sales: 4, technical: 5, interviewSlot: 'Tue 5:00' }
   },
   {
     rank: 21, name: 'Vivek Singh', team: 'Noesis Systems', phone: '+919399601343',
@@ -213,10 +195,10 @@ const PRIORITY_APPLICANTS: PriorityApplicant[] = [
     defaultScores: { product: 3, sales: 3, technical: 4, interviewSlot: 'Wed 5:30' }
   },
   {
-    rank: 25, name: 'Aman Porwal', team: 'Vi3W.in', phone: '+918308141311',
-    building: 'AI 3D Editor for Web. Launching this month. Early but real product.',
+    rank: 25, name: 'Aman Porwal', team: 'Vi3W.in [AUTO-SELECT]', phone: '+918308141311',
+    building: 'AI 3D Editor for Web. Lovable for 3D views. Launching this month. Co-founder reviewed, strong concept. AUTO-SELECTED.',
     slotPreference: 'Remote (Mumbai)',
-    defaultScores: { product: 3, sales: 2, technical: 3, interviewSlot: 'Wed 6:00' }
+    defaultScores: { product: 4, sales: 3, technical: 4, interviewSlot: 'Wed 6:00' }
   },
 ];
 
