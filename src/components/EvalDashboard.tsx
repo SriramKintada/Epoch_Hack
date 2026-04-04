@@ -247,9 +247,41 @@ const S = {
 };
 
 // ── Component ──────────────────────────────────────────────────────
+const EVAL_PASS = 'epoch2026mav';
+
 export default function EvalDashboard() {
+  const [authed, setAuthed] = useState(() => {
+    const hash = window.location.hash.replace('#', '');
+    if (hash === EVAL_PASS) { window.location.hash = ''; return true; }
+    return sessionStorage.getItem('epoch_eval_auth') === 'yes';
+  });
+  const [passInput, setPassInput] = useState('');
   const [scores, setScores] = useState<Record<string, EvalScores>>({});
   const [activeTab, setActiveTab] = useState<'priority' | 'confirmed' | 'nonpune' | 'top15'>('priority');
+
+  if (!authed) {
+    return (
+      <div style={{ ...S.wrap, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ textAlign: 'center' }}>
+          <h1 style={{ fontFamily: "'Space Grotesk', sans-serif", marginBottom: '1.5rem', color: '#fff' }}>EPOCH_ EVAL</h1>
+          <input
+            type="password"
+            placeholder="Access code"
+            value={passInput}
+            onChange={e => setPassInput(e.target.value)}
+            onKeyDown={e => {
+              if (e.key === 'Enter' && passInput === EVAL_PASS) {
+                sessionStorage.setItem('epoch_eval_auth', 'yes');
+                setAuthed(true);
+              }
+            }}
+            style={{ ...S.input, width: '250px', padding: '0.6rem', fontSize: '1rem', textAlign: 'center' }}
+          />
+          <p style={{ color: '#444', fontSize: '0.75rem', marginTop: '0.75rem' }}>Enter access code to continue</p>
+        </div>
+      </div>
+    );
+  }
 
   useEffect(() => {
     const saved = loadState();

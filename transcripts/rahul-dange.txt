@@ -1,0 +1,9 @@
+Hi my name is Rahul Dange. I have 20 plus years of experience in software development, especially
+in mobile apps. I have led the team as a senior technical architect where we built mobile banking
+apps and UPI apps. We also built Android and iOS SDKs for UPI apps like the Tata new app.
+Right now I am building real-time medicine marketplace for customers connecting to the local
+pharmacies. Pending or prescribed medicines should not be a stressful or time consuming thing,
+right. With medias platform, customers simply upload the prescription or just send the list of medicines.
+Then the nearby pharmacies respond as per the availability. Then customer can choose one or more
+responses and places and order. So this creates a win-win for both the pharmacies get higher
+order visibility and the customer gets transparent and faster access to medicines. Thank you.

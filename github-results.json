@@ -1,0 +1,598 @@
+{
+  "Shashi Kant": {
+    "username": "shashitnak",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "",
+    "public_repos": 51,
+    "followers": 2,
+    "following": 3,
+    "created_at": "2017-04-11T08:33:34Z",
+    "topRepos": [
+      {
+        "name": "cw-cli",
+        "description": "A cli tool for Chipwhisperer",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "updated": "2026-01-11T10:32:03Z",
+        "url": "https://github.com/shashitnak/cw-cli"
+      },
+      {
+        "name": "create-link",
+        "description": "Creates a downloadable link for a file",
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2024-09-14T14:25:33Z",
+        "url": "https://github.com/shashitnak/create-link"
+      },
+      {
+        "name": "random-word",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2024-08-20T09:53:12Z",
+        "url": "https://github.com/shashitnak/random-word"
+      },
+      {
+        "name": "openobserve",
+        "description": "🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces, RUM, Error tracking, Session replay).",
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2024-07-31T10:08:36Z",
+        "url": "https://github.com/shashitnak/openobserve"
+      },
+      {
+        "name": "dvpn",
+        "description": "A decentralized VPN",
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2024-07-21T16:26:01Z",
+        "url": "https://github.com/shashitnak/dvpn"
+      },
+      {
+        "name": "payments-demo",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2024-07-18T17:53:13Z",
+        "url": "https://github.com/shashitnak/payments-demo"
+      },
+      {
+        "name": "deploy-tailcall-on-aws",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2024-07-02T06:42:53Z",
+        "url": "https://github.com/shashitnak/deploy-tailcall-on-aws"
+      },
+      {
+        "name": "deploy-tailcall-on-fly",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2024-07-02T06:43:43Z",
+        "url": "https://github.com/shashitnak/deploy-tailcall-on-fly"
+      },
+      {
+        "name": "rust-vnc",
+        "description": "An implementation of VNC protocol, client state machine, a client and a proxy",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2024-04-20T10:02:49Z",
+        "url": "https://github.com/shashitnak/rust-vnc"
+      },
+      {
+        "name": "rfb",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2024-04-19T15:06:44Z",
+        "url": "https://github.com/shashitnak/rfb"
+      }
+    ]
+  },
+  "Pritam Pawar": {
+    "username": "pritamp17",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "https://www.pritampawar.com/",
+    "public_repos": 238,
+    "followers": 6,
+    "following": 3,
+    "created_at": "2020-05-08T15:09:08Z",
+    "topRepos": [
+      {
+        "name": "pretext",
+        "description": "PreTeXt: an authoring and publishing system for scholarly documents",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-03-31T16:28:50Z",
+        "url": "https://github.com/pritamp17/pretext"
+      },
+      {
+        "name": "MiroFish",
+        "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-03-29T07:32:43Z",
+        "url": "https://github.com/pritamp17/MiroFish"
+      },
+      {
+        "name": "vit",
+        "description": "Git for video editing.",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-03-27T14:00:39Z",
+        "url": "https://github.com/pritamp17/vit"
+      },
+      {
+        "name": "hive",
+        "description": "Outcome driven agent development framework that evolves",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-03-26T06:50:33Z",
+        "url": "https://github.com/pritamp17/hive"
+      },
+      {
+        "name": "picoclaw",
+        "description": "picoclaw",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-02-15T10:20:28Z",
+        "url": "https://github.com/pritamp17/picoclaw"
+      },
+      {
+        "name": "rowboat",
+        "description": "Open-source AI coworker, with memory",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-02-13T07:38:04Z",
+        "url": "https://github.com/pritamp17/rowboat"
+      },
+      {
+        "name": "supermemory",
+        "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-02-03T05:11:50Z",
+        "url": "https://github.com/pritamp17/supermemory"
+      },
+      {
+        "name": "subtitleedit",
+        "description": "the subtitle editor :)",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-02-02T09:09:56Z",
+        "url": "https://github.com/pritamp17/subtitleedit"
+      },
+      {
+        "name": "ffmpeg-server",
+        "description": "Server to execute ffmpeg commands",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-01-23T13:40:09Z",
+        "url": "https://github.com/pritamp17/ffmpeg-server"
+      },
+      {
+        "name": "react-native-starter-app",
+        "description": "React Native Starter App using RunAnywhere SDK ",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-01-21T17:49:29Z",
+        "url": "https://github.com/pritamp17/react-native-starter-app"
+      }
+    ]
+  },
+  "Aswin D": {
+    "username": "Aswind12",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "",
+    "public_repos": 1,
+    "followers": 2,
+    "following": 3,
+    "created_at": "2025-01-24T04:26:55Z",
+    "topRepos": [
+      {
+        "name": "My-portfolio",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2025-07-14T06:51:34Z",
+        "url": "https://github.com/Aswind12/My-portfolio"
+      }
+    ]
+  },
+  "Neel Pote": {
+    "username": "neelpote",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "",
+    "public_repos": 10,
+    "followers": 4,
+    "following": 7,
+    "created_at": "2024-08-07T15:27:46Z",
+    "topRepos": [
+      {
+        "name": "ai-wallet-manager",
+        "description": "AI-powered Stellar wallet manager with natural language commands",
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-02-04T17:36:04Z",
+        "url": "https://github.com/neelpote/ai-wallet-manager"
+      },
+      {
+        "name": "portfolio-website",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "CSS",
+        "topics": [],
+        "updated": "2025-02-18T03:36:15Z",
+        "url": "https://github.com/neelpote/portfolio-website"
+      },
+      {
+        "name": "deco-private",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-22T10:03:31Z",
+        "url": "https://github.com/neelpote/deco-private"
+      },
+      {
+        "name": "deco-combinator",
+        "description": "DeCo - Decentralized Combinator: A Web3 startup accelerator platform built on Stellar Soroban with milestone-based funding, VC monitoring, and smart contract automation",
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-31T03:49:04Z",
+        "url": "https://github.com/neelpote/deco-combinator"
+      },
+      {
+        "name": "learnersacademyweb",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-31T18:37:19Z",
+        "url": "https://github.com/neelpote/learnersacademyweb"
+      },
+      {
+        "name": "web3-tickets",
+        "description": "🎟️ Web3 NFT Ticketing Platform - Decentralized event ticketing with anti-scalping protection and beautiful cream & black UI",
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "updated": "2025-12-16T00:47:52Z",
+        "url": "https://github.com/neelpote/web3-tickets"
+      },
+      {
+        "name": "decentralized-y-combinator",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "updated": "2025-10-18T16:49:51Z",
+        "url": "https://github.com/neelpote/decentralized-y-combinator"
+      },
+      {
+        "name": "Aptos-bootcamp-health-care-insuarance-smart-contract-",
+        "description": "This is the project i built while attending the Aptos bootcamp this project gives hands on experiance on the aptos blockchain and move launguage.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Move",
+        "topics": [],
+        "updated": "2025-08-22T05:57:29Z",
+        "url": "https://github.com/neelpote/Aptos-bootcamp-health-care-insuarance-smart-contract-"
+      },
+      {
+        "name": "decentralized-voting",
+        "description": "A smart contract for a basic decentralized voting system. It allows the owner to create proposals and users to cast their vote on-chain.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Solidity",
+        "topics": [],
+        "updated": "2025-08-20T01:06:05Z",
+        "url": "https://github.com/neelpote/decentralized-voting"
+      },
+      {
+        "name": "my-erc20-dapp",
+        "description": "This repository contains a simple, full-stack decentralized application (DApp) for an ERC-20 token. It includes a smart contract written in Solidity and a front-end interface built with HTML and JavaScript for wallet connection and token transfers.",
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "updated": "2025-08-20T00:57:41Z",
+        "url": "https://github.com/neelpote/my-erc20-dapp"
+      }
+    ]
+  },
+  "Ajinkya Takawale": {
+    "username": "ajinkyaT",
+    "bio": "Machine Learning/AI Engineer, who likes to eat and talk to people.",
+    "company": null,
+    "location": "Tokyo",
+    "blog": "ajinkyat.github.io/About%20Me/",
+    "public_repos": 94,
+    "followers": 80,
+    "following": 25,
+    "created_at": "2016-01-08T18:23:52Z",
+    "topRepos": [
+      {
+        "name": "FAQ_Chatbot_Rasa",
+        "description": "FAQ's answering chatbot using open source chatbot framework Rasa Stack",
+        "stars": 34,
+        "forks": 13,
+        "language": "Python",
+        "topics": [
+          "chatbot",
+          "conversational-ai",
+          "rasa-core",
+          "rasa-nlu"
+        ],
+        "updated": "2025-11-13T05:13:38Z",
+        "url": "https://github.com/ajinkyaT/FAQ_Chatbot_Rasa"
+      },
+      {
+        "name": "AxisBank_AI_Challenge",
+        "description": "Forged signature verification using Siamese Convolutional Neural Network, and table extraction from PDF's",
+        "stars": 9,
+        "forks": 8,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "updated": "2026-01-20T17:47:57Z",
+        "url": "https://github.com/ajinkyaT/AxisBank_AI_Challenge"
+      },
+      {
+        "name": "data_science_cheat_sheets",
+        "description": "Cheat codes for data science competitions!",
+        "stars": 3,
+        "forks": 0,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "updated": "2025-02-02T14:40:23Z",
+        "url": "https://github.com/ajinkyaT/data_science_cheat_sheets"
+      },
+      {
+        "name": "AV_Student_Hunt",
+        "description": "2nd place solution for AV student hunt time series forecasting problem statement",
+        "stars": 1,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "updated": "2018-10-25T07:17:41Z",
+        "url": "https://github.com/ajinkyaT/AV_Student_Hunt"
+      },
+      {
+        "name": "claude-code-sourcemap",
+        "description": "claude-code full original source code from source maps - only for reference",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-04-01T10:09:45Z",
+        "url": "https://github.com/ajinkyaT/claude-code-sourcemap"
+      },
+      {
+        "name": "community-use",
+        "description": "Paid Workflows: Free for Community Use",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2025-07-14T06:04:30Z",
+        "url": "https://github.com/ajinkyaT/community-use"
+      },
+      {
+        "name": "mixio-landing-page",
+        "description": "Landing Page for Mixio",
+        "stars": 0,
+        "forks": 1,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2025-06-06T20:23:30Z",
+        "url": "https://github.com/ajinkyaT/mixio-landing-page"
+      },
+      {
+        "name": "Enavato",
+        "description": "A genAI based micro learning assistant",
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2025-02-07T06:36:52Z",
+        "url": "https://github.com/ajinkyaT/Enavato"
+      },
+      {
+        "name": "faster-SadTalker-API-openai",
+        "description": "The API server version of the SadTalker project with openai TTS. Runs in Docker, 10 times faster than the original!",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "updated": "2024-08-21T04:00:42Z",
+        "url": "https://github.com/ajinkyaT/faster-SadTalker-API-openai"
+      },
+      {
+        "name": "infoedge-kimaya",
+        "description": "After sales assistant built for the InfoEdge Hackathon organised by Hack2Skill",
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "updated": "2024-07-31T17:56:22Z",
+        "url": "https://github.com/ajinkyaT/infoedge-kimaya"
+      }
+    ]
+  },
+  "Aditya Jare": {
+    "username": "AdityaJare",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "",
+    "public_repos": 3,
+    "followers": 0,
+    "following": 0,
+    "created_at": "2024-02-10T05:08:42Z",
+    "topRepos": [
+      {
+        "name": "ML-PRojects",
+        "description": "My ML projects  ",
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "updated": "2025-09-28T16:00:58Z",
+        "url": "https://github.com/AdityaJare/ML-PRojects"
+      },
+      {
+        "name": "multibpreneur",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "updated": "2025-06-16T14:33:36Z",
+        "url": "https://github.com/AdityaJare/multibpreneur"
+      },
+      {
+        "name": "travelling-website",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "updated": "2024-09-07T10:23:08Z",
+        "url": "https://github.com/AdityaJare/travelling-website"
+      }
+    ]
+  },
+  "Mayur Patil": {
+    "username": "mayur5204",
+    "bio": "AI-ML / Robotics enthusiast",
+    "company": "Student",
+    "location": "Pune",
+    "blog": "",
+    "public_repos": 6,
+    "followers": 2,
+    "following": 6,
+    "created_at": "2023-08-29T09:09:11Z",
+    "topRepos": [
+      {
+        "name": "Clinic-Mangement-New",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-31T15:53:16Z",
+        "url": "https://github.com/mayur5204/Clinic-Mangement-New"
+      },
+      {
+        "name": "aqi",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-31T13:01:10Z",
+        "url": "https://github.com/mayur5204/aqi"
+      },
+      {
+        "name": "Password-Manager",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-30T15:27:12Z",
+        "url": "https://github.com/mayur5204/Password-Manager"
+      },
+      {
+        "name": "Dairy-Billing-App",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "updated": "2026-03-31T13:13:02Z",
+        "url": "https://github.com/mayur5204/Dairy-Billing-App"
+      },
+      {
+        "name": "Farmmate-2.0",
+        "description": null,
+        "stars": 1,
+        "forks": 1,
+        "language": "CSS",
+        "topics": [],
+        "updated": "2025-07-24T06:00:35Z",
+        "url": "https://github.com/mayur5204/Farmmate-2.0"
+      },
+      {
+        "name": "mayur5204",
+        "description": "About myself",
+        "stars": 1,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2024-10-14T01:43:33Z",
+        "url": "https://github.com/mayur5204/mayur5204"
+      }
+    ]
+  }
+}

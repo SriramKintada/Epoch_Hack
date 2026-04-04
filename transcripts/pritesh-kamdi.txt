@@ -1,0 +1,3 @@
+Hi, I am Prithish from Pune. Currently I am building a data as a service engine that
+extracts newly opened businesses from an area and reaches them and sends them highly
+personalized cold emails through an outbound AI layer. Thanks, thanks a lot.

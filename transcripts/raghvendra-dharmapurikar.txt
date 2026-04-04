@@ -1,0 +1,17 @@
+Hello, my name is Ragvindra Dramapurikar and I currently work at the head of engineering
+at Higgs boson health puning, where I ensure that we build the right product and build
+the product right.
+I would like to submit my two ideas for this epoch AI grants program.
+The first one is next is student report card.
+So, which will be a data rich interactive report card that transforms student performance
+into actionable insights for students, parents and teachers going beyond marks.
+So, the currently the report card that we get is a very bland one and does not give you
+much insights into how to improvise on certain topics of any subject that does not also show
+the character skills of the student.
+So, the idea is that this report card will basically help students and teachers and
+parents.
+The second idea that I have is kind of a backend AI powered back office for small businesses,
+which will help these people who are short on staff who does not have the help from
+the accounting team or a CEO firm to automate payments, compliance, administrative
+work flows, maybe wind repayments and stuff like that.
+So, these are two my ideas and I am happy to hear from you, thank you.

@@ -1,0 +1,12 @@
+Hi guys, my name is Thruv and I am 19 years old.
+I started coding when I was 12 and since then I have shipped 100 plus projects.
+I have also participated in 20 plus archithons, winning 5 amongst those 20.
+I have also contributed to many G-Saw Cogs, Summer of Bitcoin and many other open source hogs.
+Currently I work as STE at Oasis, where I have shipped app N2N, which is currently live on the US App Store,
+which has around 1000 plus users.
+Talking about what we are building, we are trying to build an X4O2 power payment infrastructure for AI agents as well as humans.
+This is for API endpoint.
+If you want to monetize your API, you can just do it with our product within 3 lines of code.
+And this is we have already built an MVP, but then we want to take it to the production.
+So that's what we want to build.
+And yeah, that is about us. Thank you.

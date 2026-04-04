@@ -1,0 +1,1869 @@
+﻿[
+    {
+        "created":  1475046508730,
+        "trackingId":  "MhOetZFsRxuUCd3KhAoxPA==",
+        "firstName":  "Ajinkya",
+        "lastName":  "Takawale",
+        "pronoun":  null,
+        "versionTag":  "3153439541",
+        "headline":  "Founder \u0026 AI Head @ Mixio | AI Media Generation | IIT Kharagpur",
+        "publicIdentifier":  "ajinkyat",
+        "creator":  false,
+        "influencer":  false,
+        "premium":  false,
+        "connectionType":  3,
+        "birthDate":  null,
+        "id":  "532720321",
+        "profileId":  "ACoAAB_AqsEBXha13LVtftCpMMc4Dmo67nFn0as",
+        "pictureUrl":  "https://media.licdn.com/dms/image/v2/D4D03AQGcyPHKGYGheg/profile-displayphoto-scale_200_200/B4DZxHhN0RJwAY-/0/1770726419385?e=1776902400\u0026v=beta\u0026t=Nw7yMkm5bDRlQGayUdHLpdqgy-DKWNd_sXfNQ9yJshk",
+        "coverImageUrl":  "https://media.licdn.com/dms/image/v2/D4D16AQHhuLXZUxZhGQ/profile-displaybackgroundimage-shrink_200_800/B4DZwr1nSDG4AY-/0/1770262019181?e=1776902400\u0026v=beta\u0026t=dcqh8sgSj-QiLmu81h2JgqgCO4xZFrvsYnwM0uwzP58",
+        "countryCode":  "IN",
+        "geoUrn":  "urn:li:fsd_geo:114806696",
+        "geoLocationName":  "Pune District, Maharashtra, India",
+        "geoCountryName":  "India",
+        "jobTitle":  "Co-Founder, CEO, Head of AI",
+        "summary":  "I’m building Mixio - an AI platform and studio service that empowers production houses to create feature films, animations, and micro-dramas with cinematic consistency, reducing production costs by 60-90% while shrinking timelines from weeks to days.\n​\n\nMy Experience Building in AI\n2017-19: Wrote my IIT-Kharagpur thesis on ML for rural healthcare and shipped my first NLP chatbot leveraging transformers at Airbus.\n\n2019-22: Scaled data-driven growth at BizReach and IgnitusAI, learning how to turn research into revenue-impacting products.\n\n2022-24: Led GenAI initiatives at LegalOn in Tokyo (a global leader in legal AI), deploying GPT-4-powered contract review APIs that serve 2,000+ lawyers daily.\n\n2023-24: Co-founded Viji, an AgriTech marketplace reaching 40k farmers, where I discovered the massive bottleneck of producing high-quality video content at scale.\n\nInsight: That bottleneck became the foundation for Mixio - solving the industry\u0027s inability to get consistent, studio-grade output from standard AI tools.\n​\n\nWhat We Built\nWe have created a hybrid AI filmmaking platform and service tailored for the entertainment industry. Unlike general-purpose video tools that struggle with coherence, Mixio leverages a proprietary engine to ensure scene, character, and object consistency across long-form content (\u003e10 mins).\n​\n\nOur solution allows studios to generate cinematic-grade visuals, control lighting and mood, and produce content in 9 Indian languages. We have already validated this model with 7 active/completed projects and 5 paying studio customers (including partnerships with major players like Balaji Studios and RRE Studios), achieving INR 50L+ in ARR while remaining self-funded.\n​\n\nMy Mission: To make advanced AI practical, accessible and scalable for content creation in organizations.",
+        "positions":  [
+                          {
+                              "title":  "Co-Founder, CEO, Head of AI",
+                              "locationName":  "Mumbai, Maharashtra, India · Hybrid",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  9,
+                                                                   "year":  2025
+                                                               },
+                                                 "endDate":  null
+                                             },
+                              "totalDuration":  "8 mos",
+                              "description":  "•  Transforming Studio Production: Helping production houses and studios slash production costs by 60-90% and accelerate timelines from weeks to days through AI-native filmmaking.\n•  Democratizing Cinematic Storytelling: Enabling storytellers to create studio-grade feature films, micro-dramas, and animations with unprecedented control over scene, character, and object consistency.\n• Building Next-Gen Video Tech: Leading the development of proprietary consistency engines and agentic AI workflows that solve the \"uncanny valley\" problem for long-form video content (\u003e10 mins)",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/106154590/",
+                                              "name":  "Mixio",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/D4D0BAQF8aSFc4BJzNA/company-logo_200_200/B4DZvpor0UIQAI-/0/1769151316312/mixiopro_logo?e=1776902400\u0026v=beta\u0026t=KGOP1HizqgZSGXm4U8XS7dBqpUPqBrGTT9iFws2_1Jg"
+                                          }
+                          },
+                          {
+                              "title":  "Co-Founder, CTO",
+                              "locationName":  "Pune, Maharashtra, India · Hybrid",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  4,
+                                                                   "year":  2024
+                                                               },
+                                                 "endDate":  {
+                                                                 "month":  9,
+                                                                 "year":  2025
+                                                             }
+                                             },
+                              "totalDuration":  "1 yr 6 mos",
+                              "description":  "• Connecting farm machinery manufacturers, dealers and farmers under single platform.",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/92602243/",
+                                              "name":  "VIJI",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/D560BAQH_iZ48Iz_T6g/company-logo_400_400/company-logo_400_400/0/1685165402259?e=1776902400\u0026v=beta\u0026t=-dYakrrkwni5LD3QmMy0DnI5IPbnGwXKGZzoMubGbB4"
+                                          }
+                          },
+                          {
+                              "title":  "Software Engineer, Machine Learning | Legal Tech | GenAI | ChatBot",
+                              "locationName":  "Tokyo, Japan · Remote",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  7,
+                                                                   "year":  2022
+                                                               },
+                                                 "endDate":  {
+                                                                 "month":  4,
+                                                                 "year":  2024
+                                                             }
+                                             },
+                              "totalDuration":  "1 yr 10 mos",
+                              "description":  "• Worked on developing NLP based solutions for legal tech industry\n•  Developed GenAI based legal assistant chatbot for contract review \n• Handled contract review process like article labelling, developing edge ML based models for privacy preserving ML applications for legal processes",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/89703308/",
+                                              "name":  "LegalOn Technologies",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/D560BAQHI0P2jFgmSRA/company-logo_100_100/B56Zn6U8AXHUAQ-/0/1760841417086/legalon_technologies_logo?e=1776902400\u0026v=beta\u0026t=8MoBcI3lq-eJU71YesNHPO3AMkph1fmPGrb8Qn_7_Qg"
+                                          }
+                          },
+                          {
+                              "title":  "Associate Data Scientist | HubSpot | Computer Vision",
+                              "locationName":  "Tokyo, Japan · Remote",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  8,
+                                                                   "year":  2021
+                                                               },
+                                                 "endDate":  {
+                                                                 "month":  4,
+                                                                 "year":  2022
+                                                             }
+                                             },
+                              "totalDuration":  "9 mos",
+                              "description":  "• Part of founding team, helped source and identify potential clients, build interactive dashboards for marketing team\n• Developed on-device facial emotion recognition based analytics tool for privacy preserving AI applications",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/74748518/",
+                                              "name":  "IgnitusAI",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/C560BAQGXbBwz6zQLQg/company-logo_400_400/company-logo_400_400/0/1630650384485/ignitus_ai_logo?e=1776902400\u0026v=beta\u0026t=LT2PGK3gc2SvIkBsl8fxTaAnJ22m0zLmgBVZ60gtZCM"
+                                          }
+                          },
+                          {
+                              "title":  "AI/Machine Learning Engineer",
+                              "locationName":  "Shibuya-ku, Tokyo",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  10,
+                                                                   "year":  2019
+                                                               },
+                                                 "endDate":  {
+                                                                 "month":  5,
+                                                                 "year":  2021
+                                                             }
+                                             },
+                              "totalDuration":  "1 yr 8 mos",
+                              "description":  "• Worked in AI-Group under CTO Office, delivering machine learning related products and services",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/1052206/",
+                                              "name":  "BizReach, Inc.",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/C4D0BAQGq-oOzBwfkDA/company-logo_400_400/company-logo_400_400/0/1631321218411?e=1776902400\u0026v=beta\u0026t=l8bTYmwLqUWbIpjjYqarpqwNiqLXi6kGV5wwJf-1eUY"
+                                          }
+                          },
+                          {
+                              "title":  "Software Development Intern | Deep Learning and Natural Language Processing | Chatbot Development",
+                              "locationName":  "Bengaluru Area, India",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  5,
+                                                                   "year":  2018
+                                                               },
+                                                 "endDate":  {
+                                                                 "month":  7,
+                                                                 "year":  2018
+                                                             }
+                                             },
+                              "totalDuration":  "3 mos",
+                              "description":  "•  Developed an FAQ answering chatbot using open source chatbot framework to address customer care requirements\n•  Worked on NLP components as intent classification, named entity recognition and dialogue flow management\n•   Added a GUI dashboard for training data visualization and easy addition, editing and labelling of training data",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/2734/",
+                                              "name":  "Airbus",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/C4D0BAQF2j_LDG_TOzg/company-logo_400_400/company-logo_400_400/0/1631375371457/airbusgroup_logo?e=1776902400\u0026v=beta\u0026t=nEqJ4QYZDx3FDr5AtHgwGyzepbpxk8phRL2sDcWJFAk"
+                                          }
+                          },
+                          {
+                              "title":  "Data Science Intern | Deep learning and Computer Vision | Biomedical Image Diagnosis",
+                              "locationName":  "Hyderabad Area, India",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  12,
+                                                                   "year":  2017
+                                                               },
+                                                 "endDate":  {
+                                                                 "month":  1,
+                                                                 "year":  2018
+                                                             }
+                                             },
+                              "totalDuration":  "2 mos",
+                              "description":  "•  Developed Deep Learning models in the field of Biomedical Image diagnosis such as segmentation and classification\n•  Implemented paper, \"Learning to Count Objects in Images\" by VGG group to count number of cells in an image by CNN\n•  Utilized Gradient-weighted Class Activation Mapping (Grad-CAM) to highlight regions in the image for a prediction",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/13363295/",
+                                              "name":  "rorodata",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/C510BAQEODhdN5saRJw/company-logo_400_400/company-logo_400_400/0/1630599944029/rorodata_logo?e=1776902400\u0026v=beta\u0026t=vEX5wBLpg2_vXsfobvoZ2ANHSZecAfhfqOAtK2S7830"
+                                          }
+                          },
+                          {
+                              "title":  "Software Development Intern | Natural Language Processing and Information Retrieval ",
+                              "locationName":  "Pune Area, India",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  6,
+                                                                   "year":  2017
+                                                               },
+                                                 "endDate":  {
+                                                                 "month":  7,
+                                                                 "year":  2017
+                                                             }
+                                             },
+                              "totalDuration":  "2 mos",
+                              "description":  "•  Studied Natural Language Processing and Information Retrieval methods for retrieving similar documents\n•  Transformed text into tf-idf matrix followed by using cosine similarity to measure similarity of the matching documents\n•  Surveyed the then existing chatbot as a service alternatives in the market for the task",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/164117/",
+                                              "name":  "Harbinger Systems",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/D560BAQHhbbivIxZ-fQ/company-logo_100_100/B56ZfJu6lbHoAQ-/0/1751436210450/harbinger_group_logo?e=1776902400\u0026v=beta\u0026t=fBt9POqTb9yu5PrSKUy1qWnNhNx0PJVatNphHAJdz6c"
+                                          }
+                          },
+                          {
+                              "title":  "Industrial Training",
+                              "locationName":  "Pune Area, India",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  5,
+                                                                   "year":  2017
+                                                               },
+                                                 "endDate":  {
+                                                                 "month":  6,
+                                                                 "year":  2017
+                                                             }
+                                             },
+                              "totalDuration":  "2 mos",
+                              "description":  "•  Studied square pattern engine assembly line with the aim of reducing the number of engine rework done\n•  Assisted in gathering data regarding cycle time, number of engine failures at cold and hot bed testing\n•  Increased efficiency by 10% by analyzing and tracking key issues causing engine failure at testing",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/5665/",
+                                              "name":  "Tata Motors",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/C4D0BAQHFEixlXSQrYA/company-logo_400_400/company-logo_400_400/0/1671692860328?e=1776902400\u0026v=beta\u0026t=yOVLwIfJmLvTcaBjDXzOCK_EJcHPN-6uyWrVdS9QCn8"
+                                          }
+                          }
+                      ],
+        "educations":  [
+                           {
+                               "schoolLogo":  "https://media.licdn.com/dms/image/v2/C4D0BAQE0lxIeTKBTAw/company-logo_400_400/company-logo_400_400/0/1661239083431/indian_institute_of_technology_kharagpur_logo?e=1776902400\u0026v=beta\u0026t=z_l6mfc945vVAn86QYKkpirj_3oqrRlvIxUG7m491vk",
+                               "schoolUrl":  "https://www.linkedin.com/company/157265/",
+                               "schoolName":  "Indian Institute of Technology, Kharagpur",
+                               "degreeName":  "Bachelor of Technology (B.Tech.)",
+                               "fieldOfStudy":  "Mechanical Engineering",
+                               "timePeriod":  {
+                                                  "startDate":  {
+                                                                    "year":  2015
+                                                                },
+                                                  "endDate":  {
+                                                                  "year":  2019
+                                                              }
+                                              }
+                           }
+                       ],
+        "certifications":  [
+                               {
+                                   "name":  "Perform Foundational Data, ML, and AI Tasks in Google Cloud",
+                                   "authority":  "Google Cloud - Minnesota",
+                                   "timePeriod":  {
+
+                                                  },
+                                   "issueDate":  null,
+                                   "issuer":  "Google Cloud - Minnesota"
+                               },
+                               {
+                                   "name":  "Sequence Models",
+                                   "authority":  "Coursera",
+                                   "timePeriod":  {
+
+                                                  },
+                                   "issueDate":  null,
+                                   "issuer":  "Coursera"
+                               }
+                           ],
+        "courses":  [
+
+                    ],
+        "honors":  [
+
+                   ],
+        "languages":  [
+                          {
+                              "name":  "English",
+                              "proficiency":  ""
+                          },
+                          {
+                              "name":  "French",
+                              "proficiency":  ""
+                          }
+                      ],
+        "volunteerExperiences":  [
+
+                                 ],
+        "projects":  [
+                         {
+                             "title":  "Convolutional Neural Network for Text Classification | Intent Classification in a Chatbot ",
+                             "description":  "•  Implemented text classifier using Convolutional Neural Network for an intent classification task in a chatbot using pre-trained GloVe word embeddings",
+                             "dateRange":  {
+
+                                           },
+                             "associatedWith":  "May 2018 - Present"
+                         },
+                         {
+                             "title":  "Smart India Hackathon 2018 | Department of Space (ISRO), Government of India | Deep Learning and Computer Vision",
+                             "description":  "•  Led a team of 6 students to compete in 48 hours grand finale of a hackathon held at Space Applications Center (ISRO), Ahmedabad\n•  Successfully developed and demonstrated, Content-Based Image Retrieval System (CBIR) for satellite images using Deep Learning",
+                             "dateRange":  {
+
+                                           },
+                             "associatedWith":  "Mar 2018 - Present"
+                         }
+                     ],
+        "publications":  [
+
+                         ],
+        "patents":  [
+
+                    ],
+        "testScores":  [
+
+                       ],
+        "organizations":  [
+
+                          ],
+        "volunteerCauses":  [
+
+                            ],
+        "companyName":  "Mixio",
+        "companyPublicId":  "mixiostudio",
+        "companyLinkedinUrl":  "https://www.linkedin.com/company/mixiostudio/",
+        "currentCompany":  {
+                               "entityUrn":  "urn:li:fsd_company:106154590",
+                               "name":  "Mixio",
+                               "logoResolutionResult":  {
+                                                            "url":  null,
+                                                            "vectorImage":  {
+                                                                                "digitalmediaAsset":  "urn:li:digitalmediaAsset:D4D0BAQF8aSFc4BJzNA",
+                                                                                "attribution":  null,
+                                                                                "c2paManifestData":  null,
+                                                                                "artifacts":  [
+                                                                                                  {
+                                                                                                      "width":  100,
+                                                                                                      "fileIdentifyingUrlPathSegment":  "100_100/B4DZvpor0UIQAQ-/0/1769151316312/mixiopro_logo?e=1776902400\u0026v=beta\u0026t=XGkGtdncLWF-rvliT7sKGKxm2zBzRR2SSV-W3tyH7JY",
+                                                                                                      "expiresAt":  1776902400000,
+                                                                                                      "height":  100
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "width":  400,
+                                                                                                      "fileIdentifyingUrlPathSegment":  "400_400/B4DZvpor0UIQAY-/0/1769151316312/mixiopro_logo?e=1776902400\u0026v=beta\u0026t=9u8BpApfy1CpG8slpjG3z6V1R7IPDGPpIqZ7Ed_uZ94",
+                                                                                                      "expiresAt":  1776902400000,
+                                                                                                      "height":  400
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "width":  200,
+                                                                                                      "fileIdentifyingUrlPathSegment":  "200_200/B4DZvpor0UIQAI-/0/1769151316312/mixiopro_logo?e=1776902400\u0026v=beta\u0026t=KGOP1HizqgZSGXm4U8XS7dBqpUPqBrGTT9iFws2_1Jg",
+                                                                                                      "expiresAt":  1776902400000,
+                                                                                                      "height":  200
+                                                                                                  }
+                                                                                              ],
+                                                                                "rootUrl":  "https://media.licdn.com/dms/image/v2/D4D0BAQF8aSFc4BJzNA/company-logo_"
+                                                                            }
+                                                        },
+                               "universalName":  "mixiostudio",
+                               "url":  "https://www.linkedin.com/company/mixiostudio/"
+                           },
+        "followerCount":  3432,
+        "mutualConnections":  [
+
+                              ],
+        "isVerified":  true,
+        "verificationBadge":  "SYS_ICN_VERIFIED_MEDIUM",
+        "availablePremiumFeatures":  [
+
+                                     ],
+        "pronunciationUrl":  "",
+        "connectionsCount":  3423,
+        "skills":  [
+                       {
+                           "name":  "Python",
+                           "endorsements":  7,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Deep Learning",
+                           "endorsements":  3,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Machine Learning",
+                           "endorsements":  9,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Research",
+                           "endorsements":  6,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "NLP",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Computer Vision",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Data Analysis",
+                           "endorsements":  6,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "TensorFlow",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "PyTorch",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Git",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Linux",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Open Source Software",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "R",
+                           "endorsements":  4,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "C",
+                           "endorsements":  4,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "SQL",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Bash",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Scikit-Learn",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Open Source Development",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Natural Language Processing",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "C (Programming Language)",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Deep Learning",
+                           "endorsements":  3,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Machine Learning",
+                           "endorsements":  9,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Research",
+                           "endorsements":  6,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "NLP",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Computer Vision",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Data Analysis",
+                           "endorsements":  6,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Scikit-Learn",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Open Source Development",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Natural Language Processing",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Python",
+                           "endorsements":  7,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "TensorFlow",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "PyTorch",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Git",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Linux",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Open Source Software",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "R",
+                           "endorsements":  4,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "C",
+                           "endorsements":  4,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "SQL",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Bash",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "C (Programming Language)",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Microsoft Office",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       }
+                   ],
+        "inputUrl":  "https://www.linkedin.com/in/ajinkyat"
+    },
+    {
+        "created":  1718729677851,
+        "trackingId":  "I7j2jIjtSAqG7A2QqHo6rA==",
+        "firstName":  "Neel",
+        "lastName":  "Pote",
+        "pronoun":  {
+                        "customPronoun":  null,
+                        "standardizedPronoun":  "HE_HIM"
+                    },
+        "versionTag":  "3555312490",
+        "headline":  "--",
+        "publicIdentifier":  "neel-pote-b09813314",
+        "creator":  false,
+        "influencer":  false,
+        "premium":  false,
+        "connectionType":  "OUT_OF_NETWORK",
+        "birthDate":  null,
+        "id":  "1339739001",
+        "profileId":  "ACoAAE_ay3kBP0WdJx6jSlfYXDT77geYMk3lS6c",
+        "countryCode":  "IN",
+        "geoUrn":  "urn:li:fsd_geo:114806696",
+        "geoLocationName":  "Pune District, Maharashtra, India",
+        "geoCountryName":  "India",
+        "jobTitle":  "",
+        "positions":  [
+
+                      ],
+        "educations":  [
+                           {
+                               "schoolLogo":  "https://media.licdn.com/dms/image/v2/D4D0BAQFxm0DG9sVY9Q/company-logo_400_400/company-logo_400_400/0/1697390186879?e=1776902400\u0026v=beta\u0026t=mQ1PS7Qef3OGMcmPyqKEMH8M--xIPxO-WEhIkrBTpz4",
+                               "schoolUrl":  "https://www.linkedin.com/company/15111621/",
+                               "schoolName":  "Savitribai Phule Pune University (SPPU)",
+                               "degreeName":  "Bachelor\u0027s degree",
+                               "fieldOfStudy":  "Bachelor\u0027s degree",
+                               "timePeriod":  {
+                                                  "startDate":  {
+                                                                    "month":  7,
+                                                                    "year":  2024
+                                                                },
+                                                  "endDate":  {
+                                                                  "month":  5,
+                                                                  "year":  2027
+                                                              }
+                                              }
+                           }
+                       ],
+        "certifications":  [
+
+                           ],
+        "courses":  [
+
+                    ],
+        "honors":  [
+
+                   ],
+        "languages":  [
+
+                      ],
+        "volunteerExperiences":  [
+
+                                 ],
+        "projects":  [
+
+                     ],
+        "publications":  [
+
+                         ],
+        "patents":  [
+
+                    ],
+        "testScores":  [
+
+                       ],
+        "organizations":  [
+
+                          ],
+        "volunteerCauses":  [
+
+                            ],
+        "companyName":  "",
+        "companyPublicId":  "",
+        "companyLinkedinUrl":  "",
+        "currentCompany":  null,
+        "followerCount":  168,
+        "mutualConnections":  [
+
+                              ],
+        "isVerified":  false,
+        "verificationBadge":  "",
+        "availablePremiumFeatures":  [
+
+                                     ],
+        "pronunciationUrl":  "",
+        "connectionsCount":  169,
+        "skills":  [
+                       {
+                           "name":  "Hypertext Transfer Protocol Secure (HTTPS)",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Node.js",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "React.js",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "JavaScript",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Ethereum",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Database Management System (DBMS)",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Blockchain",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "C (Programming Language)",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Video Editing",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Hypertext Transfer Protocol Secure (HTTPS)",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Database Management System (DBMS)",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Video Editing",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Node.js",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "React.js",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "JavaScript",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Ethereum",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Blockchain",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "C (Programming Language)",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       }
+                   ],
+        "inputUrl":  "https://www.linkedin.com/in/neel-pote-b09813314"
+    },
+    {
+        "created":  1671553126188,
+        "trackingId":  "uCp1TNkDTOSuEzlkwYmldA==",
+        "firstName":  "Parikshit",
+        "lastName":  "Gavhane",
+        "pronoun":  null,
+        "versionTag":  "1268758828",
+        "headline":  "Project Associate - PKC | GIPE’25",
+        "publicIdentifier":  "parikshit-gavhane-31512425b",
+        "creator":  false,
+        "influencer":  false,
+        "premium":  false,
+        "connectionType":  "OUT_OF_NETWORK",
+        "birthDate":  null,
+        "id":  "1072265921",
+        "profileId":  "ACoAAD_pesEB9kEf1xzbor4BcbBB2vUq2WDrHkU",
+        "pictureUrl":  "https://media.licdn.com/dms/image/v2/D4D03AQEeoqXOR6o1Wg/profile-displayphoto-crop_800_800/B4DZwO4bK9GgAI-/0/1769776200408?e=1776902400\u0026v=beta\u0026t=ViwBbioIysSTP9Crwc5AIB32aKifPIRUsQolvlG6rcU",
+        "countryCode":  "IN",
+        "geoUrn":  "urn:li:fsd_geo:105004470",
+        "geoLocationName":  "Pune Division, Maharashtra, India",
+        "geoCountryName":  "India",
+        "jobTitle":  "Project Associate",
+        "positions":  [
+                          {
+                              "title":  "Project Associate",
+                              "locationName":  "Pune District, Maharashtra, India · On-site",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  8,
+                                                                   "year":  2025
+                                                               },
+                                                 "endDate":  null
+                                             },
+                              "totalDuration":  "9 mos",
+                              "employmentType":  "Full-time",
+                              "description":  "",
+                              "insights":  "",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/78274528/",
+                                              "name":  "Pune Knowledge Cluster",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/C4D0BAQE03iW3ODKhSw/company-logo_400_400/company-logo_400_400/0/1660628447526/pune_knowledge_cluster_pkc_logo?e=1776902400\u0026v=beta\u0026t=9IYb8K-D-As4lDck5JeZ7ClM8U1gLb5N0gm1aCV5oJ8"
+                                          }
+                          },
+                          {
+                              "title":  "Research Intern",
+                              "locationName":  "Pune District, Maharashtra, India · On-site",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  8,
+                                                                   "year":  2024
+                                                               },
+                                                 "endDate":  {
+                                                                 "month":  11,
+                                                                 "year":  2024
+                                                             }
+                                             },
+                              "totalDuration":  "4 mos",
+                              "employmentType":  "Internship",
+                              "description":  "",
+                              "insights":  "Data Analysis and Data Visualization",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/91074286/",
+                                              "name":  "Centre for Sustainable Development GIPE",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/C560BAQE3dp7tUGdT7w/company-logo_400_400/company-logo_400_400/0/1680150375468?e=1776902400\u0026v=beta\u0026t=ObQt1Q8YDDN2HdRM0QMAdF-SXHwd7UughcRsNm4GH74"
+                                          }
+                          },
+                          {
+                              "title":  "District Fellow",
+                              "locationName":  "Jalna, Maharashtra, India · On-site",
+                              "timePeriod":  {
+                                                 "startDate":  {
+                                                                   "month":  5,
+                                                                   "year":  2024
+                                                               },
+                                                 "endDate":  {
+                                                                 "month":  8,
+                                                                 "year":  2024
+                                                             }
+                                             },
+                              "totalDuration":  "4 mos",
+                              "employmentType":  "Full-time",
+                              "description":  "As a district fellow working for Flame University \u0027s Centre For Knowledge Alternatives under the leadership of Professor Yugank Goyal, my primary responsibilities include collecting and documenting information about the socio-cultural aspects of Jalna district.",
+                              "insights":  "Research Skills and Field Work",
+                              "company":  {
+                                              "url":  "https://www.linkedin.com/company/91094/",
+                                              "name":  "FLAME University",
+                                              "logo":  "https://media.licdn.com/dms/image/v2/C4D0BAQEgpdlIP01Asw/company-logo_400_400/company-logo_400_400/0/1631330060798?e=1776902400\u0026v=beta\u0026t=kJIHAu7DxNutOs4IKMXWtvbULnulDjx948qArNJIjT0"
+                                          }
+                          }
+                      ],
+        "educations":  [
+                           {
+                               "schoolLogo":  "https://media.licdn.com/dms/image/v2/C560BAQEicsoWMl7cWg/company-logo_400_400/company-logo_400_400/0/1631374924953?e=1776902400\u0026v=beta\u0026t=CZYxA1FaT9OhNvB9bTD_BIvYVR2DlPaM74JtBm65SdY",
+                               "schoolUrl":  "https://www.linkedin.com/company/13617292/",
+                               "schoolName":  "Gokhale Institute of Politics and Economics",
+                               "degreeName":  "B.Sc",
+                               "fieldOfStudy":  "Economics",
+                               "timePeriod":  {
+                                                  "startDate":  {
+                                                                    "month":  8,
+                                                                    "year":  2022
+                                                                },
+                                                  "endDate":  {
+                                                                  "month":  6,
+                                                                  "year":  2025
+                                                              }
+                                              }
+                           }
+                       ],
+        "certifications":  [
+                               {
+                                   "name":  "Data Analysis with R Programming",
+                                   "authority":  "Google",
+                                   "timePeriod":  {
+
+                                                  },
+                                   "issueDate":  null,
+                                   "issuer":  "Google"
+                               },
+                               {
+                                   "name":  "Excel for Beginners: Introduction to Spreadsheets",
+                                   "authority":  "Coursera Project Network",
+                                   "timePeriod":  {
+
+                                                  },
+                                   "issueDate":  null,
+                                   "issuer":  "Coursera Project Network"
+                               }
+                           ],
+        "courses":  [
+
+                    ],
+        "honors":  [
+
+                   ],
+        "languages":  [
+
+                      ],
+        "volunteerExperiences":  [
+
+                                 ],
+        "projects":  [
+
+                     ],
+        "publications":  [
+
+                         ],
+        "patents":  [
+
+                    ],
+        "testScores":  [
+
+                       ],
+        "organizations":  [
+
+                          ],
+        "volunteerCauses":  [
+
+                            ],
+        "companyName":  "Pune Knowledge Cluster",
+        "companyPublicId":  "clusterpune",
+        "companyLinkedinUrl":  "https://www.linkedin.com/company/clusterpune/",
+        "currentCompany":  {
+                               "entityUrn":  "urn:li:fsd_company:78274528",
+                               "name":  "Pune Knowledge Cluster",
+                               "logoResolutionResult":  {
+                                                            "url":  null,
+                                                            "vectorImage":  {
+                                                                                "digitalmediaAsset":  "urn:li:digitalmediaAsset:C4D0BAQE03iW3ODKhSw",
+                                                                                "attribution":  null,
+                                                                                "c2paManifestData":  null,
+                                                                                "artifacts":  [
+                                                                                                  {
+                                                                                                      "width":  200,
+                                                                                                      "fileIdentifyingUrlPathSegment":  "200_200/company-logo_200_200/0/1660628447526/pune_knowledge_cluster_pkc_logo?e=1776902400\u0026v=beta\u0026t=deJYn8b32UnEazo28sn5-aSI0M4F62GN8TLbSSDJqiw",
+                                                                                                      "expiresAt":  1776902400000,
+                                                                                                      "height":  200
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "width":  100,
+                                                                                                      "fileIdentifyingUrlPathSegment":  "100_100/company-logo_100_100/0/1660628447526/pune_knowledge_cluster_pkc_logo?e=1776902400\u0026v=beta\u0026t=kQ1yDQOd3MJV62cVbVSPl7m4Mpj-ZorkNaOThcIN3Kg",
+                                                                                                      "expiresAt":  1776902400000,
+                                                                                                      "height":  100
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "width":  400,
+                                                                                                      "fileIdentifyingUrlPathSegment":  "400_400/company-logo_400_400/0/1660628447526/pune_knowledge_cluster_pkc_logo?e=1776902400\u0026v=beta\u0026t=9IYb8K-D-As4lDck5JeZ7ClM8U1gLb5N0gm1aCV5oJ8",
+                                                                                                      "expiresAt":  1776902400000,
+                                                                                                      "height":  400
+                                                                                                  }
+                                                                                              ],
+                                                                                "rootUrl":  "https://media.licdn.com/dms/image/v2/C4D0BAQE03iW3ODKhSw/company-logo_"
+                                                                            }
+                                                        },
+                               "universalName":  "clusterpune",
+                               "url":  "https://www.linkedin.com/company/clusterpune/"
+                           },
+        "followerCount":  437,
+        "mutualConnections":  [
+
+                              ],
+        "isVerified":  true,
+        "verificationBadge":  "SYS_ICN_VERIFIED_MEDIUM",
+        "availablePremiumFeatures":  [
+
+                                     ],
+        "pronunciationUrl":  "",
+        "connectionsCount":  439,
+        "skills":  [
+                       {
+                           "name":  "Research Skills",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Field Work",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Data Analysis",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Data Visualization",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Microsoft Word",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "SPSS",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Microsoft Excel",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "SQL",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Research Skills",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Field Work",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Data Analysis",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Data Visualization",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Microsoft Word",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "SPSS",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "Microsoft Excel",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       },
+                       {
+                           "name":  "SQL",
+                           "endorsements":  0,
+                           "experiences":  ""
+                       }
+                   ],
+        "inputUrl":  "https://www.linkedin.com/in/parikshit-gavhane-31512425b"
+    }
+]
+[  
+         {  
+                 " c r e a t e d " :     1 6 6 7 2 6 3 2 3 3 8 7 4 ,  
+                 " t r a c k i n g I d " :     " 2 J 0 8 Q h s t S 3 S 8 h 0 D p r 8 j + 7 Q = = " ,  
+                 " f i r s t N a m e " :     " M a y u r " ,  
+                 " l a s t N a m e " :     " P a t i l " ,  
+                 " p r o n o u n " :     n u l l ,  
+                 " v e r s i o n T a g " :     " 7 2 8 6 9 5 1 7 0 " ,  
+                 " h e a d l i n e " :     " M L   U n d e r g r a d     |   2 0 2 6 " ,  
+                 " p u b l i c I d e n t i f i e r " :     " m a y u r 5 2 0 4 " ,  
+                 " c r e a t o r " :     f a l s e ,  
+                 " i n f l u e n c e r " :     f a l s e ,  
+                 " p r e m i u m " :     f a l s e ,  
+                 " c o n n e c t i o n T y p e " :     " O U T _ O F _ N E T W O R K " ,  
+                 " b i r t h D a t e " :     n u l l ,  
+                 " i d " :     " 1 0 5 5 5 3 1 1 4 6 " ,  
+                 " p r o f i l e I d " :     " A C o A A D 7 q I I o B X E a W U C p C N L 9 l 4 Q h I 4 v G Q Z 3 8 q l 0 s " ,  
+                 " p i c t u r e U r l " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / D 5 6 0 3 A Q E p o - c 6 c 8 B - H A / p r o f i l e - d i s p l a y p h o t o - s c a l e _ 2 0 0 _ 2 0 0 / B 5 6 Z t E S n z I I c A Y - / 0 / 1 7 6 6 3 7 7 2 9 3 5 1 1 ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = J M D L G M U 4 k h _ - P y p S A 2 d W o N x c e V y H H K o R M x h g z 5 e 4 W t c " ,  
+                 " c o v e r I m a g e U r l " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / D 4 D 1 6 A Q E H z m X s 0 l a A p A / p r o f i l e - d i s p l a y b a c k g r o u n d i m a g e - s h r i n k _ 3 5 0 _ 1 4 0 0 / p r o f i l e - d i s p l a y b a c k g r o u n d i m a g e - s h r i n k _ 3 5 0 _ 1 4 0 0 / 0 / 1 7 3 8 4 7 4 2 9 5 8 1 7 ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = x e q 4 Y F g 7 s 4 y V D H 1 N A 8 Y J v K t S 7 f d H U n Q U N B 0 Z e V g W K T Y " ,  
+                 " c o u n t r y C o d e " :     " I N " ,  
+                 " g e o U r n " :     " u r n : l i : f s d _ g e o : 1 1 4 8 0 6 6 9 6 " ,  
+                 " g e o L o c a t i o n N a m e " :     " P u n e   D i s t r i c t ,   M a h a r a s h t r a ,   I n d i a " ,  
+                 " g e o C o u n t r y N a m e " :     " I n d i a " ,  
+                 " j o b T i t l e " :     " " ,  
+                 " p o s i t i o n s " :     [  
+  
+                                             ] ,  
+                 " e d u c a t i o n s " :     [  
+                                                       {  
+                                                               " s c h o o l L o g o " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / C 4 E 0 B A Q F C u Y 8 F r C 4 o c Q / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / 0 / 1 6 3 0 8 1 3 3 4 5 9 4 0 ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = L T A b B u v q E s N B j W H 1 B S H f K e J O l P i Y V E J 9 h a o g K W d 1 - q I " ,  
+                                                               " s c h o o l U r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / c o m p a n y / 1 5 1 2 4 7 8 0 / " ,  
+                                                               " s c h o o l N a m e " :     " P r o g r e s s i v e   E d u c a t i o n   S o c i e t y \ u 0 0 2 7 s   M o d e r n   C o l l e g e   o f   E n g i n e e r i n g " ,  
+                                                               " d e g r e e N a m e " :     " B a c h e l o r   o f   E n g i n e e r i n g   -   B E " ,  
+                                                               " f i e l d O f S t u d y " :     " A r t i f i c i a l   I n t e l l i g e n c e   a n d   M a c h i n e   L e a r n i n g " ,  
+                                                               " t i m e P e r i o d " :     {  
+                                                                                                     " s t a r t D a t e " :     {  
+                                                                                                                                         " m o n t h " :     4 ,  
+                                                                                                                                         " y e a r " :     2 0 2 2  
+                                                                                                                                 } ,  
+                                                                                                     " e n d D a t e " :     {  
+                                                                                                                                     " m o n t h " :     4 ,  
+                                                                                                                                     " y e a r " :     2 0 2 6  
+                                                                                                                             }  
+                                                                                             }  
+                                                       }  
+                                               ] ,  
+                 " c e r t i f i c a t i o n s " :     [  
+                                                               {  
+                                                                       " n a m e " :     " M a c h i n e   L e a r n i n g   S p e c i a l i z a t i o n " ,  
+                                                                       " a u t h o r i t y " :     " D e e p L e a r n i n g . A I ,   C o u r s e r a ,   S t a n f o r d   C P D ,   U V M " ,  
+                                                                       " t i m e P e r i o d " :     {  
+  
+                                                                                                     } ,  
+                                                                       " i s s u e D a t e " :     n u l l ,  
+                                                                       " i s s u e r " :     " D e e p L e a r n i n g . A I ,   C o u r s e r a ,   S t a n f o r d   C P D ,   U V M "  
+                                                               } ,  
+                                                               {  
+                                                                       " n a m e " :     " T h e   A r d u i n o   P l a t f o r m   a n d   C   P r o g r a m m i n g   " ,  
+                                                                       " a u t h o r i t y " :     " C o u r s e r a " ,  
+                                                                       " t i m e P e r i o d " :     {  
+  
+                                                                                                     } ,  
+                                                                       " i s s u e D a t e " :     n u l l ,  
+                                                                       " i s s u e r " :     " C o u r s e r a "  
+                                                               }  
+                                                       ] ,  
+                 " c o u r s e s " :     [  
+  
+                                         ] ,  
+                 " h o n o r s " :     [  
+  
+                                       ] ,  
+                 " l a n g u a g e s " :     [  
+  
+                                             ] ,  
+                 " v o l u n t e e r E x p e r i e n c e s " :     [  
+  
+                                                                   ] ,  
+                 " p r o j e c t s " :     [  
+  
+                                           ] ,  
+                 " p u b l i c a t i o n s " :     [  
+  
+                                                   ] ,  
+                 " p a t e n t s " :     [  
+  
+                                         ] ,  
+                 " t e s t S c o r e s " :     [  
+  
+                                               ] ,  
+                 " o r g a n i z a t i o n s " :     [  
+  
+                                                     ] ,  
+                 " v o l u n t e e r C a u s e s " :     [  
+  
+                                                         ] ,  
+                 " c o m p a n y N a m e " :     " " ,  
+                 " c o m p a n y P u b l i c I d " :     " " ,  
+                 " c o m p a n y L i n k e d i n U r l " :     " " ,  
+                 " c u r r e n t C o m p a n y " :     n u l l ,  
+                 " f o l l o w e r C o u n t " :     2 2 2 ,  
+                 " m u t u a l C o n n e c t i o n s " :     [  
+  
+                                                             ] ,  
+                 " i s V e r i f i e d " :     t r u e ,  
+                 " v e r i f i c a t i o n B a d g e " :     " S Y S _ I C N _ V E R I F I E D _ M E D I U M " ,  
+                 " a v a i l a b l e P r e m i u m F e a t u r e s " :     [  
+  
+                                                                           ] ,  
+                 " p r o n u n c i a t i o n U r l " :     " " ,  
+                 " c o n n e c t i o n s C o u n t " :     2 2 0 ,  
+                 " s k i l l s " :     [  
+                                               {  
+                                                       " n a m e " :     " D e c i s i o n   T r e e s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " G r a d i e n t   B o o s t i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " R e c o m m e n d e r   S y s t e m s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A r t i f i c i a l   N e u r a l   N e t w o r k s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " C o m m u n i c a t i o n " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " C o m p u t e r   S c i e n c e " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " N u m P y " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " C r i t i c a l   T h i n k i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A p p l i e d   M a c h i n e   L e a r n i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " R e g r e s s i o n   " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " L i n e a r   R e g r e s s i o n " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " L o g i s t i c   R e g r e s s i o n " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " D e e p   L e a r n i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A l g o r i t h m s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A r t i f i c i a l   I n t e l l i g e n c e   ( A I ) " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " W e b   P a g e s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " H T M L " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " I n t e r n e t   o f   T h i n g s   ( I o T ) " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " F e a t u r e   E n g i n e e r i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " M a c h i n e   L e a r n i n g   A l g o r i t h m s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " D e c i s i o n   T r e e s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " G r a d i e n t   B o o s t i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " R e c o m m e n d e r   S y s t e m s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A r t i f i c i a l   N e u r a l   N e t w o r k s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " C o m p u t e r   S c i e n c e " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " N u m P y " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A p p l i e d   M a c h i n e   L e a r n i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " L i n e a r   R e g r e s s i o n " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " L o g i s t i c   R e g r e s s i o n " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " D e e p   L e a r n i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A l g o r i t h m s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A r t i f i c i a l   I n t e l l i g e n c e   ( A I ) " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " W e b   P a g e s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " I n t e r n e t   o f   T h i n g s   ( I o T ) " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " F e a t u r e   E n g i n e e r i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " M a c h i n e   L e a r n i n g   A l g o r i t h m s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " M a c h i n e   L e a r n i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " D a t a   A n a l y s i s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A n d r o i d   S t u d i o " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " H T M L " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A r d u i n o " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A r d u i n o   I D E " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " E m b e d d e d   S y s t e m s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " D j a n g o " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " P y t h o n   ( P r o g r a m m i n g   L a n g u a g e ) " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " C o m m u n i c a t i o n " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " C r i t i c a l   T h i n k i n g " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " F o r m s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               }  
+                                       ] ,  
+                 " i n p u t U r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / i n / m a y u r 5 2 0 4 "  
+         } ,  
+         {  
+                 " c r e a t e d " :     1 2 8 4 6 9 5 3 9 9 0 0 0 ,  
+                 " t r a c k i n g I d " :     " 5 + B I f i K j T g 6 d i 2 9 l I n 3 l 9 A = = " ,  
+                 " f i r s t N a m e " :     " R a h u l " ,  
+                 " l a s t N a m e " :     " D a n g e " ,  
+                 " p r o n o u n " :     n u l l ,  
+                 " v e r s i o n T a g " :     " 2 1 0 6 9 0 6 4 1 " ,  
+                 " h e a d l i n e " :     " L e a d   M o b i l e   E n g i n e e r   -   F l u t t e r   |   A n d r o i d " ,  
+                 " p u b l i c I d e n t i f i e r " :     " r a h u l d a n g e 0 9 " ,  
+                 " c r e a t o r " :     f a l s e ,  
+                 " i n f l u e n c e r " :     f a l s e ,  
+                 " p r e m i u m " :     f a l s e ,  
+                 " c o n n e c t i o n T y p e " :     3 ,  
+                 " b i r t h D a t e " :     n u l l ,  
+                 " i d " :     " 8 7 1 1 7 2 8 0 " ,  
+                 " p r o f i l e I d " :     " A C o A A A U x T e A B _ _ v X h W U A 4 0 4 7 3 F v a u 6 T Y a m m v d S s " ,  
+                 " p i c t u r e U r l " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / C 4 E 0 3 A Q E Z 0 3 o M w O k B X A / p r o f i l e - d i s p l a y p h o t o - s h r i n k _ 4 0 0 _ 4 0 0 / p r o f i l e - d i s p l a y p h o t o - s h r i n k _ 4 0 0 _ 4 0 0 / 0 / 1 6 2 2 0 9 1 0 0 1 0 5 7 ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = 1 - F k j m - C J 3 2 E R i 5 b 3 G a n N z 6 O h L M - Q l l D L 2 I 6 A D b j b K 8 " ,  
+                 " c o v e r I m a g e U r l " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / D 4 D 1 6 A Q F J b m Y k - J D G 2 w / p r o f i l e - d i s p l a y b a c k g r o u n d i m a g e - s h r i n k _ 3 5 0 _ 1 4 0 0 / B 4 D Z q w R Z E Y J E A Y - / 0 / 1 7 6 3 8 9 3 9 4 1 2 5 9 ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = p w y e V X j r L n q z g S 7 C I f _ 1 O m u I R j g y p w 5 t 2 f z l k F A C Q o s " ,  
+                 " c o u n t r y C o d e " :     " I N " ,  
+                 " g e o U r n " :     " u r n : l i : f s d _ g e o : 1 0 1 4 9 4 6 6 7 " ,  
+                 " g e o L o c a t i o n N a m e " :     " T h a n e ,   M a h a r a s h t r a ,   I n d i a " ,  
+                 " g e o C o u n t r y N a m e " :     " I n d i a " ,  
+                 " j o b T i t l e " :     " L e a d   M o b i l e   E n g i n e e r   ( F l u t t e r ,   A n d r o i d ) " ,  
+                 " s u m m a r y " :     " P a s s i o n a t e   a b o u t   b u i l d i n g   t e c h   t h a t   h e l p s   p e o p l e . " ,  
+                 " p o s i t i o n s " :     [  
+                                                     {  
+                                                             " t i t l e " :     " L e a d   M o b i l e   E n g i n e e r   ( F l u t t e r ,   A n d r o i d ) " ,  
+                                                             " l o c a t i o n N a m e " :     " B e n g a l u r u ,   K a r n a t a k a ,   I n d i a " ,  
+                                                             " t i m e P e r i o d " :     {  
+                                                                                                   " s t a r t D a t e " :     {  
+                                                                                                                                       " m o n t h " :     1 1 ,  
+                                                                                                                                       " y e a r " :     2 0 2 2  
+                                                                                                                               } ,  
+                                                                                                   " e n d D a t e " :     n u l l  
+                                                                                           } ,  
+                                                             " t o t a l D u r a t i o n " :     " 3   y r s   6   m o s " ,  
+                                                             " e m p l o y m e n t T y p e " :     " F u l l - t i m e " ,  
+                                                             " d e s c r i p t i o n " :     " " ,  
+                                                             " i n s i g h t s " :     " " ,  
+                                                             " c o m p a n y " :     {  
+                                                                                             " u r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / c o m p a n y / 7 1 9 5 2 8 0 3 / " ,  
+                                                                                             " n a m e " :     " D e z e r v " ,  
+                                                                                             " l o g o " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / C 4 D 0 B A Q G 8 J Z a 5 C a 0 f A Q / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / 0 / 1 6 7 3 4 3 8 3 7 3 8 1 4 / d e z e r v _ i n _ l o g o ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = 7 G f j - 9 s D Z x q x Q T 1 - n Y 7 Q Y _ R G J B 4 P 5 7 W A U _ 4 0 - Z 9 w Z n U "  
+                                                                                     }  
+                                                     } ,  
+                                                     {  
+                                                             " t i t l e " :     " L e a d   M o b i l e   ( F l u t t e r ,   A n d r o i d )   |   C o r e   T e a m " ,  
+                                                             " l o c a t i o n N a m e " :     " M u m b a i ,   M a h a r a s h t r a ,   I n d i a " ,  
+                                                             " t i m e P e r i o d " :     {  
+                                                                                                   " s t a r t D a t e " :     {  
+                                                                                                                                       " m o n t h " :     7 ,  
+                                                                                                                                       " y e a r " :     2 0 1 9  
+                                                                                                                               } ,  
+                                                                                                   " e n d D a t e " :     {  
+                                                                                                                                   " m o n t h " :     1 0 ,  
+                                                                                                                                   " y e a r " :     2 0 2 2  
+                                                                                                                           }  
+                                                                                           } ,  
+                                                             " t o t a l D u r a t i o n " :     " 3   y r s   4   m o s " ,  
+                                                             " e m p l o y m e n t T y p e " :     " F u l l - t i m e " ,  
+                                                             " d e s c r i p t i o n " :     " " ,  
+                                                             " i n s i g h t s " :     " " ,  
+                                                             " c o m p a n y " :     {  
+                                                                                             " u r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / c o m p a n y / 3 4 1 0 4 5 0 2 / " ,  
+                                                                                             " n a m e " :     " F R A A Z O " ,  
+                                                                                             " l o g o " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / C 5 6 0 B A Q G 7 p g w y z T V I K w / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / 0 / 1 6 4 9 4 1 6 3 6 7 8 1 6 / f r a a z o _ l o g o ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = C o _ C T - o x 1 g C P L a s R I 6 J T a 8 v x A L P P p w Y _ Q - J o 6 b _ p C 8 s "  
+                                                                                     }  
+                                                     } ,  
+                                                     {  
+                                                             " c o m p a n y " :     {  
+                                                                                             " u r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / c o m p a n y / 1 3 2 6 3 2 3 7 / " ,  
+                                                                                             " n a m e " :     " T r a n s f i n i t e   I n n o v a t i v e   S o l u t i o n s   P v t .   L t d . " ,  
+                                                                                             " l o g o " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / C 4 E 0 B A Q G s i T x x R d d A T Q / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / 0 / 1 6 3 1 3 2 9 1 7 6 0 2 9 ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = i L x n o 5 b r 0 S M a U i O Y Z G r j Y b _ k 1 l 5 v L z T K l u 8 c p _ z P R N M "  
+                                                                                     } ,  
+                                                             " t o t a l D u r a t i o n " :     " 1   y r   1   m o " ,  
+                                                             " e m p l o y m e n t T y p e " :     n u l l ,  
+                                                             " p o s i t i o n s " :     [  
+                                                                                                 {  
+                                                                                                         " t i t l e " :     " S o f t w a r e   D e v e l o p e r   ( F u l l   s t a c k ) " ,  
+                                                                                                         " l o c a t i o n N a m e " :     " M u m b a i   A r e a ,   I n d i a " ,  
+                                                                                                         " t i m e P e r i o d " :     {  
+                                                                                                                                               " s t a r t D a t e " :     {  
+                                                                                                                                                                                   " m o n t h " :     6 ,  
+                                                                                                                                                                                   " y e a r " :     2 0 1 8  
+                                                                                                                                                                           } ,  
+                                                                                                                                               " e n d D a t e " :     {  
+                                                                                                                                                                               " m o n t h " :     6 ,  
+                                                                                                                                                                               " y e a r " :     2 0 1 9  
+                                                                                                                                                                       }  
+                                                                                                                                       } ,  
+                                                                                                         " t o t a l D u r a t i o n " :     " 1   y r   1   m o " ,  
+                                                                                                         " d e s c r i p t i o n " :     " " ,  
+                                                                                                         " i n s i g h t s " :     " "  
+                                                                                                 } ,  
+                                                                                                 {  
+                                                                                                         " t i t l e " :     " A n d r o i d   D e v e l o p e r " ,  
+                                                                                                         " t i m e P e r i o d " :     {  
+                                                                                                                                               " s t a r t D a t e " :     {  
+                                                                                                                                                                                   " m o n t h " :     6 ,  
+                                                                                                                                                                                   " y e a r " :     2 0 1 8  
+                                                                                                                                                                           } ,  
+                                                                                                                                               " e n d D a t e " :     {  
+                                                                                                                                                                               " m o n t h " :     6 ,  
+                                                                                                                                                                               " y e a r " :     2 0 1 9  
+                                                                                                                                                                       }  
+                                                                                                                                       } ,  
+                                                                                                         " t o t a l D u r a t i o n " :     " 1   y r   1   m o " ,  
+                                                                                                         " d e s c r i p t i o n " :     " " ,  
+                                                                                                         " i n s i g h t s " :     " "  
+                                                                                                 }  
+                                                                                         ]  
+                                                     } ,  
+                                                     {  
+                                                             " t i t l e " :     " I n t e r n s h i p -   A n d r o i d   D e v e l o p e r " ,  
+                                                             " l o c a t i o n N a m e " :     " " ,  
+                                                             " t i m e P e r i o d " :     {  
+                                                                                                   " s t a r t D a t e " :     {  
+                                                                                                                                       " y e a r " :     2 0 1 7  
+                                                                                                                               } ,  
+                                                                                                   " e n d D a t e " :     {  
+                                                                                                                                   " y e a r " :     2 0 1 7  
+                                                                                                                           }  
+                                                                                           } ,  
+                                                             " t o t a l D u r a t i o n " :     " L e s s   t h a n   a   y e a r " ,  
+                                                             " d e s c r i p t i o n " :     " " ,  
+                                                             " i n s i g h t s " :     " " ,  
+                                                             " c o m p a n y " :     {  
+                                                                                             " u r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / c o m p a n y / 3 8 2 2 6 6 2 / " ,  
+                                                                                             " n a m e " :     " C e n t i l l i o n   -   A   d i v i s i o n   o f   A m e x s   B u s i n e s s   S o l u t i o n s   P v t . L t d . " ,  
+                                                                                             " l o g o " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / C 5 1 0 B A Q G D f o S 5 9 y 2 r k g / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / 0 / 1 6 3 0 5 8 3 1 3 0 8 2 8 / a m e x s _ t e c h n o l o g i e s _ l o g o ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = l Y M Z g 4 R h t N N u i l P Z r b G l 4 Z g K l y z 6 7 H y k t V O u J x d 2 H 2 c "  
+                                                                                     }  
+                                                     }  
+                                             ] ,  
+                 " e d u c a t i o n s " :     [  
+                                                       {  
+                                                               " s c h o o l L o g o " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / D 4 E 0 B A Q F L w 4 3 F b a Y 2 g A / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / 0 / 1 6 8 4 8 5 0 9 7 7 1 6 6 / v i v e k a n a n d _ e d u c a t i o n _ s o c i e t y s _ i n s t i t u t e _ o f _ t e c h n o l o g y _ s i n d h i _ s o c i e t y _ c h e m b u r _ m u m b a i _ 4 0 0 _ 0 7 1 _ l o g o ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = V u u A e s h n u 2 M 5 R S b F Z Q 7 b 1 1 m O o G C 1 b v Z C S D G g k M J H j w Q " ,  
+                                                               " s c h o o l U r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / c o m p a n y / 1 5 1 2 8 2 5 1 / " ,  
+                                                               " s c h o o l N a m e " :     " V i v e k a n a n d   E d u c a t i o n   S o c i e t y s   I n s t i t u t e   o f   T e c h n o l o g y   S i n d h i   S o c i e t y   C h e m b u r   M u m b a i   4 0 0   0 7 1 " ,  
+                                                               " d e g r e e N a m e " :     " C o m p u t e r   E n g i n e e r i n g " ,  
+                                                               " f i e l d O f S t u d y " :     " C o m p u t e r   E n g i n e e r i n g " ,  
+                                                               " t i m e P e r i o d " :     {  
+                                                                                                     " s t a r t D a t e " :     {  
+                                                                                                                                         " y e a r " :     2 0 1 2  
+                                                                                                                                 } ,  
+                                                                                                     " e n d D a t e " :     {  
+                                                                                                                                     " y e a r " :     2 0 1 5  
+                                                                                                                             }  
+                                                                                             }  
+                                                       } ,  
+                                                       {  
+                                                               " s c h o o l L o g o " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / C 5 1 0 B A Q F U D r K - P t f 4 5 w / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / 0 / 1 6 3 0 5 7 3 0 5 5 1 4 7 / s h i v a j i r a o _ s _ j o n d h a l e _ c o l l e g e _ o f _ e n g i n e e r i n g _ v i s h n u _ n a g a r _ d o m b i v l i _ w e s t _ d i s t _ t h a n e _ l o g o ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = B m O f x 3 T J 3 5 J Y B d z L C m x u 5 y S O 1 f E 5 A j t 5 C D 6 b F m C o x E w " ,  
+                                                               " s c h o o l U r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / c o m p a n y / 1 5 1 2 1 3 4 2 / " ,  
+                                                               " s c h o o l N a m e " :     " S h i v a j i r a o   S   J o n d h a l e   C o l l e g e   o f   E n g i n e e r i n g   V i s h n u   N a g a r   D o m b i v l i   ( W e s t )   D i s t   T h a n e " ,  
+                                                               " d e g r e e N a m e " :     " B a c h e l o r   o f   E n g i n e e r i n g   -   B E " ,  
+                                                               " f i e l d O f S t u d y " :     " C o m p u t e r   E n g i n e e r i n g " ,  
+                                                               " t i m e P e r i o d " :     {  
+                                                                                                     " s t a r t D a t e " :     {  
+                                                                                                                                         " y e a r " :     2 0 1 5  
+                                                                                                                                 } ,  
+                                                                                                     " e n d D a t e " :     {  
+                                                                                                                                     " y e a r " :     2 0 1 8  
+                                                                                                                             }  
+                                                                                             }  
+                                                       }  
+                                               ] ,  
+                 " c e r t i f i c a t i o n s " :     [  
+  
+                                                       ] ,  
+                 " c o u r s e s " :     [  
+  
+                                         ] ,  
+                 " h o n o r s " :     [  
+  
+                                       ] ,  
+                 " l a n g u a g e s " :     [  
+  
+                                             ] ,  
+                 " v o l u n t e e r E x p e r i e n c e s " :     [  
+  
+                                                                   ] ,  
+                 " p r o j e c t s " :     [  
+  
+                                           ] ,  
+                 " p u b l i c a t i o n s " :     [  
+  
+                                                   ] ,  
+                 " p a t e n t s " :     [  
+  
+                                         ] ,  
+                 " t e s t S c o r e s " :     [  
+  
+                                               ] ,  
+                 " o r g a n i z a t i o n s " :     [  
+  
+                                                     ] ,  
+                 " v o l u n t e e r C a u s e s " :     [  
+  
+                                                         ] ,  
+                 " c o m p a n y N a m e " :     " D e z e r v " ,  
+                 " c o m p a n y P u b l i c I d " :     " d e z e r v - i n " ,  
+                 " c o m p a n y L i n k e d i n U r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / c o m p a n y / d e z e r v - i n / " ,  
+                 " c u r r e n t C o m p a n y " :     {  
+                                                               " e n t i t y U r n " :     " u r n : l i : f s d _ c o m p a n y : 7 1 9 5 2 8 0 3 " ,  
+                                                               " n a m e " :     " D e z e r v " ,  
+                                                               " l o g o R e s o l u t i o n R e s u l t " :     {  
+                                                                                                                         " u r l " :     n u l l ,  
+                                                                                                                         " v e c t o r I m a g e " :     {  
+                                                                                                                                                                 " d i g i t a l m e d i a A s s e t " :     " u r n : l i : d i g i t a l m e d i a A s s e t : C 4 D 0 B A Q G 8 J Z a 5 C a 0 f A Q " ,  
+                                                                                                                                                                 " a t t r i b u t i o n " :     n u l l ,  
+                                                                                                                                                                 " c 2 p a M a n i f e s t D a t a " :     n u l l ,  
+                                                                                                                                                                 " a r t i f a c t s " :     [  
+                                                                                                                                                                                                     {  
+                                                                                                                                                                                                             " w i d t h " :     2 0 0 ,  
+                                                                                                                                                                                                             " f i l e I d e n t i f y i n g U r l P a t h S e g m e n t " :     " 2 0 0 _ 2 0 0 / c o m p a n y - l o g o _ 2 0 0 _ 2 0 0 / 0 / 1 6 7 3 4 3 8 3 7 3 8 1 4 / d e z e r v _ i n _ l o g o ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = O J G l O q w Y M C a P 8 L i b v z h U 1 H 5 U L Z 4 8 7 f t P w T 0 T l g z o F f E " ,  
+                                                                                                                                                                                                             " e x p i r e s A t " :     1 7 7 6 9 0 2 4 0 0 0 0 0 ,  
+                                                                                                                                                                                                             " h e i g h t " :     2 0 0  
+                                                                                                                                                                                                     } ,  
+                                                                                                                                                                                                     {  
+                                                                                                                                                                                                             " w i d t h " :     1 0 0 ,  
+                                                                                                                                                                                                             " f i l e I d e n t i f y i n g U r l P a t h S e g m e n t " :     " 1 0 0 _ 1 0 0 / c o m p a n y - l o g o _ 1 0 0 _ 1 0 0 / 0 / 1 6 7 3 4 3 8 3 7 3 8 1 4 / d e z e r v _ i n _ l o g o ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = V Z 4 w a A U n o 2 H 0 s b _ h l R 4 U T 6 n Z H F 9 5 Q x 5 L J P J j F 1 H - 1 _ o " ,  
+                                                                                                                                                                                                             " e x p i r e s A t " :     1 7 7 6 9 0 2 4 0 0 0 0 0 ,  
+                                                                                                                                                                                                             " h e i g h t " :     1 0 0  
+                                                                                                                                                                                                     } ,  
+                                                                                                                                                                                                     {  
+                                                                                                                                                                                                             " w i d t h " :     4 0 0 ,  
+                                                                                                                                                                                                             " f i l e I d e n t i f y i n g U r l P a t h S e g m e n t " :     " 4 0 0 _ 4 0 0 / c o m p a n y - l o g o _ 4 0 0 _ 4 0 0 / 0 / 1 6 7 3 4 3 8 3 7 3 8 1 4 / d e z e r v _ i n _ l o g o ? e = 1 7 7 6 9 0 2 4 0 0 \ u 0 0 2 6 v = b e t a \ u 0 0 2 6 t = 7 G f j - 9 s D Z x q x Q T 1 - n Y 7 Q Y _ R G J B 4 P 5 7 W A U _ 4 0 - Z 9 w Z n U " ,  
+                                                                                                                                                                                                             " e x p i r e s A t " :     1 7 7 6 9 0 2 4 0 0 0 0 0 ,  
+                                                                                                                                                                                                             " h e i g h t " :     4 0 0  
+                                                                                                                                                                                                     }  
+                                                                                                                                                                                             ] ,  
+                                                                                                                                                                 " r o o t U r l " :     " h t t p s : / / m e d i a . l i c d n . c o m / d m s / i m a g e / v 2 / C 4 D 0 B A Q G 8 J Z a 5 C a 0 f A Q / c o m p a n y - l o g o _ "  
+                                                                                                                                                         }  
+                                                                                                                 } ,  
+                                                               " u n i v e r s a l N a m e " :     " d e z e r v - i n " ,  
+                                                               " u r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / c o m p a n y / d e z e r v - i n / "  
+                                                       } ,  
+                 " f o l l o w e r C o u n t " :     9 6 2 ,  
+                 " m u t u a l C o n n e c t i o n s " :     [  
+  
+                                                             ] ,  
+                 " i s V e r i f i e d " :     t r u e ,  
+                 " v e r i f i c a t i o n B a d g e " :     " S Y S _ I C N _ V E R I F I E D _ M E D I U M " ,  
+                 " a v a i l a b l e P r e m i u m F e a t u r e s " :     [  
+  
+                                                                           ] ,  
+                 " p r o n u n c i a t i o n U r l " :     " " ,  
+                 " c o n n e c t i o n s C o u n t " :     9 6 2 ,  
+                 " s k i l l s " :     [  
+                                               {  
+                                                       " n a m e " :     " A n d r o i d " ,  
+                                                       " e n d o r s e m e n t s " :     3 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " F l u t t e r " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " D a r t " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A n d r o i d   D e v e l o p m e n t " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " W e b   D e v e l o p m e n t " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " D e s i g n   P r i n c i p l e s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A n d r o i d   S D K " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " R E S T   A P I s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " F i r e b a s e " ,  
+                                                       " e n d o r s e m e n t s " :     2 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " J a v a S c r i p t " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " C a s c a d i n g   S t y l e   S h e e t s   ( C S S ) " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " H T M L 5 " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " J S O N " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " J a v a " ,  
+                                                       " e n d o r s e m e n t s " :     2 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " U n i t y 3 D " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " N o d e . j s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " J S O N   W e b   T o k e n   ( J W T ) " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " M o n g o D B " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " S e q u e l i z e . j s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A n d r o i d   S t u d i o " ,  
+                                                       " e n d o r s e m e n t s " :     2 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " D a r t " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A n d r o i d   D e v e l o p m e n t " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " W e b   D e v e l o p m e n t " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " D e s i g n   P r i n c i p l e s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A n d r o i d   S t u d i o " ,  
+                                                       " e n d o r s e m e n t s " :     2 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " V i r t u a l   R e a l i t y " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A u g m e n t e d   R e a l i t y " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " S D K " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A p p l i c a t i o n   P r o g r a m m i n g   I n t e r f a c e s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A n d r o i d " ,  
+                                                       " e n d o r s e m e n t s " :     3 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " F l u t t e r " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " A n d r o i d   S D K " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " R E S T   A P I s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " F i r e b a s e " ,  
+                                                       " e n d o r s e m e n t s " :     2 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " J a v a S c r i p t " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " C a s c a d i n g   S t y l e   S h e e t s   ( C S S ) " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " H T M L 5 " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " J S O N " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " J a v a " ,  
+                                                       " e n d o r s e m e n t s " :     2 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " U n i t y 3 D " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " N o d e . j s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " J S O N   W e b   T o k e n   ( J W T ) " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " M o n g o D B " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               } ,  
+                                               {  
+                                                       " n a m e " :     " S e q u e l i z e . j s " ,  
+                                                       " e n d o r s e m e n t s " :     0 ,  
+                                                       " e x p e r i e n c e s " :     " "  
+                                               }  
+                                       ] ,  
+                 " i n p u t U r l " :     " h t t p s : / / w w w . l i n k e d i n . c o m / i n / r a h u l d a n g e 0 9 "  
+         }  
+ ]  
+ 

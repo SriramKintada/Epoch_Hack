@@ -1,0 +1,13 @@
+We are presenting Lab Monitor, a real-time lab management platform for schools, colleges,
+and training centers. Today, one instructor manages many systems manually,
+which causes delayed response, weak exam control, and lost class time.
+Lab Monitor solves this with one intelligent dashboard to monitor device health,
+view live status, send instant commands, and enforce exam policies across the full lab.
+AI Supervisor to monitor the exam and cheating our system uses low-latency
+web socket communication for real-time control and SFU-based broadcasting for efficient one-to-many
+classroom delivery. It is secure by design with authenticated sessions, role-based access,
+and production-grade protections. It is also scalable, supporting 100-plus devices with multi-instance
+readiness for larger deployments. The impact is direct, less operational overhead, faster issue
+resolution, better exam integrity, and more teaching time. Lab Monitor is practical, scalable,
+and ready for real-world deployment. We are not just monitoring labs, we are modernizing how
+they are managed. Thank you, Team Iceewall.

@@ -1,0 +1,1184 @@
+{
+  "Shashi Kant": {
+    "username": "shashitnak",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "",
+    "created_at": "2017-04-11T08:33:34Z",
+    "public_repos": 51,
+    "followers": 2,
+    "following": 3,
+    "stats": {
+      "totalRepos": 51,
+      "originalRepos": 30,
+      "forkedRepos": 21,
+      "recentlyActive": 1,
+      "languages": [
+        [
+          "Rust",
+          24
+        ],
+        [
+          "Python",
+          3
+        ],
+        [
+          "Julia",
+          3
+        ],
+        [
+          "Haskell",
+          2
+        ],
+        [
+          "JavaScript",
+          2
+        ]
+      ]
+    },
+    "topOriginalRepos": [
+      {
+        "name": "neat-rs",
+        "description": "Implementation of neat algorithm in rust",
+        "stars": 1,
+        "forks": 1,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2021-08-13T07:47:21Z",
+        "url": "https://github.com/shashitnak/neat-rs",
+        "created": "2020-03-27T12:02:37Z"
+      },
+      {
+        "name": "neural-network",
+        "description": "Neural Network, written in Julia from scratch, to classify the mnist database of handwritten digits",
+        "stars": 1,
+        "forks": 1,
+        "language": "Julia",
+        "topics": [],
+        "updated": "2020-03-01T04:35:44Z",
+        "url": "https://github.com/shashitnak/neural-network",
+        "created": "2019-05-23T05:35:10Z"
+      },
+      {
+        "name": "cw-cli",
+        "description": "A cli tool for Chipwhisperer",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "updated": "2026-01-11T10:32:03Z",
+        "url": "https://github.com/shashitnak/cw-cli",
+        "created": "2026-01-11T10:21:29Z"
+      },
+      {
+        "name": "create-link",
+        "description": "Creates a downloadable link for a file",
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2024-09-14T14:25:33Z",
+        "url": "https://github.com/shashitnak/create-link",
+        "created": "2024-09-14T13:26:42Z"
+      },
+      {
+        "name": "random-word",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2024-08-20T09:53:12Z",
+        "url": "https://github.com/shashitnak/random-word",
+        "created": "2024-08-20T09:43:20Z"
+      },
+      {
+        "name": "dvpn",
+        "description": "A decentralized VPN",
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2024-07-21T16:26:01Z",
+        "url": "https://github.com/shashitnak/dvpn",
+        "created": "2024-07-21T03:34:43Z"
+      },
+      {
+        "name": "payments-demo",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2024-07-18T17:53:13Z",
+        "url": "https://github.com/shashitnak/payments-demo",
+        "created": "2024-07-14T15:57:23Z"
+      },
+      {
+        "name": "deploy-tailcall-on-fly",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2024-07-02T06:43:43Z",
+        "url": "https://github.com/shashitnak/deploy-tailcall-on-fly",
+        "created": "2024-05-29T07:34:56Z"
+      },
+      {
+        "name": "deploy-tailcall-on-aws",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2024-07-02T06:42:53Z",
+        "url": "https://github.com/shashitnak/deploy-tailcall-on-aws",
+        "created": "2024-05-29T13:02:09Z"
+      },
+      {
+        "name": "json-parser",
+        "description": "JSON Parser in a few languages",
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "topics": [],
+        "updated": "2024-05-09T13:33:15Z",
+        "url": "https://github.com/shashitnak/json-parser",
+        "created": "2022-11-05T11:17:40Z"
+      }
+    ],
+    "notableForks": [
+      {
+        "name": "mojo",
+        "description": "The Mojo Programming Language",
+        "stars": 0
+      },
+      {
+        "name": "openobserve",
+        "description": "🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance,  🚀 petabyte scale - Elasticsearch/S",
+        "stars": 0
+      },
+      {
+        "name": "zerocopy",
+        "stars": 0
+      },
+      {
+        "name": "async_graphql_apollo_studio_extension",
+        "description": "Async GraphQL Apollo Extensions",
+        "stars": 0
+      },
+      {
+        "name": "rust-vnc",
+        "description": "An implementation of VNC protocol, client state machine, a client and a proxy",
+        "stars": 0
+      }
+    ]
+  },
+  "Pritam Pawar": {
+    "username": "pritamp17",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "https://www.pritampawar.com/",
+    "created_at": "2020-05-08T15:09:08Z",
+    "public_repos": 238,
+    "followers": 6,
+    "following": 3,
+    "stats": {
+      "totalRepos": 238,
+      "originalRepos": 52,
+      "forkedRepos": 186,
+      "recentlyActive": 17,
+      "languages": [
+        [
+          "JavaScript",
+          21
+        ],
+        [
+          "Python",
+          8
+        ],
+        [
+          "Java",
+          7
+        ],
+        [
+          "HTML",
+          2
+        ],
+        [
+          "C#",
+          1
+        ],
+        [
+          "CSS",
+          1
+        ],
+        [
+          "Solidity",
+          1
+        ]
+      ]
+    },
+    "topOriginalRepos": [
+      {
+        "name": "Explore-Flavours",
+        "description": "ReactNative",
+        "stars": 1,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "updated": "2023-08-23T09:45:05Z",
+        "url": "https://github.com/pritamp17/Explore-Flavours",
+        "created": "2022-06-12T06:36:10Z"
+      },
+      {
+        "name": "Employee-Management",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2023-01-05T10:56:57Z",
+        "url": "https://github.com/pritamp17/Employee-Management",
+        "created": "2023-01-02T09:29:42Z"
+      },
+      {
+        "name": "spring_data_JPA_tut",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "Java",
+        "topics": [],
+        "updated": "2022-12-28T05:01:03Z",
+        "url": "https://github.com/pritamp17/spring_data_JPA_tut",
+        "created": "2022-12-25T11:54:52Z"
+      },
+      {
+        "name": "spring_boot_tut_1",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2022-12-27T12:00:43Z",
+        "url": "https://github.com/pritamp17/spring_boot_tut_1",
+        "created": "2022-12-24T11:08:25Z"
+      },
+      {
+        "name": "spring_tut_dcb",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "Java",
+        "topics": [],
+        "updated": "2022-12-26T20:02:02Z",
+        "url": "https://github.com/pritamp17/spring_tut_dcb",
+        "created": "2022-12-24T13:49:39Z"
+      },
+      {
+        "name": "privacy",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "updated": "2026-02-03T16:53:20Z",
+        "url": "https://github.com/pritamp17/privacy",
+        "created": "2025-12-18T15:42:47Z"
+      },
+      {
+        "name": "com.continuum.unity-sdk",
+        "description": "unity-adapter for continuum",
+        "stars": 0,
+        "forks": 0,
+        "language": "C#",
+        "topics": [],
+        "updated": "2025-12-29T12:37:40Z",
+        "url": "https://github.com/pritamp17/com.continuum.unity-sdk",
+        "created": "2025-11-12T09:06:11Z"
+      },
+      {
+        "name": "test",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2025-12-14T17:15:13Z",
+        "url": "https://github.com/pritamp17/test",
+        "created": "2025-12-14T17:15:13Z"
+      },
+      {
+        "name": "memsync.ai",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "updated": "2025-11-14T15:34:30Z",
+        "url": "https://github.com/pritamp17/memsync.ai",
+        "created": "2025-04-13T12:38:13Z"
+      },
+      {
+        "name": "pritamp17",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2025-08-05T16:02:48Z",
+        "url": "https://github.com/pritamp17/pritamp17",
+        "created": "2022-06-18T12:07:52Z"
+      }
+    ],
+    "notableForks": [
+      {
+        "name": "pretext",
+        "description": "PreTeXt: an authoring and publishing system for scholarly documents",
+        "stars": 0
+      },
+      {
+        "name": "MiroFish",
+        "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+        "stars": 0
+      },
+      {
+        "name": "vit",
+        "description": "Git for video editing.",
+        "stars": 0
+      },
+      {
+        "name": "hive",
+        "description": "Outcome driven agent development framework that evolves",
+        "stars": 0
+      },
+      {
+        "name": "picoclaw",
+        "description": "picoclaw",
+        "stars": 0
+      }
+    ]
+  },
+  "Aswin D": {
+    "username": "Aswind12",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "",
+    "created_at": "2025-01-24T04:26:55Z",
+    "public_repos": 1,
+    "followers": 2,
+    "following": 3,
+    "stats": {
+      "totalRepos": 1,
+      "originalRepos": 1,
+      "forkedRepos": 0,
+      "recentlyActive": 0,
+      "languages": []
+    },
+    "topOriginalRepos": [
+      {
+        "name": "My-portfolio",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2025-07-14T06:51:34Z",
+        "url": "https://github.com/Aswind12/My-portfolio",
+        "created": "2025-07-14T06:51:34Z"
+      }
+    ],
+    "notableForks": []
+  },
+  "Neel Pote": {
+    "username": "neelpote",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "",
+    "created_at": "2024-08-07T15:27:46Z",
+    "public_repos": 10,
+    "followers": 4,
+    "following": 7,
+    "stats": {
+      "totalRepos": 10,
+      "originalRepos": 10,
+      "forkedRepos": 0,
+      "recentlyActive": 4,
+      "languages": [
+        [
+          "TypeScript",
+          4
+        ],
+        [
+          "JavaScript",
+          2
+        ],
+        [
+          "Move",
+          1
+        ],
+        [
+          "Solidity",
+          1
+        ],
+        [
+          "HTML",
+          1
+        ],
+        [
+          "CSS",
+          1
+        ]
+      ]
+    },
+    "topOriginalRepos": [
+      {
+        "name": "ai-wallet-manager",
+        "description": "AI-powered Stellar wallet manager with natural language commands",
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-02-04T17:36:04Z",
+        "url": "https://github.com/neelpote/ai-wallet-manager",
+        "created": "2025-10-25T14:31:24Z"
+      },
+      {
+        "name": "portfolio-website",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "CSS",
+        "topics": [],
+        "updated": "2025-02-18T03:36:15Z",
+        "url": "https://github.com/neelpote/portfolio-website",
+        "created": "2025-02-15T14:33:23Z"
+      },
+      {
+        "name": "learnersacademyweb",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-31T18:37:19Z",
+        "url": "https://github.com/neelpote/learnersacademyweb",
+        "created": "2026-01-24T17:40:33Z"
+      },
+      {
+        "name": "deco-combinator",
+        "description": "DeCo - Decentralized Combinator: A Web3 startup accelerator platform built on Stellar Soroban with milestone-based funding, VC monitoring, and smart contract automation",
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-31T03:49:04Z",
+        "url": "https://github.com/neelpote/deco-combinator",
+        "created": "2026-02-27T07:29:08Z"
+      },
+      {
+        "name": "deco-private",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-22T10:03:31Z",
+        "url": "https://github.com/neelpote/deco-private",
+        "created": "2026-03-22T05:42:45Z"
+      },
+      {
+        "name": "web3-tickets",
+        "description": "🎟️ Web3 NFT Ticketing Platform - Decentralized event ticketing with anti-scalping protection and beautiful cream & black UI",
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "updated": "2025-12-16T00:47:52Z",
+        "url": "https://github.com/neelpote/web3-tickets",
+        "created": "2025-12-15T09:55:27Z"
+      },
+      {
+        "name": "decentralized-y-combinator",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "updated": "2025-10-18T16:49:51Z",
+        "url": "https://github.com/neelpote/decentralized-y-combinator",
+        "created": "2025-08-24T04:43:27Z"
+      },
+      {
+        "name": "Aptos-bootcamp-health-care-insuarance-smart-contract-",
+        "description": "This is the project i built while attending the Aptos bootcamp this project gives hands on experiance on the aptos blockchain and move launguage.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Move",
+        "topics": [],
+        "updated": "2025-08-22T05:57:29Z",
+        "url": "https://github.com/neelpote/Aptos-bootcamp-health-care-insuarance-smart-contract-",
+        "created": "2025-08-22T05:32:46Z"
+      },
+      {
+        "name": "decentralized-voting",
+        "description": "A smart contract for a basic decentralized voting system. It allows the owner to create proposals and users to cast their vote on-chain.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Solidity",
+        "topics": [],
+        "updated": "2025-08-20T01:06:05Z",
+        "url": "https://github.com/neelpote/decentralized-voting",
+        "created": "2025-08-20T01:04:45Z"
+      },
+      {
+        "name": "my-erc20-dapp",
+        "description": "This repository contains a simple, full-stack decentralized application (DApp) for an ERC-20 token. It includes a smart contract written in Solidity and a front-end interface built with HTML and JavaScript for wallet connection and token transfers.",
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "updated": "2025-08-20T00:57:41Z",
+        "url": "https://github.com/neelpote/my-erc20-dapp",
+        "created": "2025-08-20T00:38:44Z"
+      }
+    ],
+    "notableForks": []
+  },
+  "Ajinkya Takawale": {
+    "username": "ajinkyaT",
+    "bio": "Machine Learning/AI Engineer, who likes to eat and talk to people.",
+    "company": null,
+    "location": "Tokyo",
+    "blog": "ajinkyat.github.io/About%20Me/",
+    "created_at": "2016-01-08T18:23:52Z",
+    "public_repos": 94,
+    "followers": 80,
+    "following": 25,
+    "stats": {
+      "totalRepos": 94,
+      "originalRepos": 36,
+      "forkedRepos": 58,
+      "recentlyActive": 3,
+      "languages": [
+        [
+          "Jupyter Notebook",
+          32
+        ],
+        [
+          "Python",
+          25
+        ],
+        [
+          "HTML",
+          5
+        ],
+        [
+          "R",
+          5
+        ],
+        [
+          "TypeScript",
+          1
+        ],
+        [
+          "Dart",
+          1
+        ],
+        [
+          "JavaScript",
+          1
+        ],
+        [
+          "Java",
+          1
+        ]
+      ]
+    },
+    "topOriginalRepos": [
+      {
+        "name": "CNN_Intent_Classification",
+        "description": "CNN for intent classification task in a Chatbot",
+        "stars": 101,
+        "forks": 25,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "chatbot",
+          "cnn",
+          "intent-classification",
+          "keras",
+          "sentence-classification",
+          "text-classification"
+        ],
+        "updated": "2025-11-13T05:13:34Z",
+        "url": "https://github.com/ajinkyaT/CNN_Intent_Classification",
+        "created": "2018-05-17T11:54:42Z"
+      },
+      {
+        "name": "Lip_Reading_in_the_Wild_AVSR",
+        "description": "Audio-Visual Speech Recognition using Deep Learning",
+        "stars": 61,
+        "forks": 22,
+        "language": "Python",
+        "topics": [],
+        "updated": "2025-09-05T13:20:00Z",
+        "url": "https://github.com/ajinkyaT/Lip_Reading_in_the_Wild_AVSR",
+        "created": "2018-06-04T13:37:51Z"
+      },
+      {
+        "name": "FAQ_Chatbot_Rasa",
+        "description": "FAQ's answering chatbot using open source chatbot framework Rasa Stack",
+        "stars": 34,
+        "forks": 13,
+        "language": "Python",
+        "topics": [
+          "chatbot",
+          "conversational-ai",
+          "rasa-core",
+          "rasa-nlu"
+        ],
+        "updated": "2025-11-13T05:13:38Z",
+        "url": "https://github.com/ajinkyaT/FAQ_Chatbot_Rasa",
+        "created": "2018-10-23T13:00:53Z"
+      },
+      {
+        "name": "AxisBank_AI_Challenge",
+        "description": "Forged signature verification using Siamese Convolutional Neural Network, and table extraction from PDF's",
+        "stars": 9,
+        "forks": 8,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "updated": "2026-01-20T17:47:57Z",
+        "url": "https://github.com/ajinkyaT/AxisBank_AI_Challenge",
+        "created": "2018-10-18T15:59:25Z"
+      },
+      {
+        "name": "GA_ANN",
+        "description": "Optimising ANN architecture using genetic algorithm.",
+        "stars": 5,
+        "forks": 3,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "genetic-algorithm",
+          "hyperparameter-optimization",
+          "neural-network"
+        ],
+        "updated": "2026-01-11T14:58:34Z",
+        "url": "https://github.com/ajinkyaT/GA_ANN",
+        "created": "2017-08-19T13:56:15Z"
+      },
+      {
+        "name": "CV_Deep_Learning_RoroData",
+        "description": "Work done during internship at Rorodata. Bio-Medical image diagnosis using Deep learning and Computer Vision.",
+        "stars": 4,
+        "forks": 1,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "updated": "2024-09-09T15:30:56Z",
+        "url": "https://github.com/ajinkyaT/CV_Deep_Learning_RoroData",
+        "created": "2017-12-04T19:50:52Z"
+      },
+      {
+        "name": "Deep_learning_Entity_Embeddings",
+        "description": "Deep Learning and Entity Embeddings to predict driving behaviour and cluster accident hotspots",
+        "stars": 4,
+        "forks": 1,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "deep-learning",
+          "driving-behavior",
+          "entity-embedding",
+          "keras-tensorflow"
+        ],
+        "updated": "2021-03-13T01:49:33Z",
+        "url": "https://github.com/ajinkyaT/Deep_learning_Entity_Embeddings",
+        "created": "2018-08-28T17:02:09Z"
+      },
+      {
+        "name": "data_science_cheat_sheets",
+        "description": "Cheat codes for data science competitions!",
+        "stars": 3,
+        "forks": 0,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "updated": "2025-02-02T14:40:23Z",
+        "url": "https://github.com/ajinkyaT/data_science_cheat_sheets",
+        "created": "2019-01-31T12:46:06Z"
+      },
+      {
+        "name": "Coursera_Convolutional_Neural_Network",
+        "description": "Programming assignments completed in Coursera's Convolutional Neural Networks course.",
+        "stars": 1,
+        "forks": 0,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "updated": "2019-10-10T05:49:03Z",
+        "url": "https://github.com/ajinkyaT/Coursera_Convolutional_Neural_Network",
+        "created": "2018-03-27T13:58:14Z"
+      },
+      {
+        "name": "AVSR_GSoC",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "updated": "2018-12-14T12:37:02Z",
+        "url": "https://github.com/ajinkyaT/AVSR_GSoC",
+        "created": "2018-06-26T10:13:28Z"
+      }
+    ],
+    "notableForks": [
+      {
+        "name": "coursera-Advanced-Machine-Learning-specialization",
+        "description": "Repo for coursera specialization Advanced Machine Learning by Higher School of Economics",
+        "stars": 1
+      },
+      {
+        "name": "semantic-search",
+        "description": "Semantic search for images and words using neural networks.",
+        "stars": 1
+      },
+      {
+        "name": "claude-code-sourcemap",
+        "description": "claude-code full original source code from source maps - only for reference",
+        "stars": 0
+      },
+      {
+        "name": "community-use",
+        "description": "Paid Workflows: Free for Community Use",
+        "stars": 0
+      },
+      {
+        "name": "mixio-landing-page",
+        "description": "Landing Page for Mixio",
+        "stars": 0
+      }
+    ]
+  },
+  "Aditya Jare": {
+    "username": "AdityaJare",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "blog": "",
+    "created_at": "2024-02-10T05:08:42Z",
+    "public_repos": 3,
+    "followers": 0,
+    "following": 0,
+    "stats": {
+      "totalRepos": 3,
+      "originalRepos": 3,
+      "forkedRepos": 0,
+      "recentlyActive": 0,
+      "languages": [
+        [
+          "Jupyter Notebook",
+          1
+        ],
+        [
+          "Python",
+          1
+        ],
+        [
+          "HTML",
+          1
+        ]
+      ]
+    },
+    "topOriginalRepos": [
+      {
+        "name": "ML-PRojects",
+        "description": "My ML projects  ",
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook",
+        "topics": [],
+        "updated": "2025-09-28T16:00:58Z",
+        "url": "https://github.com/AdityaJare/ML-PRojects",
+        "created": "2025-09-13T11:38:19Z"
+      },
+      {
+        "name": "multibpreneur",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "updated": "2025-06-16T14:33:36Z",
+        "url": "https://github.com/AdityaJare/multibpreneur",
+        "created": "2025-06-08T07:53:10Z"
+      },
+      {
+        "name": "travelling-website",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "updated": "2024-09-07T10:23:08Z",
+        "url": "https://github.com/AdityaJare/travelling-website",
+        "created": "2024-09-07T10:16:27Z"
+      }
+    ],
+    "notableForks": []
+  },
+  "Mayur Patil": {
+    "username": "mayur5204",
+    "bio": "AI-ML / Robotics enthusiast",
+    "company": "Student",
+    "location": "Pune",
+    "blog": "",
+    "created_at": "2023-08-29T09:09:11Z",
+    "public_repos": 6,
+    "followers": 2,
+    "following": 6,
+    "stats": {
+      "totalRepos": 6,
+      "originalRepos": 6,
+      "forkedRepos": 0,
+      "recentlyActive": 4,
+      "languages": [
+        [
+          "TypeScript",
+          3
+        ],
+        [
+          "JavaScript",
+          1
+        ],
+        [
+          "CSS",
+          1
+        ]
+      ]
+    },
+    "topOriginalRepos": [
+      {
+        "name": "Clinic-Mangement-New",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-31T15:53:16Z",
+        "url": "https://github.com/mayur5204/Clinic-Mangement-New",
+        "created": "2026-03-26T07:53:26Z"
+      },
+      {
+        "name": "Dairy-Billing-App",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "updated": "2026-03-31T13:13:02Z",
+        "url": "https://github.com/mayur5204/Dairy-Billing-App",
+        "created": "2025-12-19T10:49:20Z"
+      },
+      {
+        "name": "aqi",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-31T13:01:10Z",
+        "url": "https://github.com/mayur5204/aqi",
+        "created": "2026-03-22T13:50:45Z"
+      },
+      {
+        "name": "Password-Manager",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2026-03-30T15:27:12Z",
+        "url": "https://github.com/mayur5204/Password-Manager",
+        "created": "2026-03-04T16:14:33Z"
+      },
+      {
+        "name": "Farmmate-2.0",
+        "description": null,
+        "stars": 1,
+        "forks": 1,
+        "language": "CSS",
+        "topics": [],
+        "updated": "2025-07-24T06:00:35Z",
+        "url": "https://github.com/mayur5204/Farmmate-2.0",
+        "created": "2024-04-26T12:51:47Z"
+      },
+      {
+        "name": "mayur5204",
+        "description": "About myself",
+        "stars": 1,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2024-10-14T01:43:33Z",
+        "url": "https://github.com/mayur5204/mayur5204",
+        "created": "2023-09-18T02:20:23Z"
+      }
+    ],
+    "notableForks": []
+  },
+  "Pritesh Kamdi": {
+    "username": "theprtsh",
+    "bio": "Juggling things for now.",
+    "company": null,
+    "location": "Pune, IN",
+    "blog": "https://prtsh.com",
+    "created_at": "2023-05-19T06:34:27Z",
+    "public_repos": 16,
+    "followers": 4,
+    "following": 0,
+    "stats": {
+      "totalRepos": 16,
+      "originalRepos": 15,
+      "forkedRepos": 1,
+      "recentlyActive": 3,
+      "languages": [
+        [
+          "Python",
+          7
+        ],
+        [
+          "HTML",
+          2
+        ],
+        [
+          "Kotlin",
+          1
+        ],
+        [
+          "JavaScript",
+          1
+        ]
+      ]
+    },
+    "topOriginalRepos": [
+      {
+        "name": "faytm",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "Kotlin",
+        "topics": [],
+        "updated": "2026-01-06T18:31:43Z",
+        "url": "https://github.com/theprtsh/faytm",
+        "created": "2023-07-30T06:44:47Z"
+      },
+      {
+        "name": "db-asset-mapper",
+        "description": "Maps database assets to filesystem paths",
+        "stars": 1,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "updated": "2026-01-06T18:26:29Z",
+        "url": "https://github.com/theprtsh/db-asset-mapper",
+        "created": "2026-01-02T11:28:34Z"
+      },
+      {
+        "name": "smpost",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2026-01-21T05:54:26Z",
+        "url": "https://github.com/theprtsh/smpost",
+        "created": "2026-01-21T05:54:25Z"
+      },
+      {
+        "name": "shopify_orders",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [],
+        "updated": "2025-11-19T06:52:27Z",
+        "url": "https://github.com/theprtsh/shopify_orders",
+        "created": "2025-01-16T14:08:28Z"
+      },
+      {
+        "name": "final-year-student-programs",
+        "description": null,
+        "stars": 0,
+        "forks": 8,
+        "language": null,
+        "topics": [],
+        "updated": "2025-10-14T07:12:41Z",
+        "url": "https://github.com/theprtsh/final-year-student-programs",
+        "created": "2025-09-30T11:00:45Z"
+      },
+      {
+        "name": "AI-DS_Resources",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2025-09-09T17:18:55Z",
+        "url": "https://github.com/theprtsh/AI-DS_Resources",
+        "created": "2025-08-21T03:07:00Z"
+      },
+      {
+        "name": "aarjava-test",
+        "description": "Automated testing for testathon.live",
+        "stars": 0,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "test-automation",
+          "testing",
+          "testing-tools"
+        ],
+        "updated": "2025-08-23T14:40:17Z",
+        "url": "https://github.com/theprtsh/aarjava-test",
+        "created": "2025-08-23T06:37:06Z"
+      },
+      {
+        "name": "safe-ai",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": null,
+        "topics": [],
+        "updated": "2025-08-19T12:32:41Z",
+        "url": "https://github.com/theprtsh/safe-ai",
+        "created": "2025-08-05T16:50:43Z"
+      },
+      {
+        "name": "priteshck.github.io",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "updated": "2025-08-09T11:17:41Z",
+        "url": "https://github.com/theprtsh/priteshck.github.io",
+        "created": "2024-08-31T17:31:48Z"
+      },
+      {
+        "name": "mapsasdf.github.io",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "updated": "2025-02-07T21:15:10Z",
+        "url": "https://github.com/theprtsh/mapsasdf.github.io",
+        "created": "2025-02-07T21:13:06Z"
+      }
+    ],
+    "notableForks": [
+      {
+        "name": "chalk.github.io",
+        "description": "Fullscreen Javascript canvas implementation of a chalkboard with a realistic chalk effect.",
+        "stars": 0
+      }
+    ]
+  },
+  "Prasad Khake": {
+    "username": "robertlangdonn",
+    "bio": null,
+    "company": "@paperdink ",
+    "location": "remote",
+    "blog": "",
+    "created_at": "2018-05-30T18:35:50Z",
+    "public_repos": 6,
+    "followers": 2,
+    "following": 3,
+    "stats": {
+      "totalRepos": 6,
+      "originalRepos": 5,
+      "forkedRepos": 1,
+      "recentlyActive": 0,
+      "languages": [
+        [
+          "JavaScript",
+          3
+        ],
+        [
+          "HTML",
+          1
+        ],
+        [
+          "TypeScript",
+          1
+        ]
+      ]
+    },
+    "topOriginalRepos": [
+      {
+        "name": "paperd.ink_image_to_bmp",
+        "description": " Transform any JPG or PNG image into a compatible bitmap format for paperd.ink Classic and Merlot e-paper/e-ink dev boards using JavaScript and Node",
+        "stars": 2,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "updated": "2025-02-04T16:46:54Z",
+        "url": "https://github.com/robertlangdonn/paperd.ink_image_to_bmp",
+        "created": "2023-11-18T21:40:12Z"
+      },
+      {
+        "name": "FortunePi",
+        "description": null,
+        "stars": 1,
+        "forks": 0,
+        "language": "TypeScript",
+        "topics": [],
+        "updated": "2025-05-28T08:13:33Z",
+        "url": "https://github.com/robertlangdonn/FortunePi",
+        "created": "2025-03-12T11:59:03Z"
+      },
+      {
+        "name": "news_digest",
+        "description": "News article extraction from URLs using Text Extract API  and summarization using GPT 3.5 OpenAI API ",
+        "stars": 1,
+        "forks": 1,
+        "language": "JavaScript",
+        "topics": [],
+        "updated": "2023-11-13T18:42:14Z",
+        "url": "https://github.com/robertlangdonn/news_digest",
+        "created": "2023-10-08T22:33:16Z"
+      },
+      {
+        "name": "bibliography-sorter",
+        "description": "Streamlit app to sort bibliography entries by date and group by year",
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "topics": [],
+        "updated": "2025-09-01T07:49:49Z",
+        "url": "https://github.com/robertlangdonn/bibliography-sorter",
+        "created": "2025-09-01T07:49:19Z"
+      },
+      {
+        "name": "pi_editor",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [],
+        "updated": "2023-05-18T11:59:59Z",
+        "url": "https://github.com/robertlangdonn/pi_editor",
+        "created": "2023-05-18T11:55:30Z"
+      }
+    ],
+    "notableForks": [
+      {
+        "name": "paperdink",
+        "description": "ESP32 based E-paper display.",
+        "stars": 1
+      }
+    ]
+  }
+}

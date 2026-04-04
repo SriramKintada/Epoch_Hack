@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EPOCH_ Applicant Intelligence Dashboard</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0a0a0a; --surface: #141414; --surface2: #1e1e1e; --border: #2a2a2a;
+    --text: #e0e0e0; --text2: #888; --accent: #f59e0b; --green: #22c55e; --red: #ef4444;
+    --blue: #3b82f6; --purple: #a855f7; --cyan: #06b6d4;
+    --tierS: #f59e0b; --tierA: #3b82f6; --tierB: #a855f7; --tierC: #555;
+  }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg); color: var(--text); }
+  
+  .header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 20px 32px; display: flex; align-items: center; justify-content: space-between; }
+  .header h1 { font-size: 24px; font-weight: 700; letter-spacing: 2px; }
+  .header h1 span { color: var(--accent); }
+  .header .meta { color: var(--text2); font-size: 13px; }
+  
+  .stats-row { display: grid; grid-template-columns: repeat(7, 1fr); gap: 12px; padding: 20px 32px; }
+  .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; text-align: center; }
+  .stat-card .num { font-size: 28px; font-weight: 700; }
+  .stat-card .label { font-size: 11px; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+  .stat-card.s .num { color: var(--tierS); }
+  .stat-card.a .num { color: var(--tierA); }
+  .stat-card.b .num { color: var(--tierB); }
+  
+  .controls { padding: 12px 32px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .controls input, .controls select { background: var(--surface); border: 1px solid var(--border); color: var(--text); padding: 8px 14px; border-radius: 8px; font-size: 13px; outline: none; }
+  .controls input:focus, .controls select:focus { border-color: var(--accent); }
+  .controls input { width: 260px; }
+  .controls label { font-size: 12px; color: var(--text2); margin-right: 4px; }
+  .btn { background: var(--accent); color: #000; border: none; padding: 8px 16px; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; }
+  .btn:hover { opacity: 0.85; }
+  .btn.outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+  .btn.outline.active { border-color: var(--accent); color: var(--accent); }
+  
+  .table-wrap { padding: 0 32px 40px; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: var(--surface2); color: var(--text2); text-transform: uppercase; font-size: 10px; letter-spacing: 1px; padding: 10px 12px; text-align: left; cursor: pointer; user-select: none; white-space: nowrap; position: sticky; top: 0; z-index: 2; }
+  th:hover { color: var(--accent); }
+  th.sorted-asc::after { content: ' ▲'; color: var(--accent); }
+  th.sorted-desc::after { content: ' ▼'; color: var(--accent); }
+  td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:hover { background: var(--surface); }
+  tr.tier-s { border-left: 3px solid var(--tierS); }
+  tr.tier-a { border-left: 3px solid var(--tierA); }
+  tr.tier-b { border-left: 3px solid var(--tierB); }
+  tr.tier-c { border-left: 3px solid var(--tierC); opacity: 0.6; }
+  
+  .tier-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; }
+  .tier-badge.S { background: var(--tierS); color: #000; }
+  .tier-badge.A { background: var(--tierA); color: #fff; }
+  .tier-badge.B { background: var(--tierB); color: #fff; }
+  .tier-badge.C { background: var(--tierC); color: #fff; }
+  
+  .score-bar { display: flex; gap: 2px; align-items: center; }
+  .score-bar .seg { width: 8px; height: 16px; border-radius: 2px; background: var(--border); }
+  .score-bar .seg.filled { background: var(--accent); }
+  .score-bar .seg.filled.high { background: var(--green); }
+  .score-bar .seg.filled.mid { background: var(--accent); }
+  .score-bar .seg.filled.low { background: var(--red); }
+  
+  .commit-badge { font-size: 11px; padding: 2px 6px; border-radius: 3px; }
+  .commit-badge.yes { background: #22c55e22; color: var(--green); }
+  .commit-badge.most { background: #f59e0b22; color: var(--accent); }
+  .commit-badge.unsure { background: #ef444422; color: var(--red); }
+  .commit-badge.remote { background: #3b82f622; color: var(--blue); }
+  
+  .signals-list { font-size: 11px; color: var(--text2); max-width: 300px; }
+  .signals-list li { margin-bottom: 2px; }
+  .signals-list li::marker { color: var(--accent); }
+  
+  .linkedin-bar { display: flex; align-items: center; gap: 6px; }
+  .linkedin-bar .bar { height: 6px; background: var(--blue); border-radius: 3px; min-width: 2px; }
+  
+  .detail-modal { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 100; overflow-y: auto; }
+  .detail-modal.active { display: flex; justify-content: center; padding: 40px; }
+  .detail-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; max-width: 800px; width: 100%; padding: 32px; position: relative; max-height: 90vh; overflow-y: auto; }
+  .detail-card .close { position: absolute; top: 16px; right: 16px; cursor: pointer; font-size: 20px; color: var(--text2); }
+  .detail-card h2 { font-size: 22px; margin-bottom: 4px; }
+  .detail-card .subtitle { color: var(--text2); font-size: 13px; margin-bottom: 20px; }
+  .detail-section { margin-bottom: 20px; }
+  .detail-section h3 { font-size: 13px; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .detail-section p, .detail-section li { font-size: 13px; line-height: 1.6; }
+  .detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .detail-grid .item { background: var(--surface2); padding: 12px; border-radius: 8px; }
+  .detail-grid .item .label { font-size: 10px; color: var(--text2); text-transform: uppercase; }
+  .detail-grid .item .value { font-size: 16px; font-weight: 600; margin-top: 4px; }
+  
+  .radar-chart { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin: 12px 0; }
+  .radar-item { text-align: center; }
+  .radar-item .bar-bg { width: 100%; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .radar-item .bar-fill { height: 100%; border-radius: 4px; transition: width 0.3s; }
+  .radar-item .lbl { font-size: 9px; color: var(--text2); margin-top: 4px; text-transform: uppercase; }
+  .radar-item .val { font-size: 14px; font-weight: 700; }
+
+  .view-tabs { padding: 0 32px; display: flex; gap: 8px; margin-bottom: 16px; }
+  .view-tab { padding: 8px 16px; border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer; background: var(--surface); border: 1px solid var(--border); color: var(--text2); }
+  .view-tab.active { background: var(--accent); color: #000; border-color: var(--accent); }
+  
+  @media (max-width: 1200px) {
+    .stats-row { grid-template-columns: repeat(4, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>EPOCH<span>_</span> Intelligence Dashboard</h1>
+    <div class="meta">34 Applicants · 31 LinkedIn Profiles · 9 GitHub Deep Dives · 13 Video Transcriptions · Generated Apr 3, 2026</div>
+  </div>
+  <div style="display:flex;gap:8px;">
+    <button class="btn" onclick="exportCSV()">Export CSV</button>
+  </div>
+</div>
+
+<div class="stats-row" id="statsRow"></div>
+
+<div class="view-tabs" id="viewTabs">
+  <div class="view-tab active" data-view="master" onclick="switchView('master')">Master Table</div>
+  <div class="view-tab" data-view="scores" onclick="switchView('scores')">Score Breakdown</div>
+  <div class="view-tab" data-view="linkedin" onclick="switchView('linkedin')">LinkedIn Intel</div>
+  <div class="view-tab" data-view="signals" onclick="switchView('signals')">Founder Signals</div>
+  <div class="view-tab" data-view="vertical" onclick="switchView('vertical')">By Vertical</div>
+</div>
+
+<div class="controls">
+  <input type="text" id="searchInput" placeholder="Search by name, city, vertical..." oninput="renderTable()">
+  <label>Tier:</label>
+  <select id="tierFilter" onchange="renderTable()">
+    <option value="">All</option>
+    <option value="S">S — Auto-Accept</option>
+    <option value="A">A — Interview</option>
+    <option value="B">B — Conditional</option>
+    <option value="C">C — Pass</option>
+  </select>
+  <label>Track:</label>
+  <select id="trackFilter" onchange="renderTable()">
+    <option value="">All</option>
+    <option value="STAGE 0">Stage 0</option>
+    <option value="STAGE 1">Stage 1</option>
+  </select>
+  <label>Commit:</label>
+  <select id="commitFilter" onchange="renderTable()">
+    <option value="">All</option>
+    <option value="yes_all">Yes All</option>
+    <option value="yes_most">Yes Most</option>
+    <option value="unsure">Unsure</option>
+    <option value="remote">Remote</option>
+  </select>
+  <label>City:</label>
+  <select id="cityFilter" onchange="renderTable()">
+    <option value="">All</option>
+  </select>
+</div>
+
+<div class="table-wrap">
+  <table id="mainTable">
+    <thead id="tableHead"></thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+</div>
+
+<div class="detail-modal" id="detailModal">
+  <div class="detail-card" id="detailCard">
+    <span class="close" onclick="closeDetail()">✕</span>
+    <div id="detailContent"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+let currentView = 'master';
+let sortCol = 'rank';
+let sortDir = 'asc';
+
+// Init
+function init() {
+  renderStats();
+  populateCityFilter();
+  renderTable();
+}
+
+function renderStats() {
+  const tierCounts = { S: 0, A: 0, B: 0, C: 0 };
+  let totalScore = 0, videoCount = 0, linkedinCount = 0, githubCount = 0;
+  APPLICANTS.forEach(a => {
+    tierCounts[a.tier]++;
+    totalScore += a.totalScore;
+    if (a.hasVideo) videoCount++;
+    if (a.liFollowers > 0) linkedinCount++;
+    if (a.ghRepos > 0) githubCount++;
+  });
+  
+  document.getElementById('statsRow').innerHTML = `
+    <div class="stat-card"><div class="num">${APPLICANTS.length}</div><div class="label">Total Applicants</div></div>
+    <div class="stat-card s"><div class="num">${tierCounts.S}</div><div class="label">S-Tier (Auto-Accept)</div></div>
+    <div class="stat-card a"><div class="num">${tierCounts.A}</div><div class="label">A-Tier (Interview)</div></div>
+    <div class="stat-card b"><div class="num">${tierCounts.B}</div><div class="label">B-Tier (Conditional)</div></div>
+    <div class="stat-card"><div class="num">${videoCount}</div><div class="label">Video Apps</div></div>
+    <div class="stat-card"><div class="num">${linkedinCount}</div><div class="label">LinkedIn Scraped</div></div>
+    <div class="stat-card"><div class="num">${githubCount}</div><div class="label">GitHub Analyzed</div></div>
+  `;
+}
+
+function populateCityFilter() {
+  const cities = [...new Set(APPLICANTS.map(a => a.city.split('/')[0].split('(')[0].trim()))].sort();
+  const sel = document.getElementById('cityFilter');
+  cities.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; sel.appendChild(o); });
+}
+
+function getFilteredData() {
+  let data = [...APPLICANTS];
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  const tier = document.getElementById('tierFilter').value;
+  const track = document.getElementById('trackFilter').value;
+  const commit = document.getElementById('commitFilter').value;
+  const city = document.getElementById('cityFilter').value;
+  
+  if (search) data = data.filter(a => 
+    a.name.toLowerCase().includes(search) || a.city.toLowerCase().includes(search) || 
+    a.vertical.toLowerCase().includes(search) || a.building.toLowerCase().includes(search) ||
+    (a.headline||'').toLowerCase().includes(search)
+  );
+  if (tier) data = data.filter(a => a.tier === tier);
+  if (track) data = data.filter(a => a.track === track);
+  if (commit) data = data.filter(a => a.canCommit === commit);
+  if (city) data = data.filter(a => a.city.includes(city));
+  
+  // Sort
+  data.sort((a, b) => {
+    let va = a[sortCol], vb = b[sortCol];
+    if (typeof va === 'number' && typeof vb === 'number') return sortDir === 'asc' ? va - vb : vb - va;
+    if (typeof va === 'string') return sortDir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va);
+    return 0;
+  });
+  return data;
+}
+
+function scoreBar(val, max=10) {
+  let cls = val >= 8 ? 'high' : val >= 5 ? 'mid' : 'low';
+  let segs = '';
+  for (let i = 0; i < max; i++) segs += `<div class="seg ${i < val ? 'filled ' + cls : ''}"></div>`;
+  return `<div class="score-bar">${segs}<span style="font-size:11px;margin-left:4px;color:var(--text2)">${val}</span></div>`;
+}
+
+function commitBadge(v) {
+  const map = { yes_all: ['✓ All', 'yes'], yes_most: ['~ Most', 'most'], unsure: ['? Unsure', 'unsure'], remote: ['↗ Remote', 'remote'] };
+  const [label, cls] = map[v] || [v, ''];
+  return `<span class="commit-badge ${cls}">${label}</span>`;
+}
+
+function linkedinBar(followers) {
+  const maxF = Math.max(...APPLICANTS.map(a => a.liFollowers));
+  const w = followers > 0 ? Math.max(4, (followers / maxF) * 120) : 0;
+  return followers > 0 ? `<div class="linkedin-bar"><div class="bar" style="width:${w}px"></div><span style="font-size:11px;color:var(--text2)">${followers.toLocaleString()}</span></div>` : '<span style="color:var(--tierC);font-size:11px">—</span>';
+}
+
+const VIEWS = {
+  master: {
+    cols: [
+      { key: 'rank', label: '#', w: '40px' },
+      { key: 'tier', label: 'Tier', w: '50px' },
+      { key: 'name', label: 'Name', w: '180px' },
+      { key: 'city', label: 'City', w: '100px' },
+      { key: 'age', label: 'Age', w: '60px' },
+      { key: 'vertical', label: 'Vertical', w: '160px' },
+      { key: 'building', label: 'Building', w: '240px' },
+      { key: 'track', label: 'Track', w: '70px' },
+      { key: 'canCommit', label: 'Commit', w: '80px' },
+      { key: 'totalScore', label: 'Score', w: '60px' },
+      { key: 'liFollowers', label: 'LinkedIn', w: '140px' },
+      { key: 'hasVideo', label: 'Vid', w: '40px' },
+    ],
+    render: (a, col) => {
+      switch(col) {
+        case 'tier': return `<span class="tier-badge ${a.tier}">${a.tier}</span>`;
+        case 'name': return `<a href="#" onclick="showDetail('${a.name.replace(/'/g,"\\'")}');return false" style="color:var(--accent);text-decoration:none;font-weight:600">${a.name}</a><div style="font-size:10px;color:var(--text2);max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${a.headline||''}</div>`;
+        case 'building': return `<div style="max-width:240px;font-size:12px">${a.building}</div>`;
+        case 'canCommit': return commitBadge(a.canCommit);
+        case 'totalScore': return `<span style="font-weight:700;color:${a.totalScore>=44?'var(--green)':a.totalScore>=35?'var(--accent)':'var(--red)'}">${a.totalScore}/50</span>`;
+        case 'liFollowers': return linkedinBar(a.liFollowers);
+        case 'hasVideo': return a.hasVideo ? '🎥' : '';
+        case 'track': return `<span style="font-size:11px;color:${a.track==='STAGE 1'?'var(--green)':'var(--text2)'}">${a.track}</span>`;
+        default: return a[col] ?? '';
+      }
+    }
+  },
+  scores: {
+    cols: [
+      { key: 'rank', label: '#', w: '40px' },
+      { key: 'tier', label: 'Tier', w: '50px' },
+      { key: 'name', label: 'Name', w: '180px' },
+      { key: 'scores.founderCredibility', label: 'Founder Cred', w: '120px' },
+      { key: 'scores.techDepth', label: 'Tech Depth', w: '120px' },
+      { key: 'scores.industryFit', label: 'Industry Fit', w: '120px' },
+      { key: 'scores.commitment', label: 'Commitment', w: '120px' },
+      { key: 'scores.epochReadiness', label: 'Epoch Ready', w: '120px' },
+      { key: 'totalScore', label: 'Total', w: '70px' },
+    ],
+    render: (a, col) => {
+      if (col === 'tier') return `<span class="tier-badge ${a.tier}">${a.tier}</span>`;
+      if (col === 'name') return `<span style="font-weight:600">${a.name}</span>`;
+      if (col === 'totalScore') return `<span style="font-weight:700;font-size:16px;color:${a.totalScore>=44?'var(--green)':a.totalScore>=35?'var(--accent)':'var(--red)'}">${a.totalScore}/50</span>`;
+      if (col.startsWith('scores.')) {
+        const k = col.split('.')[1];
+        return scoreBar(a.scores[k]);
+      }
+      return a[col] ?? '';
+    }
+  },
+  linkedin: {
+    cols: [
+      { key: 'rank', label: '#', w: '40px' },
+      { key: 'tier', label: 'Tier', w: '50px' },
+      { key: 'name', label: 'Name', w: '160px' },
+      { key: 'headline', label: 'Headline', w: '280px' },
+      { key: 'liFollowers', label: 'Followers', w: '100px' },
+      { key: 'liConnections', label: 'Connections', w: '100px' },
+      { key: 'education', label: 'Education', w: '200px' },
+      { key: 'expYears', label: 'Exp (yr)', w: '70px' },
+      { key: 'experience', label: 'Experience', w: '300px' },
+    ],
+    render: (a, col) => {
+      if (col === 'tier') return `<span class="tier-badge ${a.tier}">${a.tier}</span>`;
+      if (col === 'name') return `<span style="font-weight:600">${a.name}</span>`;
+      if (col === 'liFollowers') return linkedinBar(a.liFollowers);
+      if (col === 'liConnections') return a.liConnections > 0 ? a.liConnections.toLocaleString() : '—';
+      if (col === 'headline') return `<div style="max-width:280px;font-size:11px;color:var(--text2)">${a.headline||'—'}</div>`;
+      if (col === 'education') return `<div style="max-width:200px;font-size:11px">${a.education||'—'}</div>`;
+      if (col === 'experience') return `<div style="max-width:300px;font-size:11px;color:var(--text2)">${a.experience||'—'}</div>`;
+      if (col === 'expYears') return `<span style="font-weight:700;color:${a.expYears>=10?'var(--green)':a.expYears>=3?'var(--accent)':'var(--text2)'}">${a.expYears}y</span>`;
+      return a[col] ?? '';
+    }
+  },
+  signals: {
+    cols: [
+      { key: 'rank', label: '#', w: '40px' },
+      { key: 'tier', label: 'Tier', w: '50px' },
+      { key: 'name', label: 'Name', w: '160px' },
+      { key: 'founderSignals', label: 'Key Founder Signals', w: '400px' },
+      { key: 'mentorMatch', label: 'Mentor Match', w: '200px' },
+      { key: 'risk', label: 'Risk', w: '250px' },
+      { key: 'videoSummary', label: 'Video Summary', w: '250px' },
+    ],
+    render: (a, col) => {
+      if (col === 'tier') return `<span class="tier-badge ${a.tier}">${a.tier}</span>`;
+      if (col === 'name') return `<span style="font-weight:600">${a.name}</span>`;
+      if (col === 'founderSignals') {
+        const items = (a.founderSignals||[]).slice(0, 4).map(s => `<li>${s}</li>`).join('');
+        const more = a.founderSignals.length > 4 ? `<li style="color:var(--accent)">+${a.founderSignals.length - 4} more...</li>` : '';
+        return `<ul class="signals-list">${items}${more}</ul>`;
+      }
+      if (col === 'risk') return `<div style="font-size:11px;color:var(--red);max-width:250px">${a.risk||'—'}</div>`;
+      if (col === 'videoSummary') return a.videoSummary ? `<div style="font-size:11px;max-width:250px;color:var(--text2)">${a.videoSummary}</div>` : '<span style="color:var(--tierC)">—</span>';
+      if (col === 'mentorMatch') return `<div style="font-size:11px;max-width:200px">${a.mentorMatch||'—'}</div>`;
+      return a[col] ?? '';
+    }
+  },
+  vertical: {
+    cols: [
+      { key: 'rank', label: '#', w: '40px' },
+      { key: 'tier', label: 'Tier', w: '50px' },
+      { key: 'name', label: 'Name', w: '180px' },
+      { key: 'vertical', label: 'Vertical', w: '200px' },
+      { key: 'track', label: 'Track', w: '80px' },
+      { key: 'applyType', label: 'Solo/Team', w: '80px' },
+      { key: 'totalScore', label: 'Score', w: '70px' },
+      { key: 'mentorMatch', label: 'Mentor Match', w: '200px' },
+      { key: 'building', label: 'Building', w: '300px' },
+    ],
+    render: (a, col) => {
+      if (col === 'tier') return `<span class="tier-badge ${a.tier}">${a.tier}</span>`;
+      if (col === 'name') return `<span style="font-weight:600">${a.name}</span>`;
+      if (col === 'totalScore') return `<span style="font-weight:700;color:${a.totalScore>=44?'var(--green)':a.totalScore>=35?'var(--accent)':'var(--red)'}">${a.totalScore}/50</span>`;
+      if (col === 'track') return `<span style="font-size:11px;color:${a.track==='STAGE 1'?'var(--green)':'var(--text2)'}">${a.track}</span>`;
+      if (col === 'applyType') return `<span style="font-size:11px">${a.applyType==='team'?'👥 Team':'👤 Solo'}</span>`;
+      if (col === 'building') return `<div style="max-width:300px;font-size:12px">${a.building}</div>`;
+      if (col === 'mentorMatch') return `<div style="font-size:11px;max-width:200px">${a.mentorMatch||'—'}</div>`;
+      return a[col] ?? '';
+    }
+  }
+};
+
+function switchView(view) {
+  currentView = view;
+  document.querySelectorAll('.view-tab').forEach(t => t.classList.toggle('active', t.dataset.view === view));
+  sortCol = 'rank'; sortDir = 'asc';
+  renderTable();
+}
+
+function renderTable() {
+  const view = VIEWS[currentView];
+  const data = getFilteredData();
+  
+  // Header
+  document.getElementById('tableHead').innerHTML = '<tr>' + view.cols.map(c => {
+    let cls = sortCol === c.key ? (sortDir === 'asc' ? 'sorted-asc' : 'sorted-desc') : '';
+    return `<th class="${cls}" style="width:${c.w}" onclick="toggleSort('${c.key}')">${c.label}</th>`;
+  }).join('') + '</tr>';
+  
+  // Body
+  document.getElementById('tableBody').innerHTML = data.map(a => {
+    const cls = `tier-${a.tier.toLowerCase()}`;
+    return `<tr class="${cls}">` + view.cols.map(c => {
+      const val = view.render(a, c.key);
+      return `<td>${val}</td>`;
+    }).join('') + '</tr>';
+  }).join('');
+}
+
+function toggleSort(col) {
+  if (sortCol === col) sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+  else { sortCol = col; sortDir = col === 'rank' ? 'asc' : 'desc'; }
+  renderTable();
+}
+
+function showDetail(name) {
+  const a = APPLICANTS.find(x => x.name === name);
+  if (!a) return;
+  
+  const signals = (a.founderSignals||[]).map(s => `<li>${s}</li>`).join('');
+  
+  document.getElementById('detailContent').innerHTML = `
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+      <span class="tier-badge ${a.tier}" style="font-size:16px;padding:4px 12px">${a.tier}</span>
+      <h2>${a.name}</h2>
+      <span style="color:var(--text2);font-size:14px">#${a.rank}</span>
+    </div>
+    <div class="subtitle">${a.headline || ''}</div>
+    
+    <div class="detail-grid">
+      <div class="item"><div class="label">City</div><div class="value">${a.city}</div></div>
+      <div class="item"><div class="label">Age Estimate</div><div class="value">${a.age}</div></div>
+      <div class="item"><div class="label">Track</div><div class="value">${a.track}</div></div>
+      <div class="item"><div class="label">Type</div><div class="value">${a.applyType === 'team' ? '👥 Team' : '👤 Solo'}</div></div>
+      <div class="item"><div class="label">Commitment</div><div class="value">${commitBadge(a.canCommit)}</div></div>
+      <div class="item"><div class="label">Total Score</div><div class="value" style="color:${a.totalScore>=44?'var(--green)':a.totalScore>=35?'var(--accent)':'var(--red)'}; font-size:24px">${a.totalScore}/50</div></div>
+    </div>
+    
+    <div class="detail-section" style="margin-top:20px">
+      <h3>Score Breakdown</h3>
+      <div class="radar-chart">
+        ${Object.entries(a.scores).map(([k, v]) => {
+          const color = v >= 8 ? 'var(--green)' : v >= 5 ? 'var(--accent)' : 'var(--red)';
+          return `<div class="radar-item">
+            <div class="val" style="color:${color}">${v}</div>
+            <div class="bar-bg"><div class="bar-fill" style="width:${v*10}%;background:${color}"></div></div>
+            <div class="lbl">${k.replace(/([A-Z])/g, ' $1').trim()}</div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>
+    
+    <div class="detail-section">
+      <h3>Vertical</h3>
+      <p>${a.vertical}</p>
+    </div>
+    
+    <div class="detail-section">
+      <h3>Building</h3>
+      <p>${a.building}</p>
+    </div>
+    
+    <div class="detail-section">
+      <h3>Education</h3>
+      <p>${a.education || '—'}</p>
+    </div>
+    
+    <div class="detail-section">
+      <h3>Experience (${a.expYears}yr)</h3>
+      <p>${a.experience || '—'}</p>
+    </div>
+    
+    <div class="detail-section">
+      <h3>LinkedIn</h3>
+      <p>${a.linkedin ? `<a href="https://${a.linkedin}" target="_blank" style="color:var(--blue)">${a.linkedin}</a>` : '—'} · ${a.liFollowers.toLocaleString()} followers · ${a.liConnections.toLocaleString()} connections</p>
+    </div>
+    
+    <div class="detail-section">
+      <h3>GitHub</h3>
+      <p>${a.github ? `<a href="https://github.com/${a.github}" target="_blank" style="color:var(--green)">${a.github}</a> · ${a.ghRepos} repos (${a.ghOriginal} original) · ★${a.ghStars} · ${a.ghLanguages}` : '—'}</p>
+    </div>
+    
+    <div class="detail-section">
+      <h3>Founder Signals</h3>
+      <ul style="padding-left:16px;font-size:13px;line-height:1.8">${signals}</ul>
+    </div>
+    
+    <div class="detail-section">
+      <h3>Mentor Match</h3>
+      <p>${a.mentorMatch || '—'}</p>
+    </div>
+    
+    <div class="detail-section">
+      <h3>Risk Assessment</h3>
+      <p style="color:var(--red)">${a.risk || '—'}</p>
+    </div>
+    
+    ${a.videoSummary ? `<div class="detail-section"><h3>🎥 Video Transcript Summary</h3><p style="color:var(--text2)">${a.videoSummary}</p></div>` : ''}
+    
+    <div class="detail-section">
+      <h3>Contact</h3>
+      <p>📧 ${a.email} · 📱 ${a.phone}</p>
+    </div>
+  `;
+  
+  document.getElementById('detailModal').classList.add('active');
+}
+
+function closeDetail() {
+  document.getElementById('detailModal').classList.remove('active');
+}
+document.getElementById('detailModal').addEventListener('click', function(e) {
+  if (e.target === this) closeDetail();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
+
+function exportCSV() {
+  const headers = ['Rank','Tier','Name','City','Age','Vertical','Building','Track','Type','Commit','Total Score','Founder Cred','Tech Depth','Industry Fit','Commitment Score','Epoch Ready','LinkedIn Followers','LinkedIn Connections','GitHub Repos','GitHub Stars','Education','Experience Years','Mentor Match','Risk','Email','Phone'];
+  const rows = APPLICANTS.map(a => [
+    a.rank, a.tier, a.name, a.city, a.age, a.vertical, `"${a.building}"`, a.track, a.applyType, a.canCommit,
+    a.totalScore, a.scores.founderCredibility, a.scores.techDepth, a.scores.industryFit, a.scores.commitment, a.scores.epochReadiness,
+    a.liFollowers, a.liConnections, a.ghRepos, a.ghStars, `"${a.education||''}"`, a.expYears, `"${a.mentorMatch||''}"`, `"${a.risk||''}"`, a.email, a.phone
+  ]);
+  const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url; link.download = 'epoch-applicants.csv'; link.click();
+}
+
+init();
+</script>
+</body>
+</html>
