@@ -51,15 +51,17 @@ interface Top15Entry {
 // ── Data ───────────────────────────────────────────────────────────
 const INTERVIEW_SLOTS = [
   '',
-  // Sunday Apr 5 (10 AM - 5:15 PM, 45 min each = 9 slots)
-  'Sun 10:00 AM', 'Sun 10:45 AM', 'Sun 11:30 AM', 'Sun 12:15 PM',
-  'Sun 1:00 PM', 'Sun 1:45 PM', 'Sun 2:30 PM', 'Sun 3:15 PM', 'Sun 4:00 PM',
-  // Monday Apr 7 (1.5 hr = 2 slots)
-  'Mon 5:00 PM', 'Mon 5:45 PM',
-  // Tuesday Apr 8 (1.5 hr = 2 slots)
-  'Tue 5:00 PM', 'Tue 5:45 PM',
-  // Wednesday Apr 9 (1.5 hr = 2 slots)
-  'Wed 5:00 PM', 'Wed 5:45 PM',
+  // Sunday Apr 5 (10 AM - 6 PM, 25 min + 5 buffer = 30 min blocks, 16 slots)
+  'Sun 10:00', 'Sun 10:30', 'Sun 11:00', 'Sun 11:30',
+  'Sun 12:00', 'Sun 12:30', 'Sun 1:00', 'Sun 1:30',
+  'Sun 2:00', 'Sun 2:30', 'Sun 3:00', 'Sun 3:30',
+  'Sun 4:00', 'Sun 4:30', 'Sun 5:00', 'Sun 5:30',
+  // Monday Apr 7 (1.5 hr = 3 slots, Mumbai online)
+  'Mon 5:00', 'Mon 5:30', 'Mon 6:00',
+  // Tuesday Apr 8 (1.5 hr = 3 slots, Mumbai online)
+  'Tue 5:00', 'Tue 5:30', 'Tue 6:00',
+  // Wednesday Apr 9 (1.5 hr = 3 slots, overflow)
+  'Wed 5:00', 'Wed 5:30', 'Wed 6:00',
 ];
 
 const PRIORITY_APPLICANTS: PriorityApplicant[] = [
@@ -67,86 +69,154 @@ const PRIORITY_APPLICANTS: PriorityApplicant[] = [
     rank: 1, name: 'Basil Paulose', team: 'Reoxide AI', phone: '98332 39950',
     building: 'India\'s 1st AI Carbon Trading Marketplace. Edinburgh, Draper Startup House, UCR partnership, 10M credits.',
     slotPreference: 'Sunday/Monday/Tuesday',
-    defaultScores: { product: 4, sales: 5, technical: 4, interviewSlot: 'Sun 10:00 AM' }
+    defaultScores: { product: 4, sales: 4, technical: 5, interviewSlot: 'Sun 10:00' }
   },
   {
-    rank: 2, name: 'Harshit Chouhan + Yogendra + Nilesh', team: 'Colrows', phone: '9406646575',
-    building: 'AI-native semantic layer for data warehouses. Yogendra ex-Pfizer/GSK/HUL SaaS founder. MS hackathon winner.',
-    slotPreference: 'Sunday',
-    defaultScores: { product: 5, sales: 4, technical: 4, interviewSlot: 'Sun 10:45 AM' }
+    rank: 2, name: 'Ritesh Bhakare + team', team: 'AgriBotics', phone: '+918262921113',
+    building: '500+ farmers on WhatsApp, NitiQuest finals, Best Agri-Tech. Location-based farming guidance. Real traction with real farmers.',
+    slotPreference: 'Sunday (needs slot email)',
+    defaultScores: { product: 4, sales: 4, technical: 3, interviewSlot: 'Sun 10:30' }
   },
   {
-    rank: 3, name: 'Dhruv Gadiya + Divy Patil', team: 'PayGate', phone: '8908901008 / 8141921999',
-    building: 'x402 payment infrastructure for API endpoints. Won highest bounty at ETH Mumbai. Oasiz app 500+ users.',
-    slotPreference: 'Sunday (any time, offline)',
-    defaultScores: { product: 4, sales: 4, technical: 5, interviewSlot: 'Sun 11:30 AM' }
+    rank: 3, name: 'Jainam Oswal + team', team: 'AI PPT Maker', phone: '+919370682619',
+    building: '15L MVP client. Custom programming language for PPTs (Mermaid-inspired). Real money from real customer.',
+    slotPreference: 'Sunday (needs slot email)',
+    defaultScores: { product: 4, sales: 5, technical: 3, interviewSlot: 'Sun 11:00' }
   },
   {
     rank: 4, name: 'Rahul Dange', team: 'Mediz', phone: '9860488395',
-    building: 'Pharmacy-customer matching platform. Background: UPI SDKs, Tata Neu, Sarvatra, AEPS apps for banks.',
+    building: 'Built UPI SDKs at Sarvatra, Tata Neu mobile apps, AEPS for banks. Enterprise-grade fintech engineer. Mediz is early.',
     slotPreference: 'Sunday',
-    defaultScores: { product: 4, sales: 4, technical: 4, interviewSlot: 'Sun 12:15 PM' }
+    defaultScores: { product: 3, sales: 3, technical: 5, interviewSlot: 'Sun 11:30' }
   },
   {
-    rank: 5, name: 'Muhammed Umar + Anas Shaikh', team: 'Motoriq', phone: '9604646511',
-    building: 'Vehicle Management System for used car dealerships. 18% GST Margin Engine, AI-powered, RTO invoicing. Live product.',
+    rank: 5, name: 'Harshit + Yogendra + Nilesh', team: 'Colrows', phone: '9406646575',
+    building: 'AI semantic layer for DBs. Yogendra had Pfizer/GSK/HUL as paying clients in prev SaaS. Nilesh ran 600K/yr institute.',
     slotPreference: 'Sunday',
-    defaultScores: { product: 3, sales: 3, technical: 3, interviewSlot: 'Sun 1:00 PM' }
+    defaultScores: { product: 4, sales: 4, technical: 4, interviewSlot: 'Sun 12:00' }
   },
   {
-    rank: 6, name: 'Viswapriya V', team: 'Nutrextr', phone: '8788357282',
-    building: 'Iron-rich jellies from natural sources for anemia. Founder/CEO.',
-    slotPreference: 'Sun 11 AM / Mon-Tue 6 PM',
-    defaultScores: { product: 3, sales: 3, technical: 2, interviewSlot: 'Sun 1:45 PM' }
+    rank: 6, name: 'Ismail Patel', team: 'MSME AI Engine', phone: '8788737771',
+    building: 'Co-leads MCCIA Applied AI Studio. 550+ MSMEs, 700+ consulting sessions, 25% efficiency gains. Institutional impact.',
+    slotPreference: 'Sunday (Pune)',
+    defaultScores: { product: 4, sales: 3, technical: 3, interviewSlot: 'Sun 12:30' }
   },
   {
-    rank: 7, name: 'Neel Pote', team: 'Solo', phone: '9356571969',
-    building: 'Decentralized Y Combinator concept.',
-    slotPreference: 'Sunday (anytime)',
-    defaultScores: { product: 2, sales: 1, technical: 2, interviewSlot: 'Sun 2:30 PM' }
+    rank: 7, name: 'Ajinkya Takawale + team', team: 'Mixio', phone: '8768007772',
+    building: 'Agentic AI video platform. Co-founder was founding eng at Vapi (YC). Open-sourced SLMs pre-ChatGPT. IIT KGP. Beta live.',
+    slotPreference: 'Sunday if can come, else Mon online',
+    defaultScores: { product: 4, sales: 3, technical: 5, interviewSlot: 'Sun 1:00' }
   },
   {
-    rank: 8, name: 'Krish Gupta', team: 'Unknown', phone: '7219570360',
-    building: 'Unknown. Walked in, not in database.',
+    rank: 8, name: 'Basil Paulose', team: 'Reoxide AI', phone: '98332 39950',
+    building: 'AI carbon trading marketplace. Edinburgh/Draper programs. 10M credits listed (not necessarily sold). Bootstrapped.',
+    slotPreference: 'Sun/Mon/Tue',
+    defaultScores: { product: 3, sales: 3, technical: 3, interviewSlot: 'Sun 1:30' }
+  },
+  {
+    rank: 9, name: 'Ankush Deshmukh', team: 'ZRONE', phone: '9890985151',
+    building: '14yr Cloud Architect (Fortune 500) + 10yr fitness trainer. ZRONE AI fitness wearable ecosystem. Concept stage.',
+    slotPreference: 'Sunday (needs slot email)',
+    defaultScores: { product: 3, sales: 2, technical: 4, interviewSlot: 'Sun 2:00' }
+  },
+  {
+    rank: 10, name: 'Muhammed Umar + Anas', team: 'Motoriq', phone: '9604646511',
+    building: 'Vehicle mgmt for used car dealers. GST Margin Engine. Live product at motor-iq-two.vercel.app. No revenue yet.',
     slotPreference: 'Sunday',
-    defaultScores: { product: null, sales: null, technical: null, interviewSlot: 'Sun 3:15 PM' }
+    defaultScores: { product: 3, sales: 2, technical: 3, interviewSlot: 'Sun 2:30' }
   },
   {
-    rank: 9, name: 'Almas Sayyed', team: 'PuneDAO', phone: '8263839962',
-    building: 'PuneDAO: 2000+ community, 100+ events in 4 years. Blockchain/AI/Cybersecurity.',
-    slotPreference: 'Sunday evening or weekday',
-    defaultScores: { product: 2, sales: 3, technical: 3, interviewSlot: 'Sun 4:00 PM' }
-  },
-  // --- Mon/Tue/Wed — 2 per day, 1.5 hrs each ---
-  {
-    rank: 10, name: 'Niraj Puran Rao', team: 'Solo (3 builds)', phone: '9545050618',
-    building: 'GDPR AI marketing for Europe, adaptive trading system, BNI for AI agents. Pro fighter, IIT Roorkee GenAI.',
-    slotPreference: 'Monday 6 PM',
-    defaultScores: { product: 3, sales: 3, technical: 4, interviewSlot: 'Mon 5:00 PM' }
-  },
-  {
-    rank: 11, name: 'Prashant Patil', team: 'BAAS Technologies', phone: '9665237210',
-    building: 'Reusable launch vehicle for suborbital/orbital market. CTO. Team of 5+.',
-    slotPreference: 'TBD',
-    defaultScores: { product: 4, sales: 3, technical: 5, interviewSlot: 'Mon 5:45 PM' }
-  },
-  {
-    rank: 12, name: 'Mayur Patil', team: 'Ayurvedic SaaS', phone: '7397887032',
-    building: 'Ayurvedic Clinic Management SaaS. Digitize 500K+ practitioners. Live product, real client. Shipped Dairy Billing App.',
+    rank: 11, name: 'Mayur Patil', team: 'Ayurvedic SaaS', phone: '7397887032',
+    building: 'Ayurvedic Clinic Mgmt. Live product, real client. Dairy Billing App in production. 500K practitioner market.',
     slotPreference: 'Tuesday onwards',
-    defaultScores: { product: 4, sales: 3, technical: 3, interviewSlot: 'Tue 5:00 PM' }
+    defaultScores: { product: 4, sales: 3, technical: 3, interviewSlot: 'Sun 3:00' }
   },
   {
-    rank: 13, name: 'Aditya Jare', team: 'Solo', phone: '9579635665',
-    building: 'Chat app with real-time translation (90+ languages), E2E encryption, WebRTC calls.',
-    slotPreference: 'Tuesday',
-    defaultScores: { product: 2, sales: 2, technical: 3, interviewSlot: 'Tue 5:45 PM' }
+    rank: 12, name: 'Niraj Puran Rao', team: '3 parallel builds', phone: '9545050618',
+    building: 'GDPR AI marketing, trading system, AI agent BNI. IIT Roorkee GenAI. Pro fighter (ONE Championship). Scattered but disciplined.',
+    slotPreference: 'Monday 6 PM',
+    defaultScores: { product: 2, sales: 2, technical: 4, interviewSlot: 'Sun 3:30' }
   },
   {
-    rank: 14, name: 'Parikshit Gavhane', team: 'Solo', phone: '7745055120',
-    building: 'Statistics learning platform from first principles.',
-    slotPreference: 'Wednesday 4 PM',
-    defaultScores: { product: 2, sales: 2, technical: 3, interviewSlot: 'Wed 5:00 PM' }
+    rank: 13, name: 'Prashant Patil', team: 'BAAS Technologies', phone: '9665237210',
+    building: 'Reusable launch vehicle for suborbital/orbital. CTO. Deep tech, massive TAM if real. Hard to evaluate without hardware.',
+    slotPreference: 'TBD',
+    defaultScores: { product: 4, sales: 2, technical: 5, interviewSlot: 'Sun 4:00' }
+  },
+  {
+    rank: 14, name: 'Bharat + Sahil', team: 'Markubees', phone: '+91 8307882712',
+    building: 'Expert marketplace for startups. Live with payments + video calling. Marketplace is hard but product is built.',
+    slotPreference: 'Sunday (needs slot email)',
+    defaultScores: { product: 3, sales: 2, technical: 3, interviewSlot: 'Sun 4:30' }
+  },
+  {
+    rank: 15, name: 'Viswapriya V', team: 'Nutrextr', phone: '8788357282',
+    building: 'Iron-rich jellies for anemia. Health/CPG. Founder/CEO. Less tech-focused but real product.',
+    slotPreference: 'Sun 11 AM / Mon-Tue 6 PM',
+    defaultScores: { product: 3, sales: 2, technical: 2, interviewSlot: 'Sun 5:00' }
+  },
+  {
+    rank: 16, name: 'Krish Gupta', team: 'Unknown', phone: '7219570360',
+    building: 'Walked in, not in database. Showed initiative.',
+    slotPreference: 'Sunday',
+    defaultScores: { product: null, sales: null, technical: null, interviewSlot: 'Sun 5:30' }
+  },
+  // --- MONDAY: Mumbai + remote (online) ---
+  {
+    rank: 17, name: 'Varun Gupta', team: 'HelpingAI / AI Dubbing', phone: '+91 93154 55291',
+    building: '1.5M+ OS downloads (verifiable on HuggingFace). Antler AIR 7. Intermediate reasoning model. Now building AI dubbing.',
+    slotPreference: 'Remote (Gurgaon)',
+    defaultScores: { product: 4, sales: 3, technical: 5, interviewSlot: 'Mon 5:00' }
+  },
+  {
+    rank: 18, name: 'Prasad Hajare', team: 'Avianya AI', phone: '+917755991051',
+    building: 'Solo founder from Nagpur. 180+ APIs, 3 paying clients, 50K+ msgs processed. WhatsApp+Meta Ads integration. Real revenue.',
+    slotPreference: 'Remote (Nagpur)',
+    defaultScores: { product: 4, sales: 4, technical: 4, interviewSlot: 'Mon 5:30' }
+  },
+  {
+    rank: 19, name: 'Adhiraj Verma', team: 'Voice AI + CraftVC', phone: '+918318151945',
+    building: 'IIM-A student (<1% acceptance). Built craftvc.io (AI VC analyst). Voice AI marketing for college admissions.',
+    slotPreference: 'Remote (Kanpur)',
+    defaultScores: { product: 3, sales: 3, technical: 4, interviewSlot: 'Mon 6:00' }
+  },
+  // --- TUESDAY: Mumbai + remote (online) ---
+  {
+    rank: 20, name: 'Zaid Mukaddam', team: 'Scira.ai', phone: '+91 81693 85008',
+    building: 'Agentic AI research platform. 100+ models, own domain. Need to verify actual users/traction.',
+    slotPreference: 'Remote (Mumbai)',
+    defaultScores: { product: 3, sales: 2, technical: 4, interviewSlot: 'Tue 5:00' }
+  },
+  {
+    rank: 21, name: 'Vivek Singh', team: 'Noesis Systems', phone: '+919399601343',
+    building: 'Attack surface intelligence. Claims 500+ cybersecurity hardware devices sold solo as student. Needs verification.',
+    slotPreference: 'Remote (Bangalore)',
+    defaultScores: { product: 3, sales: 3, technical: 4, interviewSlot: 'Tue 5:30' }
+  },
+  {
+    rank: 22, name: 'Pritam Pawar', team: 'Alkemii Labs', phone: '+919577558080',
+    building: 'AI video editor (Lovable for video). TournaHub 1000+ users (shut by govt). 50 beta users. alkemiilabs.com. Built fast.',
+    slotPreference: 'Remote (Ahmednagar)',
+    defaultScores: { product: 3, sales: 2, technical: 3, interviewSlot: 'Tue 6:00' }
+  },
+  // --- WEDNESDAY: Overflow ---
+  {
+    rank: 23, name: 'Kailash + Nandini + Arihan', team: 'Kino', phone: '+91 93264-05547',
+    building: 'AI Story Engine, scripts to films. Applied 3 times. Dark pattern detector built. Marketing-heavy language.',
+    slotPreference: 'Remote (Mumbai)',
+    defaultScores: { product: 3, sales: 2, technical: 3, interviewSlot: 'Wed 5:00' }
+  },
+  {
+    rank: 24, name: 'Pritesh Kamdi', team: 'DaaS Engine', phone: '+918390569583',
+    building: 'Built HungryHub V1 for 2L. Reverse-engineered Google Protobuf. Goal: 10 B2B subs in 4 weeks. Clear technical depth.',
+    slotPreference: 'Remote (was out of station)',
+    defaultScores: { product: 3, sales: 3, technical: 4, interviewSlot: 'Wed 5:30' }
+  },
+  {
+    rank: 25, name: 'Aman Porwal', team: 'Vi3W.in', phone: '+918308141311',
+    building: 'AI 3D Editor for Web. Launching this month. Early but real product.',
+    slotPreference: 'Remote (Mumbai)',
+    defaultScores: { product: 3, sales: 2, technical: 3, interviewSlot: 'Wed 6:00' }
   },
 ];
 
