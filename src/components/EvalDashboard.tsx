@@ -259,6 +259,29 @@ export default function EvalDashboard() {
   const [scores, setScores] = useState<Record<string, EvalScores>>({});
   const [activeTab, setActiveTab] = useState<'priority' | 'confirmed' | 'nonpune' | 'top15'>('priority');
 
+  useEffect(() => {
+    const saved = loadState();
+    const initial: Record<string, EvalScores> = {};
+    for (const app of PRIORITY_APPLICANTS) {
+      initial[app.name] = saved[app.name] || getDefault(app);
+    }
+    setScores(initial);
+  }, []);
+
+  const updateScore = useCallback((name: string, field: keyof EvalScores, value: string | number | null) => {
+    setScores(prev => {
+      const next = { ...prev, [name]: { ...prev[name], [field]: value } };
+      saveState(next);
+      return next;
+    });
+  }, []);
+
+  const calcOverall = (s: EvalScores | undefined) => {
+    if (!s) return null;
+    const vals = [s.product, s.sales, s.technical].filter((v): v is number => v !== null);
+    return vals.length === 3 ? vals.reduce((a, b) => a + b, 0) : null;
+  };
+
   if (!authed) {
     return (
       <div style={{ ...S.wrap, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -282,29 +305,6 @@ export default function EvalDashboard() {
       </div>
     );
   }
-
-  useEffect(() => {
-    const saved = loadState();
-    const initial: Record<string, EvalScores> = {};
-    for (const app of PRIORITY_APPLICANTS) {
-      initial[app.name] = saved[app.name] || getDefault(app);
-    }
-    setScores(initial);
-  }, []);
-
-  const updateScore = useCallback((name: string, field: keyof EvalScores, value: string | number | null) => {
-    setScores(prev => {
-      const next = { ...prev, [name]: { ...prev[name], [field]: value } };
-      saveState(next);
-      return next;
-    });
-  }, []);
-
-  const calcOverall = (s: EvalScores | undefined) => {
-    if (!s) return null;
-    const vals = [s.product, s.sales, s.technical].filter((v): v is number => v !== null);
-    return vals.length === 3 ? vals.reduce((a, b) => a + b, 0) : null;
-  };
 
   const tabs = [
     { key: 'priority' as const, label: 'SHOWED UP + EMAILED', count: PRIORITY_APPLICANTS.length, color: '#00ff88' },
